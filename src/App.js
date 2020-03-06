@@ -1,26 +1,3 @@
-// import React from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-// import NestedGrid from './Components/Timetable';
-// import CustomizedTables from './Components/Table'; 
-// import DenseAppBar from './Components/NavBar';
-
-
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <DenseAppBar></DenseAppBar>
-//      <CustomizedTables></CustomizedTables>
-//       {/* <NestedGrid></NestedGrid> */}
-
-//     </div>
-
-//   );
-// }
-// export default App;
-
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
