@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { blue } from '@material-ui/core/colors';
+import {Link} from'react-router-dom';
 
 
 const useStyles = makeStyles(theme => ({
@@ -47,25 +48,41 @@ export default function ScheduleTools() {
       <div>
         <h1 className={classes.header}>My Schedule Tools</h1>
       </div>
+
+      
       <div>
-        <Button variant="contained" size="large" color="white" className={classes.button}>
+      <Link to = '/edit'>
+        <Button  renderAs="button" variant="contained" size="large" color="white" className={classes.button}>
             <div className={classes.buttonText}>Edit</div><ArrowForwardIcon color= "primary" ></ArrowForwardIcon>
         </Button>
+        </Link>
       </div>
+     
+
+
       <div>
-        <Button variant="contained" size="large" color="white" className={classes.button}>
+      <Link to = '/view'>
+        <Button renderAs="button" variant="contained" size="large" color="white" className={classes.button}>
             <div className={classes.buttonText}>View</div><ArrowForwardIcon color="primary"></ArrowForwardIcon>
         </Button>
+        </Link>
       </div>
+
       <div>
-        <Button variant="contained" size="large" color="white" className={classes.button}>
+        <Link to = "/export">
+        <Button renderAs="button"  variant="contained" size="large" color="white" className={classes.button}>
             <div className={classes.buttonText}>Export</div><ArrowForwardIcon color="primary"></ArrowForwardIcon>
         </Button>
+        </Link>
       </div>
+
+
       <div>
-        <Button variant="contained" size="large" color="white" className={classes.button}>
+        <Link to = "/new">
+        <Button  renderAs="button" variant="contained" size="large" color="white" className={classes.button}>
             <div className={classes.buttonText}>Start a new schedule</div><ArrowForwardIcon color="primary"></ArrowForwardIcon>
         </Button>
+        </Link>
       </div>
     
     </div>

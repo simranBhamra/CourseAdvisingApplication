@@ -1,61 +1,53 @@
+
+
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import './App.css';
-import NestedGrid from './Components/Timetable';
-import CustomizedTables from './Components/Table'; 
+import Nav from './Nav';
+import Profile from './Pages/Profile';
+import HomePage from './Pages/HomePage';
+import Home from './Home';
+import Edit from './Pages/Edit';
+import Export from './Pages/Export';
+import View from './Pages/View';
+import NewSched from './Pages/NewSched';
 import DenseAppBar from './Components/NavBar';
-import ComplexGrid from './Components/ProfileButton';
-import ScheduleTools from './Components/ScheduleTools'
+import './App.css';
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
-
-}));
+//renaming the browser router as router 
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
 
 
 
-export default function FullWidthGrid() {
-  const classes = useStyles();
 
-  return (
-    <div className={classes.root}>
+function App(){
+    return (
 
-      <Grid container spacing={10}>
-        <Grid item xs={12}>
+        <Router>
+        <div className = "App">
         <DenseAppBar></DenseAppBar>
-        </Grid>
-      </Grid>
+        
 
-
-<Grid container spacing={10}>
-        <Grid item xs={12}>
-      
-          <h1 style={{ color: 'white', paddingLeft: '80px', paddingRight: '80px' }}> Welcome Student 1234</h1>
-      
-        </Grid>
-      </Grid>
-
-      <Grid container spacing={10}>
-        <Grid item></Grid>
-        <Grid item xs={8}>
-        <CustomizedTables></CustomizedTables>
-        </Grid>
-
-        <Grid item xs={7} sm={3}>
-          <ComplexGrid></ComplexGrid>
-          <ScheduleTools></ScheduleTools>
-        </Grid>
-
-      </Grid>
-    </div>
-  );
+             <Switch>  
+          
+                <Route path = "/" exact component = {HomePage}/> 
+                <Route path = "/profile" component = {Profile}/> 
+                <Route path = "/edit" component = {Edit}/> 
+                <Route path = "/view" component = {View}/> 
+                <Route path = "/export" component = {Export}/> 
+                <Route path = "/new" component = {NewSched}/>
+            </Switch>
+           
+        </div>
+        </Router>
+    );
 }
+
+// //help to render just a homepage
+// const Home = () => (
+// <div>
+//     <h1> Home Page</h1>
+// </div> 
+// ); 
+
+
+
+export default App; 
