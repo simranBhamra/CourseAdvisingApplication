@@ -1,0 +1,6418 @@
+{
+    "courses": [
+        {
+            "course": "AB-217",
+            "title": "Financial Accounting",
+            "prerequisites": []
+        },
+        {
+            "course": "AB-219",
+            "title": "Managerial Accounting",
+            "prerequisites": [
+                "AB-217"
+            ]
+        },
+        {
+            "course": "AB-272",
+            "title": "The Legal Environment of Business",
+            "prerequisites": []
+        },
+        {
+            "course": "AB-301",
+            "title": "Corporate Financial Reporting I",
+            "prerequisites": [
+                "AB-217"
+            ]
+        },
+        {
+            "course": "AB-302",
+            "title": "Corporate Financial Reporting II",
+            "prerequisites": [
+                "AB-301"
+            ]
+        },
+        {
+            "course": "AB-303",
+            "title": "Advanced Accounting",
+            "prerequisites": [
+                "AB-301"
+            ]
+        },
+        {
+            "course": "AB-322",
+            "title": "Federal Income Taxation",
+            "prerequisites": [
+                "AB-217"
+            ]
+        },
+        {
+            "course": "AB-323",
+            "title": "Regulation",
+            "prerequisites": [
+                "AB-322"
+            ]
+        },
+        {
+            "course": "AB-324",
+            "title": "Regulation",
+            "prerequisites": [
+                "AB-217",
+                "AB-322"
+            ]
+        },
+        {
+            "course": "AB-3250",
+            "title": "Student Field Work Experience",
+            "prerequisites": []
+        },
+        {
+            "course": "AB-340",
+            "title": "Contemporary Accounting Issues",
+            "prerequisites": [
+                "AB-302"
+            ]
+        },
+        {
+            "course": "AB-345",
+            "title": "Data Analytics for Accounting and",
+            "prerequisites": [
+                "AB-301"
+            ]
+        },
+        {
+            "course": "AB-373",
+            "title": "Business Law",
+            "prerequisites": [
+                "AB-272"
+            ]
+        },
+        {
+            "course": "AB-375",
+            "title": "Legal Environment of International Trade",
+            "prerequisites": [
+                "AB-272"
+            ]
+        },
+        {
+            "course": "AB-452",
+            "title": "Strategic Cost Management",
+            "prerequisites": [
+                "AB-219",
+                "FN-331",
+                "MG-201",
+                "MK-201"
+            ]
+        },
+        {
+            "course": "AB-453",
+            "title": "Auditing",
+            "prerequisites": [
+                "AB-301"
+            ]
+        },
+        {
+            "course": "AB-454",
+            "title": "Accounting Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "AB-463",
+            "title": "Forensic Accounting",
+            "prerequisites": [
+                "AB-301"
+            ]
+        },
+        {
+            "course": "AB-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-151",
+            "title": "Introductory Biology I",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-151L",
+            "title": "BI-151 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-152",
+            "title": "Introductory Biology II",
+            "prerequisites": [
+                "BI-151",
+                "BI-152",
+                "BI-152L"
+            ]
+        },
+        {
+            "course": "BI-152L",
+            "title": "BI-152 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-155",
+            "title": "Microbiology (online)",
+            "prerequisites": [
+                "BI-252",
+                "BI-352",
+                "CH-101",
+                "CH-104",
+                "CH-107",
+                "CH-108"
+            ]
+        },
+        {
+            "course": "BI-209",
+            "title": "Biology: Thinking and Creativity:",
+            "prerequisites": [
+                "BI-209",
+                "BI-209L"
+            ]
+        },
+        {
+            "course": "BI-209L",
+            "title": "BI-209 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-210",
+            "title": "Plants, Biology and Science:",
+            "prerequisites": [
+                "BI-210",
+                "BI-210L"
+            ]
+        },
+        {
+            "course": "BI-210L",
+            "title": "BI-210 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-211",
+            "title": "Microbiology and Science:",
+            "prerequisites": [
+                "BI-211"
+            ]
+        },
+        {
+            "course": "BI-221",
+            "title": "Applied Statistics in Biology",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-241",
+            "title": "Ecology",
+            "prerequisites": [
+                "BI-151",
+                "BI-241",
+                "BI-241L"
+            ]
+        },
+        {
+            "course": "BI-241L",
+            "title": "BI-241 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-242",
+            "title": "Environmental Science:",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-242L",
+            "title": "BI-242 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-252",
+            "title": "Microbiology",
+            "prerequisites": [
+                "BI-252",
+                "BI-252L",
+                "BI-352",
+                "CH-101",
+                "CH-104",
+                "CH-107"
+            ]
+        },
+        {
+            "course": "BI-252L",
+            "title": "BI-252 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-255",
+            "title": "Molecular Biology",
+            "prerequisites": [
+                "BI-151",
+                "BI-255",
+                "BI-255L"
+            ]
+        },
+        {
+            "course": "BI-255L",
+            "title": "BI-255 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-256",
+            "title": "Cell Biology",
+            "prerequisites": [
+                "BI-255",
+                "BI-256",
+                "BI-256L"
+            ]
+        },
+        {
+            "course": "BI-256L",
+            "title": "BI-256 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-257",
+            "title": "Introduction to Bioinformatics",
+            "prerequisites": [
+                "BI-255"
+            ]
+        },
+        {
+            "course": "BI-258",
+            "title": "Introduction to Cell Culture",
+            "prerequisites": [
+                "BI-151",
+                "BI-258",
+                "BI-258L"
+            ]
+        },
+        {
+            "course": "BI-258L",
+            "title": "BI-258 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-263",
+            "title": "Anatomy and Physiology I",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-263L",
+            "title": "BI-263 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-263S",
+            "title": "BI-263 Supplemental",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-264",
+            "title": "Anatomy & Physiology II",
+            "prerequisites": [
+                "BI-263",
+                "BI-264",
+                "BI-264L"
+            ]
+        },
+        {
+            "course": "BI-264L",
+            "title": "BI-264 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-264S",
+            "title": "BI-264 Supplemental",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-265",
+            "title": "Anatomy and Physiology I (online)",
+            "prerequisites": [
+                "BI-263",
+                "BI-264"
+            ]
+        },
+        {
+            "course": "BI-266",
+            "title": "Anatomy and Physiology II (online)",
+            "prerequisites": [
+                "BI-263",
+                "BI-264",
+                "BI-265"
+            ]
+        },
+        {
+            "course": "BI-267",
+            "title": "Introduction to Neuroscience",
+            "prerequisites": [
+                "BI-151",
+                "BI-152"
+            ]
+        },
+        {
+            "course": "BI-280",
+            "title": "Field Biology",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-305",
+            "title": "Forensic Toxicology",
+            "prerequisites": [
+                "BI-255",
+                "CH-232"
+            ]
+        },
+        {
+            "course": "BI-305L",
+            "title": "BI-305 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-330",
+            "title": "Genetics",
+            "prerequisites": [
+                "BI-151",
+                "BI-255"
+            ]
+        },
+        {
+            "course": "BI-330L",
+            "title": "BI-330 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-352",
+            "title": "Medical Microbiology",
+            "prerequisites": [
+                "BI-151",
+                "BI-252",
+                "BI-255",
+                "BI-352",
+                "BI-352L",
+                "CH-231"
+            ]
+        },
+        {
+            "course": "BI-352L",
+            "title": "BI-352 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-353",
+            "title": "Immunology",
+            "prerequisites": [
+                "BI-256"
+            ]
+        },
+        {
+            "course": "BI-355",
+            "title": "Human Structure and Function I",
+            "prerequisites": [
+                "BI-151",
+                "BI-263",
+                "BI-264",
+                "BI-355",
+                "BI-355L"
+            ]
+        },
+        {
+            "course": "BI-355L",
+            "title": "BI-355 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-356",
+            "title": "Human Structure and Function II",
+            "prerequisites": [
+                "BI-263",
+                "BI-264",
+                "BI-355",
+                "BI-356",
+                "BI-356L"
+            ]
+        },
+        {
+            "course": "BI-356L",
+            "title": "BI-356 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-360",
+            "title": "Advanced Molecular Biology",
+            "prerequisites": [
+                "BI-255",
+                "BI-360",
+                "BI-360L",
+                "CH-231"
+            ]
+        },
+        {
+            "course": "BI-360L",
+            "title": "This Is the Lab Component of BI-360.",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-361",
+            "title": "Developmental Biology",
+            "prerequisites": [
+                "BI-151",
+                "BI-152"
+            ]
+        },
+        {
+            "course": "BI-374",
+            "title": "Animal Behavior",
+            "prerequisites": [
+                "BI-151",
+                "BI-152"
+            ]
+        },
+        {
+            "course": "BI-375",
+            "title": "Hormones and Behavior",
+            "prerequisites": [
+                "BI-151",
+                "PS-265"
+            ]
+        },
+        {
+            "course": "BI-380",
+            "title": "Evolution",
+            "prerequisites": [
+                "BI-151"
+            ]
+        },
+        {
+            "course": "BI-390",
+            "title": "Biology Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-400",
+            "title": "Current Topics in Biology",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-410",
+            "title": "Virology",
+            "prerequisites": [
+                "BI-255",
+                "BI-256",
+                "BI-353",
+                "CH-231",
+                "CH-232"
+            ]
+        },
+        {
+            "course": "BI-435",
+            "title": "Biochemistry I",
+            "prerequisites": [
+                "BI-435",
+                "BI-435L",
+                "CH-231",
+                "CH-232"
+            ]
+        },
+        {
+            "course": "BI-435L",
+            "title": "BI-435 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-436",
+            "title": "Biochemistry II",
+            "prerequisites": [
+                "BI-436",
+                "BI-436L",
+                "CH-435"
+            ]
+        },
+        {
+            "course": "BI-436L",
+            "title": "BI-436L Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-455",
+            "title": "Research Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-455L",
+            "title": "BI-455 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-456",
+            "title": "Senior Research Seminar II",
+            "prerequisites": [
+                "BI-455"
+            ]
+        },
+        {
+            "course": "BI-461",
+            "title": "Research",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-4611",
+            "title": "Research",
+            "prerequisites": []
+        },
+        {
+            "course": "BI-475",
+            "title": "Designer Genes: The Promises and",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "BI-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-100",
+            "title": "College Preparatory Chemistry",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-101",
+            "title": "General Chemistry I",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-101L",
+            "title": "CH-101 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-101P",
+            "title": "CH-101 Problem Solving",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-102",
+            "title": "General Chemistry II",
+            "prerequisites": [
+                "CH-101",
+                "CH-102",
+                "CH-102L",
+                "CH-102P"
+            ]
+        },
+        {
+            "course": "CH-102L",
+            "title": "CH-102 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-102P",
+            "title": "CH-102 Problem Solving",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-103",
+            "title": "Fundamentals of General Chemistry",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-103L",
+            "title": "CH-103 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-104",
+            "title": "Introduction to Organic and Biological",
+            "prerequisites": [
+                "CH-103",
+                "CH-104",
+                "CH-104L"
+            ]
+        },
+        {
+            "course": "CH-104L",
+            "title": "CH-104 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-1053",
+            "title": "Laboratory Safety",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-107",
+            "title": "Physiological Chemistry",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-107L",
+            "title": "CH-107 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-108",
+            "title": "Physiological Chemistry (online)",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-204L",
+            "title": "CH-204 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-209",
+            "title": "World Awareness Through Chemistry:",
+            "prerequisites": [
+                "CH-209",
+                "CH-209L"
+            ]
+        },
+        {
+            "course": "CH-209L",
+            "title": "CH-209 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-212",
+            "title": "Food Science: MOT Natural Science",
+            "prerequisites": [
+                "CH-212",
+                "CH-212L"
+            ]
+        },
+        {
+            "course": "CH-212L",
+            "title": "CH-212 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-231",
+            "title": "Organic Chemistry I",
+            "prerequisites": [
+                "CH-101",
+                "CH-102",
+                "CH-231",
+                "CH-231L"
+            ]
+        },
+        {
+            "course": "CH-231L",
+            "title": "CH-231 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-232",
+            "title": "Organic Chemistry II",
+            "prerequisites": [
+                "CH-231",
+                "CH-232",
+                "CH-232L"
+            ]
+        },
+        {
+            "course": "CH-232L",
+            "title": "CH-232 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-303",
+            "title": "Inorganic Chemistry",
+            "prerequisites": [
+                "CH-231",
+                "CH-232"
+            ]
+        },
+        {
+            "course": "CH-304",
+            "title": "Inorganic Chemistry",
+            "prerequisites": [
+                "CH-231",
+                "CH-232",
+                "CH-304",
+                "CH-304L"
+            ]
+        },
+        {
+            "course": "CH-304L",
+            "title": "CH-304 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-305",
+            "title": "Forensic Toxicology",
+            "prerequisites": [
+                "BI-255",
+                "CH-232"
+            ]
+        },
+        {
+            "course": "CH-305L",
+            "title": "CH-305 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-351",
+            "title": "Physical Chemistry I",
+            "prerequisites": [
+                "CH-101",
+                "CH-102",
+                "CH-351",
+                "CH-351L",
+                "MA-121",
+                "MA-122",
+                "PH-201",
+                "PH-202"
+            ]
+        },
+        {
+            "course": "CH-351L",
+            "title": "CH-351 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-352",
+            "title": "Physical Chemistry II",
+            "prerequisites": [
+                "CH-101",
+                "CH-102",
+                "CH-352",
+                "CH-352L",
+                "MA-121",
+                "MA-122",
+                "PH-201"
+            ]
+        },
+        {
+            "course": "CH-352L",
+            "title": "CH-352 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-353",
+            "title": "Physical Chemistry I (no lab)",
+            "prerequisites": [
+                "CH-101",
+                "CH-102",
+                "MA-121",
+                "MA-122",
+                "PH-201",
+                "PH-202"
+            ]
+        },
+        {
+            "course": "CH-354",
+            "title": "Physical Chemistry II (no Lab)",
+            "prerequisites": [
+                "CH-101",
+                "CH-102",
+                "MA-121",
+                "MA-122",
+                "PH-201",
+                "PH-202"
+            ]
+        },
+        {
+            "course": "CH-355",
+            "title": "Advanced Topics in Chemistry",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-361",
+            "title": "Analytical Chemistry",
+            "prerequisites": [
+                "CH-101",
+                "CH-102",
+                "CH-361",
+                "CH-361L"
+            ]
+        },
+        {
+            "course": "CH-361L",
+            "title": "CH-361 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-362",
+            "title": "Instrumental Analytical Chemistry",
+            "prerequisites": [
+                "CH-101",
+                "CH-102",
+                "CH-231",
+                "CH-362",
+                "CH-362L"
+            ]
+        },
+        {
+            "course": "CH-362L",
+            "title": "CH-362 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-396",
+            "title": "Chemistry Internship",
+            "prerequisites": [
+                "CH-362"
+            ]
+        },
+        {
+            "course": "CH-421",
+            "title": "Advanced Topics in Organic Chemistry",
+            "prerequisites": [
+                "CH-231",
+                "CH-232",
+                "CH-421",
+                "CH-421L"
+            ]
+        },
+        {
+            "course": "CH-421L",
+            "title": "CH-421 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-434",
+            "title": "Biochemistry II (no Lab)",
+            "prerequisites": [
+                "BI-435",
+                "CH-436",
+                "CH-436L"
+            ]
+        },
+        {
+            "course": "CH-435",
+            "title": "Biochemistry I",
+            "prerequisites": [
+                "CH-231",
+                "CH-232",
+                "CH-435",
+                "CH-435L"
+            ]
+        },
+        {
+            "course": "CH-435L",
+            "title": "CH-435 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-436",
+            "title": "Biochemistry II",
+            "prerequisites": [
+                "BI-435",
+                "CH-436",
+                "CH-436L"
+            ]
+        },
+        {
+            "course": "CH-436L",
+            "title": "CH-436 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-455",
+            "title": "Research Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-461",
+            "title": "Research",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-4611",
+            "title": "Research",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-462",
+            "title": "Research",
+            "prerequisites": []
+        },
+        {
+            "course": "CH-475",
+            "title": "The Ecological Crisis, a Common",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "CH-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-100",
+            "title": "Cybercrime",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-109",
+            "title": "Crime and Society: MOT/Social Science",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-150",
+            "title": "Introduction to Homeland Security",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-155",
+            "title": "Introduction to Emergency Management",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-160",
+            "title": "Criminal Law",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-203",
+            "title": "Social Problems",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-208",
+            "title": "Crime Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-250",
+            "title": "Criminology",
+            "prerequisites": [
+                "CJ-109"
+            ]
+        },
+        {
+            "course": "CJ-252",
+            "title": "Drugs and Crime",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-260",
+            "title": "Law Enforcement",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-270",
+            "title": "Digital Forensics I",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-280",
+            "title": "Corrections",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-285",
+            "title": "Race and Ethnic Relations",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-290",
+            "title": "Community Corrections",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-295",
+            "title": "Ethics in Criminal Justice",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-300",
+            "title": "Dangerous Minds: the Psychology of",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-305",
+            "title": "Child Abuse and Neglect",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-320",
+            "title": "Mobile Device Forensics",
+            "prerequisites": [
+                "CJ-100",
+                "CJ-270"
+            ]
+        },
+        {
+            "course": "CJ-330",
+            "title": "Digital Forensics II",
+            "prerequisites": [
+                "CJ-100",
+                "CJ-270"
+            ]
+        },
+        {
+            "course": "CJ-350",
+            "title": "Research Methods",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-352",
+            "title": "Organized Crime",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-355",
+            "title": "Law in America",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-356",
+            "title": "World Crime and Justice",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-360",
+            "title": "Forensics and Criminal Investigation",
+            "prerequisites": [
+                "CJ-260"
+            ]
+        },
+        {
+            "course": "CJ-361",
+            "title": "Forensic Investigation",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-362",
+            "title": "Survey of Forensic Science",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-365",
+            "title": "Criminal Procedure",
+            "prerequisites": [
+                "CJ-260"
+            ]
+        },
+        {
+            "course": "CJ-374",
+            "title": "Terrorism and Counterterrorism",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-375",
+            "title": "White Collar Crime",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-380",
+            "title": "Intelligence and Security",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-382",
+            "title": "Contemporary Topics in Juvenile Justice",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-400",
+            "title": "Digital Forensics Practicum",
+            "prerequisites": [
+                "CJ-100",
+                "CJ-270",
+                "CJ-320",
+                "CJ-330"
+            ]
+        },
+        {
+            "course": "CJ-425",
+            "title": "Mock Trial",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-453",
+            "title": "Senior Seminar",
+            "prerequisites": [
+                "CJ-250",
+                "CJ-350"
+            ]
+        },
+        {
+            "course": "CJ-460",
+            "title": "Criminal Justice Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "CJ-480",
+            "title": "Family Values and the Law:",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "CJ-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "CM-130",
+            "title": "An Introduction to Mass Communication",
+            "prerequisites": []
+        },
+        {
+            "course": "CM-199",
+            "title": "Communication Theory",
+            "prerequisites": []
+        },
+        {
+            "course": "CM-205",
+            "title": "Introduction to Professional",
+            "prerequisites": [
+                "EN-103"
+            ]
+        },
+        {
+            "course": "CM-206",
+            "title": "Public Speaking",
+            "prerequisites": []
+        },
+        {
+            "course": "CM-212",
+            "title": "Creative Writing: Poetry I",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "CM-220",
+            "title": "Journalism",
+            "prerequisites": [
+                "CM-130",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "CM-275",
+            "title": "Interpersonal Communication",
+            "prerequisites": [
+                "CM-130"
+            ]
+        },
+        {
+            "course": "CM-290",
+            "title": "Pop Culture",
+            "prerequisites": [
+                "CM-130"
+            ]
+        },
+        {
+            "course": "CM-305",
+            "title": "Persuasive Communication",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "CM-309",
+            "title": "Topics in Communication",
+            "prerequisites": []
+        },
+        {
+            "course": "CM-310",
+            "title": "Fundamentals of Public Relations",
+            "prerequisites": [
+                "CM-130"
+            ]
+        },
+        {
+            "course": "CM-312",
+            "title": "Creative Writing: Fiction",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "CM-313",
+            "title": "Writing for Promotion and Public",
+            "prerequisites": [
+                "CM-310"
+            ]
+        },
+        {
+            "course": "CM-314",
+            "title": "PR Case Studies",
+            "prerequisites": [
+                "CM-130",
+                "CM-310"
+            ]
+        },
+        {
+            "course": "CM-315",
+            "title": "PR and Event Planning",
+            "prerequisites": [
+                "CM-130",
+                "CM-310"
+            ]
+        },
+        {
+            "course": "CM-316",
+            "title": "Publishing",
+            "prerequisites": [
+                "CM-130",
+                "CM-220"
+            ]
+        },
+        {
+            "course": "CM-318",
+            "title": "Intercultural Communication",
+            "prerequisites": []
+        },
+        {
+            "course": "CM-319",
+            "title": "Professional Writing",
+            "prerequisites": [
+                "CM-130",
+                "CM-220"
+            ]
+        },
+        {
+            "course": "CM-320",
+            "title": "Journalism II",
+            "prerequisites": [
+                "CM-130"
+            ]
+        },
+        {
+            "course": "CM-325",
+            "title": "Journalism Practicum",
+            "prerequisites": [
+                "CM-220",
+                "CM-320"
+            ]
+        },
+        {
+            "course": "CM-340",
+            "title": "Creative Non-Fiction",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "CM-360",
+            "title": "Organizational Communication",
+            "prerequisites": [
+                "CM-130",
+                "CM-199"
+            ]
+        },
+        {
+            "course": "CM-365",
+            "title": "Gender Communication",
+            "prerequisites": [
+                "CM-130"
+            ]
+        },
+        {
+            "course": "CM-380",
+            "title": "Media Law and Politics",
+            "prerequisites": [
+                "CM-130",
+                "CM-199"
+            ]
+        },
+        {
+            "course": "CM-390",
+            "title": "Media Ethics",
+            "prerequisites": [
+                "CM-130",
+                "CM-199"
+            ]
+        },
+        {
+            "course": "CM-391",
+            "title": "Communication Internship",
+            "prerequisites": [
+                "CM-130",
+                "CM-199"
+            ]
+        },
+        {
+            "course": "CM-405",
+            "title": "Communication Research Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "CM-460",
+            "title": "Research in Communication",
+            "prerequisites": []
+        },
+        {
+            "course": "CM-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-105",
+            "title": "Introduction to Computer Applications",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-111",
+            "title": "Introduction to Logic and Programming",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-115",
+            "title": "Introduction to Python",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-119",
+            "title": "Digital Art Story Development",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-121",
+            "title": "Introduction to Computer Programming",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-122",
+            "title": "Object-Oriented Programming",
+            "prerequisites": [
+                "CS-121"
+            ]
+        },
+        {
+            "course": "CS-211",
+            "title": "Application Development",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-216",
+            "title": "Cyber Security",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-230",
+            "title": "Computer Architecture and Hardware",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-265",
+            "title": "Web Page Design",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-270",
+            "title": "Multimedia",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-275",
+            "title": "Visual Interface",
+            "prerequisites": [
+                "CS-121",
+                "CS-211"
+            ]
+        },
+        {
+            "course": "CS-314",
+            "title": "Operating Systems",
+            "prerequisites": [
+                "CS-230"
+            ]
+        },
+        {
+            "course": "CS-321",
+            "title": "Communication and Networking",
+            "prerequisites": [
+                "CS-122",
+                "CS-211"
+            ]
+        },
+        {
+            "course": "CS-333",
+            "title": "Web and Mobile Application Development",
+            "prerequisites": [
+                "CS-121",
+                "CS-211"
+            ]
+        },
+        {
+            "course": "CS-340",
+            "title": "Digital Art I",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-342",
+            "title": "Digital Art II",
+            "prerequisites": [
+                "CS-340"
+            ]
+        },
+        {
+            "course": "CS-356",
+            "title": "Software Engineering",
+            "prerequisites": [
+                "CS-122",
+                "CS-211"
+            ]
+        },
+        {
+            "course": "CS-360",
+            "title": "Database Analysis & Design",
+            "prerequisites": [
+                "CS-122",
+                "CS-211"
+            ]
+        },
+        {
+            "course": "CS-362",
+            "title": "Data Warehousing and Mining",
+            "prerequisites": [
+                "CS-360"
+            ]
+        },
+        {
+            "course": "CS-370",
+            "title": "Introduction to Artificial Intelligence",
+            "prerequisites": [
+                "CS-122",
+                "CS-211"
+            ]
+        },
+        {
+            "course": "CS-390",
+            "title": "3D Modeling for Production",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-392",
+            "title": "3D Animation Production I",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-394",
+            "title": "Game Development/Interface",
+            "prerequisites": [
+                "CS-121"
+            ]
+        },
+        {
+            "course": "CS-399",
+            "title": "Computer Science Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-400",
+            "title": "Special Topics in Computer Science",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-416",
+            "title": "Security",
+            "prerequisites": [
+                "CS-321"
+            ]
+        },
+        {
+            "course": "CS-420",
+            "title": "Distributed Systems",
+            "prerequisites": [
+                "CS-122",
+                "CS-211",
+                "CS-314"
+            ]
+        },
+        {
+            "course": "CS-425",
+            "title": "3D Animation Production II",
+            "prerequisites": [
+                "CS-392"
+            ]
+        },
+        {
+            "course": "CS-453",
+            "title": "Senior Coordinating Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-475",
+            "title": "Ethics and Technology: Values Seminar &",
+            "prerequisites": []
+        },
+        {
+            "course": "CS-494",
+            "title": "Advanced Game Development",
+            "prerequisites": [
+                "CS-122",
+                "CS-211",
+                "CS-340",
+                "CS-390",
+                "CS-394"
+            ]
+        },
+        {
+            "course": "CS-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-105",
+            "title": "Modern Dance I",
+            "prerequisites": [
+                "DA-114"
+            ]
+        },
+        {
+            "course": "DA-106",
+            "title": "Ballet Dance I",
+            "prerequisites": [
+                "DA-114"
+            ]
+        },
+        {
+            "course": "DA-112",
+            "title": "Tap I",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-113",
+            "title": "Jazz I",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-114",
+            "title": "Introduction to Ballet and Modern Dance",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-115",
+            "title": "Introduction to Ballroom Dance",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-143",
+            "title": "Theatre Crafts Laboratory",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-147",
+            "title": "Dance in World Cultures: DeSales",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-154",
+            "title": "Freshman Dance Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-200",
+            "title": "Dance Appreciation",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-205",
+            "title": "Modern Dance II",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-206",
+            "title": "Ballet Dance II",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-2091",
+            "title": "Pointe and Partnering Techniques",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-219",
+            "title": "Jazz II",
+            "prerequisites": [
+                "DA-113"
+            ]
+        },
+        {
+            "course": "DA-220",
+            "title": "Tap II",
+            "prerequisites": [
+                "DA-112"
+            ]
+        },
+        {
+            "course": "DA-231",
+            "title": "Dance Composition I",
+            "prerequisites": [
+                "DA-105"
+            ]
+        },
+        {
+            "course": "DA-232",
+            "title": "Dance Composition II",
+            "prerequisites": [
+                "DA-231"
+            ]
+        },
+        {
+            "course": "DA-280",
+            "title": "Special Topics",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-301",
+            "title": "DeSales University Summer Dance",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-305",
+            "title": "Modern Dance III",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-306",
+            "title": "Ballet Dance III",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-309",
+            "title": "Contact Improvisation",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-310",
+            "title": "Modern Dance Partnering",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-348",
+            "title": "Evolution of Ballet and Modern",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-350",
+            "title": "Creative Process in Dance",
+            "prerequisites": [
+                "DA-231"
+            ]
+        },
+        {
+            "course": "DA-360",
+            "title": "Dance on Camera",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-371",
+            "title": "Methods for Teaching Educational Dance",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-4241",
+            "title": "DeSales University Dance Ensemble",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-428",
+            "title": "DeSales Dance Company",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-454",
+            "title": "Senior Dance Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-461",
+            "title": "Kinesiology for Dancers",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-4781",
+            "title": "DeSales University Conservatory of",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-4791",
+            "title": "COD Student Assistant Director",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-495",
+            "title": "Dance Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "DA-499",
+            "title": "Independent Study in Dance",
+            "prerequisites": []
+        },
+        {
+            "course": "EC-112",
+            "title": "Economics of Public Issues: MOT/Social",
+            "prerequisites": []
+        },
+        {
+            "course": "EC-209",
+            "title": "Principles of Macroeconomics: MOT/",
+            "prerequisites": []
+        },
+        {
+            "course": "EC-210",
+            "title": "Principles of Microeconomics",
+            "prerequisites": []
+        },
+        {
+            "course": "EC-309",
+            "title": "Intermediate Macroeconomics",
+            "prerequisites": [
+                "EC-209",
+                "MA-121"
+            ]
+        },
+        {
+            "course": "EC-310",
+            "title": "Intermediate Microeconomics",
+            "prerequisites": [
+                "EC-210",
+                "MA-121"
+            ]
+        },
+        {
+            "course": "EC-320",
+            "title": "Econometrics",
+            "prerequisites": [
+                "EC-210",
+                "MA-111",
+                "MA-302"
+            ]
+        },
+        {
+            "course": "EC-400",
+            "title": "Global Economic Issues: The DeSales",
+            "prerequisites": []
+        },
+        {
+            "course": "EC-452",
+            "title": "Senior Seminar in Economics",
+            "prerequisites": [
+                "EC-309",
+                "EC-310"
+            ]
+        },
+        {
+            "course": "EC-454",
+            "title": "Economics Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "EC-455",
+            "title": "Special Topics in Economics",
+            "prerequisites": []
+        },
+        {
+            "course": "EC-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-109",
+            "title": "The Educative Process",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-205",
+            "title": "Technology for Educators",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-209",
+            "title": "Cognition and Learning: MOT/Social",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-211",
+            "title": "Family, School and Community",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-218",
+            "title": "Introduction to Exceptionality",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-2801",
+            "title": "Clinical Experience 1 - STEP",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-313",
+            "title": "Literature for Children and Youth",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-330",
+            "title": "STEP Curriculum and Instruction I",
+            "prerequisites": [
+                "ED-109",
+                "ED-209"
+            ]
+        },
+        {
+            "course": "ED-354",
+            "title": "Assessment: Diverse Learners",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-364",
+            "title": "The Inclusive Classroom",
+            "prerequisites": [
+                "ED-218"
+            ]
+        },
+        {
+            "course": "ED-366",
+            "title": "Literacy Interventions 4-12",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-373",
+            "title": "Teaching English Learners",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-3801",
+            "title": "Clinical Experience 2 STEP",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-3802",
+            "title": "Clinical Experience 3 Step",
+            "prerequisites": [
+                "ED-330"
+            ]
+        },
+        {
+            "course": "ED-405",
+            "title": "Advanced Teaching and Assessment",
+            "prerequisites": [
+                "ED-330"
+            ]
+        },
+        {
+            "course": "ED-410",
+            "title": "The Teaching of Communication Arts in",
+            "prerequisites": [
+                "ED-330"
+            ]
+        },
+        {
+            "course": "ED-411",
+            "title": "The Teaching of Modern Foreign",
+            "prerequisites": [
+                "ED-330"
+            ]
+        },
+        {
+            "course": "ED-412",
+            "title": "The Teaching of Mathematics in",
+            "prerequisites": [
+                "ED-330"
+            ]
+        },
+        {
+            "course": "ED-413",
+            "title": "The Teaching of Science in Secondary",
+            "prerequisites": [
+                "ED-330"
+            ]
+        },
+        {
+            "course": "ED-414",
+            "title": "The Teaching of Social Studies in",
+            "prerequisites": [
+                "ED-330"
+            ]
+        },
+        {
+            "course": "ED-415",
+            "title": "The Teaching of Theology in",
+            "prerequisites": [
+                "ED-330"
+            ]
+        },
+        {
+            "course": "ED-450",
+            "title": "STEP Student Teaching: Planning and",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-452",
+            "title": "STEP Student Teaching: Classroom",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-454",
+            "title": "STEP Student Teaching: Instructional",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-456",
+            "title": "STEP Student Teaching: Professionalism",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-475",
+            "title": "Education for the Human Good:",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "ED-495",
+            "title": "Internship in Education",
+            "prerequisites": []
+        },
+        {
+            "course": "ED-499",
+            "title": "Independent Study in Education",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-111",
+            "title": "Infant and Youth Development",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-201",
+            "title": "Foundations in Early Education",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-2901",
+            "title": "Clinical Experience 1 - E.C.E.",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-2902",
+            "title": "Clinical Experience 2 - E.C.E.",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-310",
+            "title": "Emergent Language and Literacy - E.C.E.",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-314",
+            "title": "Literacy for Early Elementary E.C.E.",
+            "prerequisites": [
+                "EE-310"
+            ]
+        },
+        {
+            "course": "EE-315",
+            "title": "Social Studies Methods E.C.E.",
+            "prerequisites": [
+                "EE-335"
+            ]
+        },
+        {
+            "course": "EE-319",
+            "title": "Literacy for Content Learning",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-326",
+            "title": "STEM in the Elementary Class",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-335",
+            "title": "Designing Instruction E.C.E.",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-336",
+            "title": "Science Content and Methods E.C.E.",
+            "prerequisites": [
+                "EE-335"
+            ]
+        },
+        {
+            "course": "EE-343",
+            "title": "Integrating Arts and Physical Education",
+            "prerequisites": [
+                "EE-335"
+            ]
+        },
+        {
+            "course": "EE-346",
+            "title": "Mathematics Methods E.C.E.",
+            "prerequisites": [
+                "EE-335"
+            ]
+        },
+        {
+            "course": "EE-3901",
+            "title": "Clinical Experience 3 - E.C.E.",
+            "prerequisites": [
+                "ED-366",
+                "EE-319"
+            ]
+        },
+        {
+            "course": "EE-3902",
+            "title": "Clinical Experience 4 - E.C.E.",
+            "prerequisites": [
+                "EE-314"
+            ]
+        },
+        {
+            "course": "EE-409",
+            "title": "Advanced Designing Instruction",
+            "prerequisites": [
+                "EE-335",
+                "EE-4901"
+            ]
+        },
+        {
+            "course": "EE-430",
+            "title": "Early Childhood Education Student",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-432",
+            "title": "Early Childhood Education Student",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-434",
+            "title": "Early Childhood Education Student",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-436",
+            "title": "Early Childhood Education Student",
+            "prerequisites": []
+        },
+        {
+            "course": "EE-4901",
+            "title": "Clinical Experience 5 - E.C.E.",
+            "prerequisites": [
+                "EE-409"
+            ]
+        },
+        {
+            "course": "EN-100",
+            "title": "An Introduction to Academic Writing",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-103",
+            "title": "Composition and Rhetoric I",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-104",
+            "title": "Composition and Rhetoric II",
+            "prerequisites": [
+                "EN-103"
+            ]
+        },
+        {
+            "course": "EN-110",
+            "title": "An Introduction to Poetry:",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "EN-112",
+            "title": "An Introduction to Drama:",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "EN-115",
+            "title": "An Introduction to Fiction:",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "EN-212",
+            "title": "Creative Writing I",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "EN-234",
+            "title": "Introduction to Linguistics",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "EN-250",
+            "title": "American Romanticism: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-255",
+            "title": "British Romanticism: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-260",
+            "title": "The Victorian Age: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-265",
+            "title": "American Realism and Naturalism:",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-285",
+            "title": "Contemporary Literature: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-312",
+            "title": "Creative Writing II",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "EN-316",
+            "title": "Publishing",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-340",
+            "title": "Creative Non-Fiction",
+            "prerequisites": [
+                "EN-103",
+                "EN-104"
+            ]
+        },
+        {
+            "course": "EN-345",
+            "title": "Literature of the Middle Ages:",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-350",
+            "title": "Topics in English Renaissance Literature",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-358",
+            "title": "Shakespeare I: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-359",
+            "title": "Shakespeare II: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-365",
+            "title": "Milton and Paradise Lost:",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-370",
+            "title": "Literature of the Enlightenment:",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-372",
+            "title": "Topics in World Literature:",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-373",
+            "title": "Literature of Medicine: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-375",
+            "title": "Topics in American Literature:",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-376",
+            "title": "Literary Modernism: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-377",
+            "title": "Celtic Mythology: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-380",
+            "title": "Topics in Twentieth Century Literature:",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-382",
+            "title": "Women Writers: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-384",
+            "title": "African American Literature:",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-386",
+            "title": "Global Literature and Politics:",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-388",
+            "title": "Contemporary Celtic Writers:",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-390",
+            "title": "Irish Writers in Ireland: Humanities 4",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-391",
+            "title": "Humanities Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-475",
+            "title": "Heroism, Conscience and Faith: Values",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-485",
+            "title": "Research Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "EN-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "EXP-101",
+            "title": "Academic Literacy and Strategies",
+            "prerequisites": []
+        },
+        {
+            "course": "EXP-130",
+            "title": "Academic Development and Planning:",
+            "prerequisites": []
+        },
+        {
+            "course": "EXP-140",
+            "title": "Career Development and Planning: The",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-1001",
+            "title": "DeSales University Chorale",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-101",
+            "title": "Introduction to Drawing",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-102",
+            "title": "Introduction to Sculpture",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-104",
+            "title": "Introduction to Painting",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-106",
+            "title": "Introduction to Drawing and Painting",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-107",
+            "title": "Watercolor Painting",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-1101",
+            "title": "Schola Cantorum",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-1111",
+            "title": "Applied Piano",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-1121",
+            "title": "Applied Voice",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-1131",
+            "title": "Applied Guitar",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-115",
+            "title": "Introduction to Music",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-116",
+            "title": "Music Appreciation",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-118",
+            "title": "Music Theory I",
+            "prerequisites": [
+                "FA-115"
+            ]
+        },
+        {
+            "course": "FA-120",
+            "title": "Music Theory II",
+            "prerequisites": [
+                "FA-118"
+            ]
+        },
+        {
+            "course": "FA-1201",
+            "title": "CLMS Voice",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-251",
+            "title": "Introduction to Photography",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-255",
+            "title": "Landscape Photography",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-270",
+            "title": "American Antiques and the Antique Market",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-295",
+            "title": "Popular Music and Culture:",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-330",
+            "title": "Art of the Ancient and Primitive Worlds:",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-331",
+            "title": "Art of the Middle Ages: Humanities III",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-332",
+            "title": "Art of the Renaissance and Baroque:",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-333",
+            "title": "Art of the Nineteenth Century:",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-334",
+            "title": "Classical, Gothic and Renaissance Art:",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-335",
+            "title": "Art of the United States: Humanities III",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-336",
+            "title": "Roman Art and Architecture: Humanities",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-350",
+            "title": "Painting Styles of the Twentieth Century",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-362",
+            "title": "Music of Ireland: Humanities III",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-364",
+            "title": "Music of the Baroque Era: Humanities III",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-366",
+            "title": "Music of the Classical Era:",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-368",
+            "title": "Music of the Romantic Era:",
+            "prerequisites": []
+        },
+        {
+            "course": "FA-370",
+            "title": "Music of the Modern Era: Humanities III",
+            "prerequisites": []
+        },
+        {
+            "course": "FN-100",
+            "title": "Financial Literacy",
+            "prerequisites": []
+        },
+        {
+            "course": "FN-220",
+            "title": "Money and Banking",
+            "prerequisites": [
+                "EC-209"
+            ]
+        },
+        {
+            "course": "FN-225",
+            "title": "Money, Booms, and Busts",
+            "prerequisites": []
+        },
+        {
+            "course": "FN-290",
+            "title": "Personal Finance",
+            "prerequisites": []
+        },
+        {
+            "course": "FN-3000",
+            "title": "Investment Practicum",
+            "prerequisites": [
+                "FN-331",
+                "FN-361"
+            ]
+        },
+        {
+            "course": "FN-311",
+            "title": "Income Tax Planning",
+            "prerequisites": []
+        },
+        {
+            "course": "FN-315",
+            "title": "Retirement and Estate Planning",
+            "prerequisites": []
+        },
+        {
+            "course": "FN-330",
+            "title": "Corporate Finance",
+            "prerequisites": [
+                "AB-217",
+                "EC-112",
+                "EC-209",
+                "FN-331",
+                "MG-211"
+            ]
+        },
+        {
+            "course": "FN-331",
+            "title": "Financial Management",
+            "prerequisites": [
+                "AB-217",
+                "EC-209",
+                "FN-330",
+                "MG-211"
+            ]
+        },
+        {
+            "course": "FN-336",
+            "title": "Financial Markets and Institutions",
+            "prerequisites": [
+                "EC-209",
+                "FN-220"
+            ]
+        },
+        {
+            "course": "FN-342",
+            "title": "Introduction to Risk Management",
+            "prerequisites": []
+        },
+        {
+            "course": "FN-352",
+            "title": "Multinational Financial Management",
+            "prerequisites": [
+                "FN-330",
+                "FN-331"
+            ]
+        },
+        {
+            "course": "FN-361",
+            "title": "Investments and Portfolio Management",
+            "prerequisites": [
+                "FN-290",
+                "FN-330",
+                "FN-331",
+                "FN-336"
+            ]
+        },
+        {
+            "course": "FN-362",
+            "title": "Security Analysis",
+            "prerequisites": [
+                "FN-361"
+            ]
+        },
+        {
+            "course": "FN-417",
+            "title": "Financial Plan Development",
+            "prerequisites": [
+                "FN-290",
+                "FN-315",
+                "FN-361"
+            ]
+        },
+        {
+            "course": "FN-452",
+            "title": "Senior Seminar",
+            "prerequisites": [
+                "FN-331"
+            ]
+        },
+        {
+            "course": "FN-454",
+            "title": "Finance Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "FN-455",
+            "title": "Special Topics in Finance",
+            "prerequisites": []
+        },
+        {
+            "course": "FN-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "FR-101",
+            "title": "Elementary French I",
+            "prerequisites": []
+        },
+        {
+            "course": "FR-102",
+            "title": "Elementary French II",
+            "prerequisites": [
+                "FR-101"
+            ]
+        },
+        {
+            "course": "FR-201",
+            "title": "Intermediate French I",
+            "prerequisites": [
+                "FR-102"
+            ]
+        },
+        {
+            "course": "FR-202",
+            "title": "Intermediate French II",
+            "prerequisites": [
+                "FR-201"
+            ]
+        },
+        {
+            "course": "HCA-200",
+            "title": "Foundations of Healthcare Systems",
+            "prerequisites": [
+                "MG-100"
+            ]
+        },
+        {
+            "course": "HCA-202",
+            "title": "Economic and Fiscal Issues in Healthcare",
+            "prerequisites": [
+                "EC-112"
+            ]
+        },
+        {
+            "course": "HCA-301",
+            "title": "Strategic Management and Marketing",
+            "prerequisites": [
+                "HCA-200"
+            ]
+        },
+        {
+            "course": "HCA-302",
+            "title": "Legal Aspects of Healthcare",
+            "prerequisites": [
+                "AB-272"
+            ]
+        },
+        {
+            "course": "HCA-303",
+            "title": "Healthcare Quality and Outcomes",
+            "prerequisites": [
+                "MG-211"
+            ]
+        },
+        {
+            "course": "HCA-401",
+            "title": "Ethics in Healthcare",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "HCA-452",
+            "title": "Healthcare Policy Formulation",
+            "prerequisites": [
+                "HCA-200",
+                "HCA-202",
+                "MG-201",
+                "MK-201"
+            ]
+        },
+        {
+            "course": "HCM-130",
+            "title": "Introduction to Health Communication",
+            "prerequisites": []
+        },
+        {
+            "course": "HCM-280",
+            "title": "Patient-Provider Communication",
+            "prerequisites": [
+                "CM-130",
+                "HCM-130"
+            ]
+        },
+        {
+            "course": "HCM-290",
+            "title": "Media and Health",
+            "prerequisites": [
+                "CM-130",
+                "HCM-130"
+            ]
+        },
+        {
+            "course": "HCM-314",
+            "title": "Health Campaigns and Risk Communication",
+            "prerequisites": [
+                "CM-130",
+                "HCM-130"
+            ]
+        },
+        {
+            "course": "HCM-318",
+            "title": "Health Communication & Culture",
+            "prerequisites": [
+                "CM-130",
+                "HCM-130"
+            ]
+        },
+        {
+            "course": "HCM-391",
+            "title": "Health Communication Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-201",
+            "title": "Western Civilization to 1600 A.D.:",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-202",
+            "title": "Western Civilization Since 1600 A.D.:",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-204",
+            "title": "History of Latin America",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-209",
+            "title": "Ancient Greek and Roman Heroes:",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-213",
+            "title": "American Civilization I: Humanities I",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-214",
+            "title": "American Civilization II: Humanities II",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-225",
+            "title": "Money, Booms, and Busts",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-262",
+            "title": "World History Since 1500: Humanities II",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-265",
+            "title": "History of Piracy",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-270",
+            "title": "World at War, The 20th Century",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-302",
+            "title": "Family and Gender History",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-303",
+            "title": "Renaissance Europe: Humanities III",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-307",
+            "title": "Great Revolutions",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-313",
+            "title": "Revolutionary America",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-314",
+            "title": "Civil War America",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-316",
+            "title": "Environmental History of the Americas",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-324",
+            "title": "The American West",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-325",
+            "title": "New World Slavery",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-327",
+            "title": "American Religious History",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-329",
+            "title": "Photographing American History",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-330",
+            "title": "Holy Wars",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-333",
+            "title": "The Rise of Modernity: Humanities 4",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-335",
+            "title": "History of China",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-340",
+            "title": "Historical Research Abroad:",
+            "prerequisites": [
+                "HI-201",
+                "HI-202"
+            ]
+        },
+        {
+            "course": "HI-341",
+            "title": "Historical Research Abroad:",
+            "prerequisites": [
+                "HI-201",
+                "HI-202"
+            ]
+        },
+        {
+            "course": "HI-391",
+            "title": "History Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-396",
+            "title": "Topics in History",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-401",
+            "title": "Seminar in Historical Research",
+            "prerequisites": []
+        },
+        {
+            "course": "HI-475",
+            "title": "Church and State Relations: Values",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "HI-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-315",
+            "title": "Strategic Compensation and Benefits",
+            "prerequisites": [
+                "MG-305"
+            ]
+        },
+        {
+            "course": "HR-320",
+            "title": "Employment Law",
+            "prerequisites": [
+                "MG-305"
+            ]
+        },
+        {
+            "course": "HR-3401",
+            "title": "Effective Interviewing",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3402",
+            "title": "Staffing and Selection",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3403",
+            "title": "Supervision",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3404",
+            "title": "Negotiations",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3405",
+            "title": "Conflict Resolution",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3406",
+            "title": "Sexual/Gender Harassment",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3407",
+            "title": "Diversity in the Workplace",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3408",
+            "title": "Career Counseling and Development",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3409",
+            "title": "Training and Development",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3410",
+            "title": "Individual Differences in the Workplace",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3411",
+            "title": "Psychology of Motivation",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3412",
+            "title": "Personal Career Management",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3413",
+            "title": "Performance Evaluation",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3414",
+            "title": "Generational Diversity At Work",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3415",
+            "title": "Counseling and Discipline",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3416",
+            "title": "Crisis Management",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3417",
+            "title": "Workplace Security and Safety",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3418",
+            "title": "Employment Practice Liability",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3419",
+            "title": "Consumer Mortgage Crisis 2009",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3420",
+            "title": "HR Change Management Workshop",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-3421",
+            "title": "Personal Branding",
+            "prerequisites": []
+        },
+        {
+            "course": "HR-452",
+            "title": "Capstone: Real World Scenarios",
+            "prerequisites": [
+                "HR-315",
+                "MG-305"
+            ]
+        },
+        {
+            "course": "HR-454",
+            "title": "Human Resource Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-150",
+            "title": "Introduction to Homeland Security",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-155",
+            "title": "Introduction to Emergency Management",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-275",
+            "title": "Topics in Homeland Security",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-374",
+            "title": "Terrorism and Counterterrorism",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-378",
+            "title": "Psychology of Terror and Fear",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-380",
+            "title": "Intelligence and Security",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-385",
+            "title": "Infrastructure Protection",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-400",
+            "title": "Bioterror and Diseases",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-410",
+            "title": "Disaster Preparedness",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-453",
+            "title": "Senior Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "HS-460",
+            "title": "Homeland Security Internhsip",
+            "prerequisites": []
+        },
+        {
+            "course": "IB-452",
+            "title": "Global Business Strategy",
+            "prerequisites": []
+        },
+        {
+            "course": "IB-454",
+            "title": "International Business Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "IL-101",
+            "title": "Elementary Italian I",
+            "prerequisites": []
+        },
+        {
+            "course": "IL-102",
+            "title": "Elementary Italian II",
+            "prerequisites": [
+                "IL-101"
+            ]
+        },
+        {
+            "course": "IL-201",
+            "title": "Intermediate Italian I",
+            "prerequisites": [
+                "IL-102"
+            ]
+        },
+        {
+            "course": "IL-202",
+            "title": "Intermediate Italian II",
+            "prerequisites": [
+                "IL-201"
+            ]
+        },
+        {
+            "course": "IL-301",
+            "title": "Advanced Italian I",
+            "prerequisites": [
+                "IL-202"
+            ]
+        },
+        {
+            "course": "IL-302",
+            "title": "Advanced Italian II",
+            "prerequisites": [
+                "IL-301"
+            ]
+        },
+        {
+            "course": "IS-301",
+            "title": "Art of the Medici",
+            "prerequisites": []
+        },
+        {
+            "course": "IS-454",
+            "title": "Rome Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "IS-475",
+            "title": "Freedom of Speech: Values Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-109",
+            "title": "Trial by Jury",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-160",
+            "title": "Criminal Law",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-270",
+            "title": "Health Policy and Law",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-280",
+            "title": "Environmental Policy and Law",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-330",
+            "title": "Constitutional Law",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-355",
+            "title": "Law in America",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-362",
+            "title": "Senior Seminar: Public Policy and Law",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-365",
+            "title": "Criminal Procedure",
+            "prerequisites": [
+                "CJ-260"
+            ]
+        },
+        {
+            "course": "LG-375",
+            "title": "White Collar Crime",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-425",
+            "title": "Mock Trial",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-460",
+            "title": "Law & Society Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "LG-480",
+            "title": "Family Values and the Law:",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "LG-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "LS-4001",
+            "title": "Conversations on Personhood",
+            "prerequisites": []
+        },
+        {
+            "course": "LS-4002",
+            "title": "Conversations on God",
+            "prerequisites": []
+        },
+        {
+            "course": "LS-4003",
+            "title": "Conversations on the World",
+            "prerequisites": []
+        },
+        {
+            "course": "LS-4004",
+            "title": "Conversations on Beauty",
+            "prerequisites": []
+        },
+        {
+            "course": "LS-4005",
+            "title": "Conversations on Truth",
+            "prerequisites": []
+        },
+        {
+            "course": "LS-4006",
+            "title": "Conversations on Goodness",
+            "prerequisites": []
+        },
+        {
+            "course": "LS-499",
+            "title": "Honors Thesis (Independent Study)",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-106",
+            "title": "Geometry of Visual Arts",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-107",
+            "title": "Mathematics for Teachers I:",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-108",
+            "title": "Mathematics for Teachers II",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-109",
+            "title": "Survey of Mathematics: MOT/Mathematics",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-110",
+            "title": "Finite Mathematics: MOT/Mathematics",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-111",
+            "title": "Probability and Statistics:",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-112",
+            "title": "Precalculus Mathematics:",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-121",
+            "title": "Calculus I: MOT/Mathematics",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-122",
+            "title": "Calculus II",
+            "prerequisites": [
+                "MA-121"
+            ]
+        },
+        {
+            "course": "MA-223",
+            "title": "Calculus III",
+            "prerequisites": [
+                "MA-122"
+            ]
+        },
+        {
+            "course": "MA-224",
+            "title": "Calculus IV",
+            "prerequisites": [
+                "MA-223"
+            ]
+        },
+        {
+            "course": "MA-231",
+            "title": "Discrete Mathematics",
+            "prerequisites": [
+                "MA-122"
+            ]
+        },
+        {
+            "course": "MA-243",
+            "title": "Differential Equations",
+            "prerequisites": [
+                "MA-122"
+            ]
+        },
+        {
+            "course": "MA-260",
+            "title": "History of Mathematics",
+            "prerequisites": [
+                "MA-122"
+            ]
+        },
+        {
+            "course": "MA-301",
+            "title": "Probability Theory",
+            "prerequisites": [
+                "MA-122"
+            ]
+        },
+        {
+            "course": "MA-302",
+            "title": "Statistical Theory",
+            "prerequisites": [
+                "MA-301"
+            ]
+        },
+        {
+            "course": "MA-311",
+            "title": "Actuarial Mathematics - P",
+            "prerequisites": [
+                "MA-301"
+            ]
+        },
+        {
+            "course": "MA-312",
+            "title": "Actuarial Mathematics - FM",
+            "prerequisites": [
+                "MA-122"
+            ]
+        },
+        {
+            "course": "MA-331",
+            "title": "Linear Algebra",
+            "prerequisites": [
+                "MA-122"
+            ]
+        },
+        {
+            "course": "MA-351",
+            "title": "Fundamentals of Modern Geometry",
+            "prerequisites": [
+                "MA-224",
+                "MA-231"
+            ]
+        },
+        {
+            "course": "MA-381",
+            "title": "Numerical Analysis",
+            "prerequisites": [
+                "MA-122"
+            ]
+        },
+        {
+            "course": "MA-383",
+            "title": "Complex Variables",
+            "prerequisites": [
+                "MA-224"
+            ]
+        },
+        {
+            "course": "MA-385",
+            "title": "Elementary Number Theory",
+            "prerequisites": [
+                "MA-224",
+                "MA-231"
+            ]
+        },
+        {
+            "course": "MA-387",
+            "title": "Cryptology",
+            "prerequisites": [
+                "MA-122"
+            ]
+        },
+        {
+            "course": "MA-399",
+            "title": "Mathematics Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-400",
+            "title": "Special Topics in Mathematics",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-445",
+            "title": "Advanced Calculus",
+            "prerequisites": [
+                "MA-224",
+                "MA-231"
+            ]
+        },
+        {
+            "course": "MA-453",
+            "title": "Senior Coordinating Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-461",
+            "title": "Research",
+            "prerequisites": []
+        },
+        {
+            "course": "MA-471",
+            "title": "Abstract Algebra",
+            "prerequisites": [
+                "MA-224",
+                "MA-231"
+            ]
+        },
+        {
+            "course": "MA-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "MD-1001",
+            "title": "PA as a Profession",
+            "prerequisites": []
+        },
+        {
+            "course": "MD-301",
+            "title": "Selected Medical Topics",
+            "prerequisites": []
+        },
+        {
+            "course": "MD-302",
+            "title": "Medical Terminology",
+            "prerequisites": []
+        },
+        {
+            "course": "MD-306",
+            "title": "Pharmacology and Toxicology",
+            "prerequisites": [
+                "CH-101",
+                "CH-102"
+            ]
+        },
+        {
+            "course": "MG-100",
+            "title": "Introduction to Business",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-201",
+            "title": "Principles of Management",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-203",
+            "title": "Leadership Skills Development",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-211",
+            "title": "Quantitative Business Analysis",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-212",
+            "title": "Data Analysis",
+            "prerequisites": [
+                "MA-111"
+            ]
+        },
+        {
+            "course": "MG-226",
+            "title": "Introduction to Data Analytics and AI",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-233",
+            "title": "Business Communication Skills:",
+            "prerequisites": [
+                "EN-104"
+            ]
+        },
+        {
+            "course": "MG-251",
+            "title": "Comprehensive Quality Improvement",
+            "prerequisites": [
+                "MG-201"
+            ]
+        },
+        {
+            "course": "MG-270",
+            "title": "Principles and Practices of Health Care",
+            "prerequisites": [
+                "MG-201"
+            ]
+        },
+        {
+            "course": "MG-271",
+            "title": "Principles and Practices of Health Care",
+            "prerequisites": [
+                "MG-270"
+            ]
+        },
+        {
+            "course": "MG-301",
+            "title": "Collective Bargaining",
+            "prerequisites": [
+                "MG-201"
+            ]
+        },
+        {
+            "course": "MG-303",
+            "title": "Leadership in the Modern Organization",
+            "prerequisites": [
+                "MG-201"
+            ]
+        },
+        {
+            "course": "MG-305",
+            "title": "Human Resource Management",
+            "prerequisites": [
+                "MG-201"
+            ]
+        },
+        {
+            "course": "MG-306",
+            "title": "Strategic Planning - Nonprofit",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-307",
+            "title": "Public Relations-Nonprofits",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-308",
+            "title": "Governance Boards and Nonprofits",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-310",
+            "title": "New Ventures, Inc.",
+            "prerequisites": [
+                "AB-217",
+                "MG-201",
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MG-311",
+            "title": "Evaluating Nonprofits",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-320",
+            "title": "Managing Workforce Diversity",
+            "prerequisites": [
+                "MG-201"
+            ]
+        },
+        {
+            "course": "MG-325",
+            "title": "Operations Management",
+            "prerequisites": [
+                "MG-201",
+                "MG-211"
+            ]
+        },
+        {
+            "course": "MG-328",
+            "title": "Supply Chain Management",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MG-333",
+            "title": "Career Skills Development for Business",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-340",
+            "title": "International Business",
+            "prerequisites": [
+                "EC-209",
+                "MG-201",
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MG-350",
+            "title": "Introduction to Project Management",
+            "prerequisites": [
+                "MG-100",
+                "MG-211"
+            ]
+        },
+        {
+            "course": "MG-400",
+            "title": "Organizational Behavior",
+            "prerequisites": [
+                "MG-201"
+            ]
+        },
+        {
+            "course": "MG-4000",
+            "title": "Business Capstone",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-452",
+            "title": "Business Policy Formulation",
+            "prerequisites": [
+                "MG-201",
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MG-454",
+            "title": "Management Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "MG-475",
+            "title": "Ethical Issues in Work Place: Values",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "MG-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "MI-111",
+            "title": "Introduction to Programming",
+            "prerequisites": []
+        },
+        {
+            "course": "MI-205",
+            "title": "Business Computer Applications",
+            "prerequisites": []
+        },
+        {
+            "course": "MI-207",
+            "title": "Introduction to Management of",
+            "prerequisites": []
+        },
+        {
+            "course": "MI-265",
+            "title": "Web Page Design",
+            "prerequisites": []
+        },
+        {
+            "course": "MI-452",
+            "title": "Management of Information Technology",
+            "prerequisites": [
+                "MI-205",
+                "MI-207"
+            ]
+        },
+        {
+            "course": "MI-454",
+            "title": "MIT Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "MI-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "MK-201",
+            "title": "Principles of Marketing",
+            "prerequisites": []
+        },
+        {
+            "course": "MK-215",
+            "title": "Sales and Sales Management",
+            "prerequisites": [
+                "MG-100",
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-220",
+            "title": "Consumer Behavior",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-235",
+            "title": "Service and Retail Marketing",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-300",
+            "title": "Introduction to Fundraising",
+            "prerequisites": []
+        },
+        {
+            "course": "MK-315",
+            "title": "Business to Business Marketing",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-325",
+            "title": "Advertising & Promotional Communication",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-326",
+            "title": "Data Mining",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-328",
+            "title": "Supply Chain Management",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-330",
+            "title": "Health Care Marketing",
+            "prerequisites": []
+        },
+        {
+            "course": "MK-333",
+            "title": "Career Skills Development for Business",
+            "prerequisites": []
+        },
+        {
+            "course": "MK-340",
+            "title": "International Marketing",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-341",
+            "title": "Social Media and Business",
+            "prerequisites": [
+                "MG-100",
+                "MI-205",
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-350",
+            "title": "Pharmaceutical Marketing",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-355",
+            "title": "Electronic Marketing",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-410",
+            "title": "Marketing Research",
+            "prerequisites": [
+                "MG-211",
+                "MG-212",
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-452",
+            "title": "Marketing Planning and Strategy",
+            "prerequisites": [
+                "MK-201",
+                "MK-220"
+            ]
+        },
+        {
+            "course": "MK-454",
+            "title": "Marketing Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "MK-455",
+            "title": "Special Topics",
+            "prerequisites": [
+                "MK-201"
+            ]
+        },
+        {
+            "course": "MK-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "ML-101",
+            "title": "Introduction to the Army",
+            "prerequisites": []
+        },
+        {
+            "course": "ML-102",
+            "title": "Foundations of Agile and Adaptive",
+            "prerequisites": []
+        },
+        {
+            "course": "ML-201",
+            "title": "Leadership and Decision Making",
+            "prerequisites": []
+        },
+        {
+            "course": "ML-202",
+            "title": "Army Doctrine and Team Development",
+            "prerequisites": []
+        },
+        {
+            "course": "ML-301",
+            "title": "Traning Management and the Warfighting",
+            "prerequisites": []
+        },
+        {
+            "course": "ML-302",
+            "title": "Applied Leadership in Small Unit",
+            "prerequisites": []
+        },
+        {
+            "course": "ML-401",
+            "title": "The Army Officer",
+            "prerequisites": []
+        },
+        {
+            "course": "ML-402",
+            "title": "Company Grade Leadership",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-205",
+            "title": "Fundamentals of Nursing",
+            "prerequisites": [
+                "BI-263",
+                "BI-264",
+                "NU-205",
+                "NU-205L"
+            ]
+        },
+        {
+            "course": "NU-205L",
+            "title": "NU-205 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-215",
+            "title": "Health and Physical Assessment",
+            "prerequisites": [
+                "BI-263",
+                "BI-264",
+                "NU-215",
+                "NU-215L"
+            ]
+        },
+        {
+            "course": "NU-215L",
+            "title": "NU-215 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-220",
+            "title": "Pharmacology",
+            "prerequisites": [
+                "BI-263",
+                "BI-264",
+                "CH-103",
+                "CH-104",
+                "CH-107",
+                "NU-205",
+                "NU-215"
+            ]
+        },
+        {
+            "course": "NU-230",
+            "title": "Therapeutic Nursing Intervention",
+            "prerequisites": [
+                "NU-205",
+                "NU-215"
+            ]
+        },
+        {
+            "course": "NU-230C",
+            "title": "NU-230 Clinical",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-305",
+            "title": "Therapeutic Nutrition",
+            "prerequisites": [
+                "CH-103",
+                "CH-104",
+                "CH-107",
+                "NU-220",
+                "NU-230"
+            ]
+        },
+        {
+            "course": "NU-315L",
+            "title": "NU-315 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-320",
+            "title": "Health Risk Models and Research",
+            "prerequisites": [
+                "MA-111",
+                "NU-220",
+                "NU-230"
+            ]
+        },
+        {
+            "course": "NU-335",
+            "title": "The Chronically Ill Adult",
+            "prerequisites": [
+                "BI-252",
+                "NU-220",
+                "NU-230"
+            ]
+        },
+        {
+            "course": "NU-335C",
+            "title": "NU-335 Clinical",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-340",
+            "title": "Mental Health Nursing",
+            "prerequisites": [
+                "NU-220",
+                "NU-230",
+                "PS-240"
+            ]
+        },
+        {
+            "course": "NU-340C",
+            "title": "NU-340 Clinical",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-340L",
+            "title": "NU-340 Clinical",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-350",
+            "title": "Nursing of the Childbearing Family",
+            "prerequisites": [
+                "NU-220",
+                "NU-230",
+                "NU-335",
+                "PS-240"
+            ]
+        },
+        {
+            "course": "NU-350C",
+            "title": "NU-350 Clinical",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-365",
+            "title": "Nursing Care of Children",
+            "prerequisites": [
+                "BI-252",
+                "NU-220",
+                "NU-230",
+                "NU-335",
+                "PS-240"
+            ]
+        },
+        {
+            "course": "NU-365C",
+            "title": "NU-365 Clinical",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-365L",
+            "title": "NU-365L",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-370",
+            "title": "The Older Adult",
+            "prerequisites": [
+                "BI-252",
+                "NU-220",
+                "NU-230",
+                "NU-335"
+            ]
+        },
+        {
+            "course": "NU-370C",
+            "title": "NU-370 Clinical",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-380",
+            "title": "Healthcare Informatics",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-430",
+            "title": "Nursing of the Acutely Ill Adult",
+            "prerequisites": [
+                "NU-335",
+                "NU-340",
+                "NU-350",
+                "NU-365",
+                "NU-370"
+            ]
+        },
+        {
+            "course": "NU-430C",
+            "title": "NU-430 Clinical",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-440",
+            "title": "Community and Public Health Nursing",
+            "prerequisites": [
+                "NU-335",
+                "NU-340",
+                "NU-350",
+                "NU-365",
+                "NU-370"
+            ]
+        },
+        {
+            "course": "NU-440C",
+            "title": "NU-440 Clinical",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-451",
+            "title": "Leadership and Management for RNs",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-452",
+            "title": "Senior Integrating Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-454",
+            "title": "Clinical Nursing Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-454C",
+            "title": "NU 454 Clinical",
+            "prerequisites": []
+        },
+        {
+            "course": "NU-456",
+            "title": "Capstone Project for RNs",
+            "prerequisites": [
+                "NU-451"
+            ]
+        },
+        {
+            "course": "NU-475",
+            "title": "Creating a Healthy Lifestyle: Values",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "NU-476",
+            "title": "Health Literacy in a Global Context",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-100",
+            "title": "Lifetime Fitness and Wellness",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-105",
+            "title": "Foundations of Physical Exercise,",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-106",
+            "title": "Physical Conditioning and Development",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-205",
+            "title": "Weight Training",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-231",
+            "title": "Tennis",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-232",
+            "title": "Volleyball",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-240",
+            "title": "Exercise Walking",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-245",
+            "title": "Disc Golf",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-251",
+            "title": "Badminton",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-255",
+            "title": "Pilates",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-260",
+            "title": "Hatha Yoga",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-300",
+            "title": "Men's Varsity Baseball",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-301",
+            "title": "Women's Varsity Softball",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-302",
+            "title": "Men's Varsity Basketball",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-303",
+            "title": "Women's Varsity Basketball",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-304",
+            "title": "Men's Varsity Cross Country",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-305",
+            "title": "Women's Varsity Cross Country",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-306",
+            "title": "Men's Varsity Soccer",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-307",
+            "title": "Women's Varsity Soccer",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-308",
+            "title": "Men's Varsity Tennis",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-309",
+            "title": "Women's Varsity Tennis",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-310",
+            "title": "Men's Varsity Golf",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-313",
+            "title": "Women's Varsity Volleyball",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-314",
+            "title": "Men's Varsity Track",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-315",
+            "title": "Women's Varsity Track",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-316",
+            "title": "Men's Varsity Lacrosse",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-317",
+            "title": "Varsity Cheerleading",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-318",
+            "title": "Women's Varsity Field Hockey",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-319",
+            "title": "Women's Varsity Lacrosse",
+            "prerequisites": []
+        },
+        {
+            "course": "PE-320",
+            "title": "Varsity Esports Active Session",
+            "prerequisites": []
+        },
+        {
+            "course": "PH-201",
+            "title": "General Physics I: Mechanics and Heat",
+            "prerequisites": [
+                "MA-122",
+                "PH-201",
+                "PH-201L"
+            ]
+        },
+        {
+            "course": "PH-201L",
+            "title": "PH-201 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "PH-202",
+            "title": "General Physics II: Wave Phenomena and",
+            "prerequisites": [
+                "PH-201",
+                "PH-202",
+                "PH-202L"
+            ]
+        },
+        {
+            "course": "PH-202L",
+            "title": "PH-202 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "PH-203",
+            "title": "Introductory Physics I",
+            "prerequisites": [
+                "CH-101",
+                "CH-103",
+                "MA-110",
+                "MA-112",
+                "MA-121"
+            ]
+        },
+        {
+            "course": "PH-203L",
+            "title": "PH-203 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "PH-204",
+            "title": "Introductory Physics II",
+            "prerequisites": [
+                "PH-203"
+            ]
+        },
+        {
+            "course": "PH-204L",
+            "title": "PH-204L Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "PH-208",
+            "title": "Hollywood Physics: MOT Natural Science",
+            "prerequisites": []
+        },
+        {
+            "course": "PH-208L",
+            "title": "PH-208 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "PH-209",
+            "title": "World Awareness Through Physics:",
+            "prerequisites": []
+        },
+        {
+            "course": "PH-209L",
+            "title": "PH-209 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "PH-211",
+            "title": "General Physics I: Mechanics and Heat",
+            "prerequisites": [
+                "MA-122"
+            ]
+        },
+        {
+            "course": "PH-212",
+            "title": "General Physics II: Wave Phenomena and",
+            "prerequisites": [
+                "PH-201",
+                "PH-211"
+            ]
+        },
+        {
+            "course": "PH-461",
+            "title": "Research",
+            "prerequisites": []
+        },
+        {
+            "course": "PH-4611",
+            "title": "Research",
+            "prerequisites": []
+        },
+        {
+            "course": "PL-008",
+            "title": "Philosophy Elective",
+            "prerequisites": []
+        },
+        {
+            "course": "PL-009",
+            "title": "MOT Philosophy",
+            "prerequisites": []
+        },
+        {
+            "course": "PL-109",
+            "title": "Philosophical Thinking: MOT/Philosophy",
+            "prerequisites": []
+        },
+        {
+            "course": "PL-204",
+            "title": "History of Philosophy",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-205",
+            "title": "History of Philosophy",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-209",
+            "title": "The Ethics of Character: The",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-225",
+            "title": "Logic",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-226",
+            "title": "Practical Argumentation",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-240",
+            "title": "The Philosophy of Nature",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-245",
+            "title": "The Philosophy of Human Nature",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-320",
+            "title": "Ethics",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-323",
+            "title": "Business Ethics",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-340",
+            "title": "Existentialism: Humanities IV",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-345",
+            "title": "The Confessions of St. Augustine:",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-350",
+            "title": "The Republic of Plato: Humanities IV",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-355",
+            "title": "The Nicomachean Ethics of Aristotle:",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-360",
+            "title": "The Summa Theologiae of Thomas Aquinas:",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-370",
+            "title": "Masterpieces of Western Ethics:",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-375",
+            "title": "The Age of Reason: Humanities IV",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-380",
+            "title": "Philosophy of Religion: Humanities IV",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-390",
+            "title": "Seminar in Creativity & Beauty",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-395",
+            "title": "Special Topics in Philosophy",
+            "prerequisites": []
+        },
+        {
+            "course": "PL-400",
+            "title": "Epistemology: The Human Knower",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-410",
+            "title": "Metaphysics: the Search for Synthesis",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-438",
+            "title": "Applied Ethics: Values Seminar",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-473",
+            "title": "Alcohol: Values Seminar",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-475",
+            "title": "Friendship, Love and Sexuality: Values",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-476",
+            "title": "Happiness: Values Seminar",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-477",
+            "title": "Faith and Tolerance: Values Seminar",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-478",
+            "title": "Philosophy of Work and Leisure:",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-479",
+            "title": "The Ethics of Personal Success: Values",
+            "prerequisites": [
+                "PL-109"
+            ]
+        },
+        {
+            "course": "PL-499",
+            "title": "Independent Study in Philosophy",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-103",
+            "title": "American Federal Government:",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-107",
+            "title": "Central European Nations",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-108",
+            "title": "International Politics",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-109",
+            "title": "Government, Law, and Society:",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-201",
+            "title": "Classical Political Thought:",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-202",
+            "title": "Modern Political Thought: Humanities II",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-215",
+            "title": "Politics of Latin America",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-255",
+            "title": "President and Congress",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-256",
+            "title": "Social Justice Policy",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-270",
+            "title": "Health Policy and Law",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-280",
+            "title": "Environmental Policy and Law",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-302",
+            "title": "Democracy in America: Humanities IV",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-313",
+            "title": "National Security",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-315",
+            "title": "American Foreign Policy",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-317",
+            "title": "International Law and Organization",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-330",
+            "title": "Constitutional Law",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-362",
+            "title": "Senior Seminar: Public Policy and Law",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-391",
+            "title": "Politics Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "PO-475",
+            "title": "Politics and the Family: Values Seminar",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "PO-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "PS-109",
+            "title": "Introduction to Psychology:",
+            "prerequisites": []
+        },
+        {
+            "course": "PS-120",
+            "title": "Leadership Self Development:",
+            "prerequisites": []
+        },
+        {
+            "course": "PS-200",
+            "title": "The Unseen Reality: the Psychology of",
+            "prerequisites": []
+        },
+        {
+            "course": "PS-205",
+            "title": "Research Design and Analysis",
+            "prerequisites": [
+                "MA-111",
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-206",
+            "title": "Applied Research Design and Analysis",
+            "prerequisites": [
+                "PS-205"
+            ]
+        },
+        {
+            "course": "PS-220",
+            "title": "Positive Psychology:",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-230",
+            "title": "Cognitive Psychology",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-240",
+            "title": "Human Development",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-245",
+            "title": "Child Psychopathology",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-250",
+            "title": "Social Psychology",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-260",
+            "title": "Personality: Theory and Research",
+            "prerequisites": []
+        },
+        {
+            "course": "PS-265",
+            "title": "Psychobiology",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-275",
+            "title": "Topics in Psychology",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-290",
+            "title": "Psychopathology",
+            "prerequisites": []
+        },
+        {
+            "course": "PS-295",
+            "title": "Forensic Psychology",
+            "prerequisites": []
+        },
+        {
+            "course": "PS-300",
+            "title": "Dangerous Minds: the Psychology of",
+            "prerequisites": []
+        },
+        {
+            "course": "PS-320",
+            "title": "Motor Learning",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-335",
+            "title": "Language Acquisition",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-340",
+            "title": "Sport Psychology:",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-365",
+            "title": "Psychological Sleuthing",
+            "prerequisites": [
+                "CJ-109",
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-370",
+            "title": "Counseling Psychology",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-375",
+            "title": "Hormones and Behavior",
+            "prerequisites": [
+                "BI-151",
+                "PS-265"
+            ]
+        },
+        {
+            "course": "PS-378",
+            "title": "Psychology of Terror and Fear",
+            "prerequisites": []
+        },
+        {
+            "course": "PS-381",
+            "title": "Psychopharmacology",
+            "prerequisites": [
+                "PS-265"
+            ]
+        },
+        {
+            "course": "PS-390",
+            "title": "Introduction to Cognitive-Behavioral",
+            "prerequisites": [
+                "PS-109",
+                "PS-290"
+            ]
+        },
+        {
+            "course": "PS-444",
+            "title": "Mind, Medicine and Madness",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-455",
+            "title": "Psychological Logic",
+            "prerequisites": []
+        },
+        {
+            "course": "PS-490",
+            "title": "Psychology Internship",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "PS-499",
+            "title": "Independent Study in Psychology",
+            "prerequisites": [
+                "PS-109"
+            ]
+        },
+        {
+            "course": "SO-109",
+            "title": "Introduction to Sociology:",
+            "prerequisites": []
+        },
+        {
+            "course": "SO-203",
+            "title": "Social Problems",
+            "prerequisites": []
+        },
+        {
+            "course": "SO-285",
+            "title": "Race and Ethnic Relations",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-101",
+            "title": "Elementary Spanish I",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-102",
+            "title": "Elementary Spanish II",
+            "prerequisites": [
+                "SP-101"
+            ]
+        },
+        {
+            "course": "SP-201",
+            "title": "Intermediate Spanish I",
+            "prerequisites": [
+                "SP-102"
+            ]
+        },
+        {
+            "course": "SP-202",
+            "title": "Intermediate Spanish II",
+            "prerequisites": [
+                "SP-201"
+            ]
+        },
+        {
+            "course": "SP-211",
+            "title": "Spanish for Heritage Speakers I",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-212",
+            "title": "Spanish for Heritage Speakers II",
+            "prerequisites": [
+                "SP-211"
+            ]
+        },
+        {
+            "course": "SP-300",
+            "title": "Summer Study Abroad",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-301",
+            "title": "Summer Study Abroad",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-317",
+            "title": "Culture and Civilization of Spain",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-318",
+            "title": "Culture and Civilization of",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-321",
+            "title": "Advanced Conversation",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-322",
+            "title": "Advanced Composition and Grammar",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-331",
+            "title": "Spanish for Careers",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-334",
+            "title": "Introduction to Hispanic Linguistics",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-340",
+            "title": "Cinema in the Spanish-Speaking World",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-341",
+            "title": "Spanish History and Art: Humanities III",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-400",
+            "title": "Semester Study Abroad",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-401",
+            "title": "Semester Study Abroad",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-430",
+            "title": "Issues in Contemporary Spanish America",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-441",
+            "title": "Topics in Literature of the Spanish-",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-450",
+            "title": "Spanish/English Contrasts & Translation",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-451",
+            "title": "Introduction to Interpreting",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-453",
+            "title": "Seminar in Spanish Studies",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-470",
+            "title": "Survey of Spanish-American Literature:",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-471",
+            "title": "Survey of Spanish Literature:",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-472",
+            "title": "Literary Works in Spanish: Humaniies IV",
+            "prerequisites": [
+                "SP-202"
+            ]
+        },
+        {
+            "course": "SP-492",
+            "title": "Spanish Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "SP-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "SS-100",
+            "title": "History and Philosophy of Sport",
+            "prerequisites": []
+        },
+        {
+            "course": "SS-120",
+            "title": "Women in Sport",
+            "prerequisites": []
+        },
+        {
+            "course": "SS-150",
+            "title": "Introduction to Sport Management",
+            "prerequisites": []
+        },
+        {
+            "course": "SS-200",
+            "title": "Sport Management and Leadership",
+            "prerequisites": [
+                "MG-100",
+                "SS-100",
+                "SS-150"
+            ]
+        },
+        {
+            "course": "SS-230",
+            "title": "Facility Planning and Event Management",
+            "prerequisites": [
+                "SS-150"
+            ]
+        },
+        {
+            "course": "SS-250",
+            "title": "Early Field Experience",
+            "prerequisites": [
+                "SS-150",
+                "SS-200"
+            ]
+        },
+        {
+            "course": "SS-290",
+            "title": "Data-Driven Decision-Making",
+            "prerequisites": [
+                "MG-100",
+                "SS-150",
+                "SS-200"
+            ]
+        },
+        {
+            "course": "SS-300",
+            "title": "Global Sport: The DeSales Experience",
+            "prerequisites": [
+                "MG-100",
+                "SS-150"
+            ]
+        },
+        {
+            "course": "SS-330",
+            "title": "Sport Marketing and Promotions",
+            "prerequisites": [
+                "MK-201",
+                "SS-200"
+            ]
+        },
+        {
+            "course": "SS-335",
+            "title": "Principles of Coaching",
+            "prerequisites": []
+        },
+        {
+            "course": "SS-340",
+            "title": "Sociological and Psychological Issues",
+            "prerequisites": []
+        },
+        {
+            "course": "SS-341",
+            "title": "Sport and Media Relations",
+            "prerequisites": []
+        },
+        {
+            "course": "SS-342",
+            "title": "Sport Finance and Economics",
+            "prerequisites": [
+                "AB-217",
+                "EC-112",
+                "EC-209",
+                "SS-200"
+            ]
+        },
+        {
+            "course": "SS-343",
+            "title": "Governance of Sport and Athletic",
+            "prerequisites": []
+        },
+        {
+            "course": "SS-350",
+            "title": "Sport Sales",
+            "prerequisites": [
+                "MG-100",
+                "SS-150",
+                "SS-200"
+            ]
+        },
+        {
+            "course": "SS-400",
+            "title": "Legal Issues in Sport",
+            "prerequisites": [
+                "SS-200"
+            ]
+        },
+        {
+            "course": "SS-420",
+            "title": "Sport Administration",
+            "prerequisites": [
+                "SS-200"
+            ]
+        },
+        {
+            "course": "SS-430",
+            "title": "International Sport Tourism: Issues and",
+            "prerequisites": []
+        },
+        {
+            "course": "SS-440",
+            "title": "Current Issues and Problems in Sport",
+            "prerequisites": []
+        },
+        {
+            "course": "SS-450",
+            "title": "Sport Management Internship",
+            "prerequisites": [
+                "SS-200"
+            ]
+        },
+        {
+            "course": "SS-475",
+            "title": "Ethics in Sport: Values Seminar",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "SS-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "SU-303",
+            "title": "Strategic Procurement and Financial Risk",
+            "prerequisites": [
+                "MG-328"
+            ]
+        },
+        {
+            "course": "SU-304",
+            "title": "Forecasting, Production and Inventory",
+            "prerequisites": [
+                "MG-328"
+            ]
+        },
+        {
+            "course": "SU-452",
+            "title": "Strategic Logistics and Materials",
+            "prerequisites": [
+                "MG-325",
+                "MG-328"
+            ]
+        },
+        {
+            "course": "SU-454",
+            "title": "Supply Chain Management Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "SU-455",
+            "title": "Special Topics in Supply Chain",
+            "prerequisites": []
+        },
+        {
+            "course": "SU-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-1011",
+            "title": "Exploring Exercise Physiology",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-1012",
+            "title": "Kinesiology",
+            "prerequisites": [
+                "BI-355"
+            ]
+        },
+        {
+            "course": "SX-1013",
+            "title": "Terminology in Healthcare",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-170",
+            "title": "Fitness Leadership",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-249",
+            "title": "Nutrition in Human Activity",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-250",
+            "title": "Nutrition for Sport and Exercise",
+            "prerequisites": [
+                "BI-151"
+            ]
+        },
+        {
+            "course": "SX-250L",
+            "title": "SX-250 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-265",
+            "title": "Introduction to Sport Science",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-285",
+            "title": "Research and Statistics in Exercise",
+            "prerequisites": [
+                "BI-151",
+                "SX-285",
+                "SX-285L"
+            ]
+        },
+        {
+            "course": "SX-285L",
+            "title": "SX-285 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-320",
+            "title": "Motor Learning",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-362",
+            "title": "Fitness Assessment and Exercise",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-362L",
+            "title": "SX-362 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-365",
+            "title": "Advanced Sports Performance",
+            "prerequisites": [
+                "SX-265"
+            ]
+        },
+        {
+            "course": "SX-370",
+            "title": "Biomechanics",
+            "prerequisites": [
+                "BI-355",
+                "SX-370",
+                "SX-370L"
+            ]
+        },
+        {
+            "course": "SX-370L",
+            "title": "SX-370 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-375",
+            "title": "Injury Prevention and Care",
+            "prerequisites": [
+                "BI-263",
+                "BI-355",
+                "SX-375",
+                "SX-375L"
+            ]
+        },
+        {
+            "course": "SX-375L",
+            "title": "SX-375 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-390",
+            "title": "Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-400",
+            "title": "Current Topics",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-461",
+            "title": "Research",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-462",
+            "title": "Research",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-465",
+            "title": "Exercise Physiology",
+            "prerequisites": [
+                "BI-263",
+                "BI-355",
+                "SX-465",
+                "SX-465L"
+            ]
+        },
+        {
+            "course": "SX-465L",
+            "title": "SX-465 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-470",
+            "title": "Advanced Exercise Programming",
+            "prerequisites": [
+                "SX-362",
+                "SX-470",
+                "SX-470L"
+            ]
+        },
+        {
+            "course": "SX-470L",
+            "title": "SX-470 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-480",
+            "title": "Advanced Biomechanics",
+            "prerequisites": [
+                "SX-370",
+                "SX-480",
+                "SX-480L"
+            ]
+        },
+        {
+            "course": "SX-480L",
+            "title": "SX480 Lab",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-485",
+            "title": "Health, Fitness and Society",
+            "prerequisites": []
+        },
+        {
+            "course": "SX-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-109",
+            "title": "Catholic Theology",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-232",
+            "title": "The Gospels",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-234",
+            "title": "The Old Testament",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-250",
+            "title": "Christianity and Ancient Rome",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-260",
+            "title": "Marriage and the Family",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-261",
+            "title": "Sexual Morality",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-262",
+            "title": "Medicine and Morality",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-273",
+            "title": "A Cry for Justice",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-281",
+            "title": "Salesian Spirituality",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-283",
+            "title": "Christian Prayer",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-284",
+            "title": "The Catholic Church and Political Life",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-285",
+            "title": "The Catholic Radicals",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-300",
+            "title": "Jesus and the World Religions",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-310",
+            "title": "Science and Religion",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-321",
+            "title": "Cyber Theology",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-346",
+            "title": "The Letters of Paul",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-350",
+            "title": "The Church and Sacraments",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-355",
+            "title": "The Triumph Over Absurdity:",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-356",
+            "title": "The Introduction to the Devout Life:",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-360",
+            "title": "Mary, Mother of God",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-362",
+            "title": "Jesus Christ",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-364",
+            "title": "Evangelization and the Family:",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-370",
+            "title": "Special Topics in Theology",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-371",
+            "title": "Special Topics in Theology",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-380",
+            "title": "Faith and Reason",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-382",
+            "title": "Christian Discipleship:",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-387",
+            "title": "The Meaning of Death and Dying",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-390",
+            "title": "The Vision of John Paul II",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-3951",
+            "title": "Religious Classics",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-400",
+            "title": "Pastoral Theology and Ministry:",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-410",
+            "title": "The Meaning of the Person",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-432",
+            "title": "Christian Humanism and Evolution:",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-451",
+            "title": "Integrating Seminar in Theology",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-471",
+            "title": "Violence, Justice and Peace: Values",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-472",
+            "title": "Ethics At the End of Life: Values",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-473",
+            "title": "Women in the World: Values Seminar &",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-476",
+            "title": "A Life of Leisure: Values Seminar",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-477",
+            "title": "The Modern Media: Values Seminar",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-478",
+            "title": "The Body: Values Seminar",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-480",
+            "title": "Parenting: Values Seminar",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-483",
+            "title": "The Workaday World: Values Seminar",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-485",
+            "title": "The Art of Forgiveness: Values Seminar",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-486",
+            "title": "The World of Evil: Values Seminar",
+            "prerequisites": [
+                "TH-109"
+            ]
+        },
+        {
+            "course": "TH-492",
+            "title": "Theology Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "TH-499",
+            "title": "Independent Study in Theology",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-101",
+            "title": "Introduction to the Theatre",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-102",
+            "title": "Training the Speaking Voice",
+            "prerequisites": [
+                "TR-101"
+            ]
+        },
+        {
+            "course": "TR-103",
+            "title": "Movement for the Actor",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-111",
+            "title": "Summer Theatre Institute: Acting/Musical",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-112",
+            "title": "Summer Theatre Institute: Shakespearean",
+            "prerequisites": [
+                "TR-111"
+            ]
+        },
+        {
+            "course": "TR-114",
+            "title": "Summer Theatre Institute: Tech/Design",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-118",
+            "title": "Advanced Summer Institute: Acting/",
+            "prerequisites": [
+                "TR-111"
+            ]
+        },
+        {
+            "course": "TR-119",
+            "title": "Advanced Summer Theatre Institute:",
+            "prerequisites": [
+                "TR-112"
+            ]
+        },
+        {
+            "course": "TR-120",
+            "title": "Advanced Intensive Technical Design",
+            "prerequisites": [
+                "TR-114"
+            ]
+        },
+        {
+            "course": "TR-143",
+            "title": "Introduction to Theatre Technology",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-210",
+            "title": "Fundamental of Acting for Non-Majors",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-211",
+            "title": "Fundamentals of Acting",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-212",
+            "title": "Intermediate Acting",
+            "prerequisites": [
+                "TR-210",
+                "TR-211"
+            ]
+        },
+        {
+            "course": "TR-221",
+            "title": "History of the Theatre I",
+            "prerequisites": [
+                "TR-101"
+            ]
+        },
+        {
+            "course": "TR-222",
+            "title": "History of the Theatre II",
+            "prerequisites": [
+                "TR-101"
+            ]
+        },
+        {
+            "course": "TR-226",
+            "title": "Costume History",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-240",
+            "title": "Elements of Design",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-242",
+            "title": "Stagecraft",
+            "prerequisites": [
+                "TR-143"
+            ]
+        },
+        {
+            "course": "TR-246",
+            "title": "Scene Painting",
+            "prerequisites": [
+                "TR-143"
+            ]
+        },
+        {
+            "course": "TR-250",
+            "title": "Technical Drawing",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-261",
+            "title": "Stage Management",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-263",
+            "title": "Pattern Drafting and Draping",
+            "prerequisites": [
+                "TR-143"
+            ]
+        },
+        {
+            "course": "TR-270",
+            "title": "Stage Combat",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-272",
+            "title": "Stage Make-Up",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-280",
+            "title": "Introduction to Lighting Technology",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-310",
+            "title": "Contemporary Theatre",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-311",
+            "title": "Advanced Acting",
+            "prerequisites": [
+                "TR-212"
+            ]
+        },
+        {
+            "course": "TR-312",
+            "title": "Musical Theatre",
+            "prerequisites": [
+                "TR-211"
+            ]
+        },
+        {
+            "course": "TR-314",
+            "title": "Advanced Musical Theatre",
+            "prerequisites": [
+                "FA-1121",
+                "TR-312"
+            ]
+        },
+        {
+            "course": "TR-322",
+            "title": "Fundamentals of Directing",
+            "prerequisites": [
+                "TR-101",
+                "TR-143",
+                "TR-210",
+                "TR-211"
+            ]
+        },
+        {
+            "course": "TR-331",
+            "title": "Modern European Drama",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-332",
+            "title": "Modern American Drama",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-341",
+            "title": "Basic Design, Scenery",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-342",
+            "title": "Basic Design, Costume",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-343",
+            "title": "Basic Design, Lighting",
+            "prerequisites": [
+                "TR-280"
+            ]
+        },
+        {
+            "course": "TR-344",
+            "title": "Basic Design and Production - Sound",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-345",
+            "title": "Special Topics in Theatre",
+            "prerequisites": [
+                "TR-101",
+                "TR-143"
+            ]
+        },
+        {
+            "course": "TR-350",
+            "title": "CAD Drafting for the Theatre",
+            "prerequisites": [
+                "TR-250"
+            ]
+        },
+        {
+            "course": "TR-3611",
+            "title": "Theatre Practicum for Theatre Majors in",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-3612",
+            "title": "Theatre Practicum for Theatre Majors in",
+            "prerequisites": [
+                "TR-3611"
+            ]
+        },
+        {
+            "course": "TR-3613",
+            "title": "Theatre Practicum for Theatre Majors in",
+            "prerequisites": [
+                "TR-3611",
+                "TR-3612"
+            ]
+        },
+        {
+            "course": "TR-3621",
+            "title": "Theatre Practicum for Theatre Majors in",
+            "prerequisites": [
+                "TR-3611",
+                "TR-3613"
+            ]
+        },
+        {
+            "course": "TR-3622",
+            "title": "Theatre Practicum for Theatre Majors in",
+            "prerequisites": [
+                "TR-3611",
+                "TR-3621"
+            ]
+        },
+        {
+            "course": "TR-3623",
+            "title": "Theatre Practicum for Theatre Majors in",
+            "prerequisites": [
+                "TR-3611",
+                "TR-3622"
+            ]
+        },
+        {
+            "course": "TR-363",
+            "title": "Theatre Practicum in Stage Management",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-365",
+            "title": "Theatre Practicum: Pennsylvania",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-3661",
+            "title": "Theatre Practicum for Non-Concentrators",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-3662",
+            "title": "Theatre Practicum for Non-Concentrators",
+            "prerequisites": [
+                "TR-3661"
+            ]
+        },
+        {
+            "course": "TR-3663",
+            "title": "Theatre Practicum for Non-Concentrators",
+            "prerequisites": [
+                "TR-3661",
+                "TR-3662"
+            ]
+        },
+        {
+            "course": "TR-367",
+            "title": "Advanced Lighting Design",
+            "prerequisites": [
+                "TR-280",
+                "TR-343"
+            ]
+        },
+        {
+            "course": "TR-3701",
+            "title": "Theatre Practicum: Dance Ensemble",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-3702",
+            "title": "Theatre Practicum: Dance Ensemble",
+            "prerequisites": [
+                "TR-3701"
+            ]
+        },
+        {
+            "course": "TR-3703",
+            "title": "Theatre Practicum: Dance Ensemble",
+            "prerequisites": [
+                "TR-3701",
+                "TR-3702"
+            ]
+        },
+        {
+            "course": "TR-399",
+            "title": "Professional Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-402",
+            "title": "Shakespeare Performance",
+            "prerequisites": [
+                "TR-212"
+            ]
+        },
+        {
+            "course": "TR-411",
+            "title": "Advanced Directing",
+            "prerequisites": [
+                "TR-322"
+            ]
+        },
+        {
+            "course": "TR-418",
+            "title": "Acting Styles",
+            "prerequisites": [
+                "TR-212",
+                "TR-311"
+            ]
+        },
+        {
+            "course": "TR-4501",
+            "title": "Design/Technology Seminar",
+            "prerequisites": [
+                "TR-143"
+            ]
+        },
+        {
+            "course": "TR-4502",
+            "title": "Design/Technology Seminar",
+            "prerequisites": [
+                "TR-143"
+            ]
+        },
+        {
+            "course": "TR-4503",
+            "title": "Design/Technology Seminar",
+            "prerequisites": [
+                "TR-143"
+            ]
+        },
+        {
+            "course": "TR-451",
+            "title": "Coordinating Seminar",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-452",
+            "title": "Integrating Experience",
+            "prerequisites": []
+        },
+        {
+            "course": "TR-460",
+            "title": "Senior Showcase",
+            "prerequisites": [
+                "TR-451"
+            ]
+        },
+        {
+            "course": "TR-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-125",
+            "title": "Summer Video Institute",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-160",
+            "title": "TV/Film History and Appreciation",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-225",
+            "title": "Basic Studio Production",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-230",
+            "title": "Introduction to Radio",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-240",
+            "title": "Acting for the Camera",
+            "prerequisites": [
+                "TR-210",
+                "TR-211"
+            ]
+        },
+        {
+            "course": "TV-252",
+            "title": "Screenwriting",
+            "prerequisites": [
+                "TV-160"
+            ]
+        },
+        {
+            "course": "TV-280",
+            "title": "Special Topics in TV and Film",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-290",
+            "title": "Media Literacy",
+            "prerequisites": [
+                "TV-160"
+            ]
+        },
+        {
+            "course": "TV-310",
+            "title": "Documentary",
+            "prerequisites": [
+                "TV-160",
+                "TV-370"
+            ]
+        },
+        {
+            "course": "TV-320",
+            "title": "Production and Distribution",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-330",
+            "title": "Comedy Writing",
+            "prerequisites": [
+                "TV-160",
+                "TV-252"
+            ]
+        },
+        {
+            "course": "TV-340",
+            "title": "Multimedia",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-350",
+            "title": "Advanced Acting for the Camera",
+            "prerequisites": [
+                "TR-210",
+                "TR-211",
+                "TV-240"
+            ]
+        },
+        {
+            "course": "TV-352",
+            "title": "Intermediate Screenwriting",
+            "prerequisites": [
+                "TV-252"
+            ]
+        },
+        {
+            "course": "TV-360",
+            "title": "Dance on Camera",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-365",
+            "title": "American Film and History",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-370",
+            "title": "Lighting, Sound and Editing",
+            "prerequisites": [
+                "TV-225"
+            ]
+        },
+        {
+            "course": "TV-371",
+            "title": "Sound Techniques",
+            "prerequisites": [
+                "TV-225"
+            ]
+        },
+        {
+            "course": "TV-373",
+            "title": "Editing",
+            "prerequisites": [
+                "TV-370"
+            ]
+        },
+        {
+            "course": "TV-380",
+            "title": "Directing I",
+            "prerequisites": [
+                "TR-210",
+                "TV-225",
+                "TV-370"
+            ]
+        },
+        {
+            "course": "TV-3831",
+            "title": "Freshman Practicum for TV/Film Majors",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-3841",
+            "title": "Traditional Practicum for TV/Film",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-3851",
+            "title": "Senior Practicum for TV/Film Majors",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-392",
+            "title": "3D Animation Production I",
+            "prerequisites": [
+                "CS-270"
+            ]
+        },
+        {
+            "course": "TV-395",
+            "title": "Production Management",
+            "prerequisites": [
+                "TV-370"
+            ]
+        },
+        {
+            "course": "TV-399",
+            "title": "Professional Internship",
+            "prerequisites": []
+        },
+        {
+            "course": "TV-400",
+            "title": "Advanced Video Institute",
+            "prerequisites": [
+                "TV-125"
+            ]
+        },
+        {
+            "course": "TV-450",
+            "title": "Cinematography",
+            "prerequisites": [
+                "TV-370"
+            ]
+        },
+        {
+            "course": "TV-452",
+            "title": "Advanced Screenwriting",
+            "prerequisites": [
+                "TV-252",
+                "TV-352"
+            ]
+        },
+        {
+            "course": "TV-480",
+            "title": "Advanced Directing",
+            "prerequisites": [
+                "TV-380"
+            ]
+        },
+        {
+            "course": "TV-495",
+            "title": "Capstone in Film",
+            "prerequisites": [
+                "TV-380",
+                "TV-395",
+                "TV-480"
+            ]
+        },
+        {
+            "course": "TV-499",
+            "title": "Independent Study",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-107",
+            "title": "Central European Nations",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-110",
+            "title": "The French-Speaking World I",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-111",
+            "title": "Russian Society Since the Gorbachev Era",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-130",
+            "title": "Modern South Africa",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-140",
+            "title": "Ireland and the Irish Diaspora I",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-147",
+            "title": "Dance in World Cultures: DeSales",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-150",
+            "title": "Hispanic Cultures I",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-151",
+            "title": "Latinos in the U.S.",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-154",
+            "title": "Mexicans in America",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-160",
+            "title": "Philippine Culture",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-170",
+            "title": "Modern German Culture",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-174",
+            "title": "Russian Culture",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-184",
+            "title": "Israelis and Palestinians",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-190",
+            "title": "Native American Culture",
+            "prerequisites": []
+        },
+        {
+            "course": "WC-210",
+            "title": "The French-Speaking World II",
+            "prerequisites": [
+                "WC-110"
+            ]
+        },
+        {
+            "course": "WC-240",
+            "title": "Ireland and the Irish Diaspora II",
+            "prerequisites": [
+                "WC-140"
+            ]
+        },
+        {
+            "course": "WC-270",
+            "title": "German Culture II",
+            "prerequisites": [
+                "WC-170"
+            ]
+        },
+        {
+            "course": "WC-340",
+            "title": "Historical Research Abroad:",
+            "prerequisites": [
+                "HI-201",
+                "HI-202"
+            ]
+        }
+    ]
+}
