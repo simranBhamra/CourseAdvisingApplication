@@ -8,7 +8,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { styled } from '@material-ui/core/styles';
 import HomeIcon from '@material-ui/icons/Home';
 import Grid from '@material-ui/core/Grid';
-import caaLogo from './caaLogo.svg'
+import caaLogo from './caaLogo.svg';
+import {Link} from'react-router-dom';
+import PersonIcon from '@material-ui/icons/Person';
 
 const MyAppBar = styled(AppBar)({
   background: '#DEB405',
@@ -31,9 +33,11 @@ export default function StyledComponents() {
         <Toolbar variant="dense">
           <Grid container>
             <Grid item>
+             
             <IconButton   edge="start"  color="inherit"  aria-label="menu" >
               <MenuIcon fontSize="large" />
             </IconButton>
+            
             </Grid>
             <Grid>
 
@@ -46,13 +50,28 @@ export default function StyledComponents() {
 
             </Grid>
           </Grid>
+
+
+          
+
           <Grid>
-            <IconButton edge="end"  color="inherit" aria-label="menu">
+          <Link to = '/' >  
+            <IconButton edge="end"   style={{color:"white"}}aria-label="menu">
               <HomeIcon fontSize="large" />
             </IconButton>
+         </Link>
           </Grid>
+
+          <Link   to = "/profile"> 
+           <IconButton edge="end"   style={{color:"white"}} aria-label="menu">
+              <PersonIcon fontSize="large" />
+            </IconButton>
+            </Link>
+
+
         </Toolbar>
       </MyAppBar>
     </div>
   );
 }
+
