@@ -10,17 +10,6 @@ import ScheduleTools from '../Components/ScheduleTools';
 import Button from '@material-ui/core/Button';
 import SuggBox from '../Components/ClassSugg';
 
-// function Edit(){
-//     return (
-//         <div className = "Edit">
-//             <h1>Edit Page</h1>
-//         </div>
-//     );
-// }
-
-// export default Edit; 
-
-
 
 function Edit(){
     return (

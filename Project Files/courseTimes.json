@@ -1,0 +1,5521 @@
+{
+    "data": [
+        {
+            "title": "Financial Accounting",
+            "course": "AB-217-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Financial Accounting",
+            "course": "AB-217-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Financial Accounting",
+            "course": "AB-217-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Legal Environment of Business",
+            "course": "AB-272-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": ""
+        },
+        {
+            "title": "Corp. Financial Reporting I",
+            "course": "AB-301-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": ""
+        },
+        {
+            "title": "Advanced Accounting",
+            "course": "AB-303-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Federal Income Taxation",
+            "course": "AB-322-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Accounting Internship",
+            "course": "AB-454-01",
+            "startDate": "",
+            "endDate": "",
+            "startTime": "",
+            "endTime": "",
+            "days": ""
+        },
+        {
+            "title": "Introductory Biology I",
+            "course": "BI-151-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Introductory Biology I",
+            "course": "BI-151-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Introductory Biology I",
+            "course": "BI-151-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Introductory Biology I",
+            "course": "BI-151-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "BI-151 Lab",
+            "course": "BI-151L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "11:00AM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-151 Lab",
+            "course": "BI-151L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-151 Lab",
+            "course": "BI-151L-3L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "11:00AM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-151 Lab",
+            "course": "BI-151L-4L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-151 Lab",
+            "course": "BI-151L-5L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-151 Lab",
+            "course": "BI-151L-6L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-151 Lab",
+            "course": "BI-151L-7L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "BIO: Thinking & Creativity",
+            "course": "BI-209-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "WF"
+        },
+        {
+            "title": "BI-209 Lab",
+            "course": "BI-209L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-209 Lab",
+            "course": "BI-209L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:50PM",
+            "days": ""
+        },
+        {
+            "title": "Applied Statistics in Biology",
+            "course": "BI-221-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Microbiology",
+            "course": "BI-252-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "BI-252 Lab",
+            "course": "BI-252L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": ""
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:50AM",
+            "days": ""
+        },
+        {
+            "title": "BI-252 Lab",
+            "course": "BI-252L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "11:50AM",
+            "days": ""
+        },
+        {
+            "title": "BI-252 Lab",
+            "course": "BI-252L-3L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "Molecular Biology",
+            "course": "BI-255-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Molecular Biology",
+            "course": "BI-255-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "BI-255 Lab",
+            "course": "BI-255L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-255 Lab",
+            "course": "BI-255L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-255 Lab",
+            "course": "BI-255L-3L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-255 Lab",
+            "course": "BI-255L-4L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "Introduction to Cell Culture",
+            "course": "BI-258-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": ""
+        },
+        {
+            "title": "BI-258 Lab",
+            "course": "BI-258L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "09:00AM",
+            "endTime": "10:50AM",
+            "days": "TR"
+        },
+        {
+            "title": "Anatomy and Physiology I",
+            "course": "BI-263-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Anatomy and Physiology I",
+            "course": "BI-263-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:20AM",
+            "days": "TR"
+        },
+        {
+            "title": "BI-263 Lab",
+            "course": "BI-263L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "02:20PM",
+            "days": ""
+        },
+        {
+            "title": "BI-263 Lab",
+            "course": "BI-263L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:30PM",
+            "endTime": "04:20PM",
+            "days": ""
+        },
+        {
+            "title": "BI-263 Lab",
+            "course": "BI-263L-3L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "04:30PM",
+            "endTime": "06:20PM",
+            "days": ""
+        },
+        {
+            "title": "BI-263 Lab",
+            "course": "BI-263L-4L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "02:20PM",
+            "days": ""
+        },
+        {
+            "title": "BI-263 Lab",
+            "course": "BI-263L-5L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:30PM",
+            "endTime": "04:20PM",
+            "days": ""
+        },
+        {
+            "title": "BI-263 Lab",
+            "course": "BI-263L-6L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "04:30PM",
+            "endTime": "06:20PM",
+            "days": ""
+        },
+        {
+            "title": "Introduction to Neuroscience",
+            "course": "BI-267-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Field Biology",
+            "course": "BI-280-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Immunology",
+            "course": "BI-353-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Human Structure and Function I",
+            "course": "BI-355-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Human Structure and Function I",
+            "course": "BI-355-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "BI-355 Lab",
+            "course": "BI-355L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-355 Lab",
+            "course": "BI-355L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "05:30PM",
+            "endTime": "08:20PM",
+            "days": ""
+        },
+        {
+            "title": "BI-355 Lab",
+            "course": "BI-355L-3L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "BI-355 Lab",
+            "course": "BI-355L-4L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "Developmental Biology",
+            "course": "BI-361-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Biochemistry I",
+            "course": "BI-435-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "BI-435 Lab",
+            "course": "BI-435L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "05:00PM",
+            "days": ""
+        },
+        {
+            "title": "Research Seminar",
+            "course": "BI-455-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Research",
+            "course": "BI-461-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Research",
+            "course": "BI-461-02",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Research",
+            "course": "BI-461-03",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Research",
+            "course": "BI-461-04",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Research",
+            "course": "BI-461-05",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Research",
+            "course": "BI-461-06",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Research",
+            "course": "BI-461-07",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Research",
+            "course": "BI-4611-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Research",
+            "course": "BI-4611-02",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Research",
+            "course": "BI-4611-03",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Research",
+            "course": "BI-4611-04",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Research",
+            "course": "BI-4611-05",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Designer Genes - Biotechnology",
+            "course": "BI-475-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Independent Study",
+            "course": "BI-499-01",
+            "startDate": "",
+            "endDate": "",
+            "startTime": "",
+            "endTime": "",
+            "days": ""
+        },
+        {
+            "title": "College Preparatory Chemistry",
+            "course": "CH-100-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "General Chemistry I",
+            "course": "CH-101-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "General Chemistry I",
+            "course": "CH-101-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "CH-101 Lab",
+            "course": "CH-101L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "01:50AM",
+            "days": ""
+        },
+        {
+            "title": "CH-101 Lab",
+            "course": "CH-101L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "CH-101 Lab",
+            "course": "CH-101L-3L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "CH-101 Lab",
+            "course": "CH-101L-4L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "CH-101 Lab",
+            "course": "CH-101L-5L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "CH-101 Problem Solving",
+            "course": "CH-101P-1P",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "CH-101 Problem Solving",
+            "course": "CH-101P-2P",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": ""
+        },
+        {
+            "title": "CH-101 Problem Solving",
+            "course": "CH-101P-3P",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "CH-101 Problem Solving",
+            "course": "CH-101P-4P",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": ""
+        },
+        {
+            "title": "Fund of General Chemistry",
+            "course": "CH-103-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "CH-103 Lab",
+            "course": "CH-103L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "CH-103 Lab",
+            "course": "CH-103L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "World Awareness/Chemistry",
+            "course": "CH-209-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "TR"
+        },
+        {
+            "title": "CH-209 Lab",
+            "course": "CH-209L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "Organic Chemistry I",
+            "course": "CH-231-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Organic Chemistry I",
+            "course": "CH-231-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "CH-231 Lab",
+            "course": "CH-231L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "CH-231 Lab",
+            "course": "CH-231L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "CH-231 Lab",
+            "course": "CH-231L-3L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "CH-231 Lab",
+            "course": "CH-231L-4L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "Physical Chemistry I",
+            "course": "CH-351-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "CH-351 Lab",
+            "course": "CH-351L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "Physical Chemistry I (no lab)",
+            "course": "CH-353-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "Analytical Chemistry",
+            "course": "CH-361-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "CH-361 Lab",
+            "course": "CH-361L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "Chemistry Internship",
+            "course": "CH-396-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Biochemistry I",
+            "course": "CH-435-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "CH-435 Lab",
+            "course": "CH-435L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "04:50PM",
+            "days": ""
+        },
+        {
+            "title": "Research",
+            "course": "CH-461-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Research",
+            "course": "CH-461-02",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Research",
+            "course": "CH-461-03",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Research",
+            "course": "CH-461-04",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LAB"
+        },
+        {
+            "title": "Independent Study",
+            "course": "CH-499-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Cybercrime",
+            "course": "CJ-100-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Crime and Society",
+            "course": "CJ-109-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Crime and Society",
+            "course": "CJ-109-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Intro to Homeland Security",
+            "course": "CJ-150-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Criminal Law",
+            "course": "CJ-160-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Crime Lab",
+            "course": "CJ-208-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "06:00PM",
+            "endTime": "09:00PM",
+            "days": ""
+        },
+        {
+            "title": "Criminology",
+            "course": "CJ-250-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Law Enforcement",
+            "course": "CJ-260-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Digital Forensics I",
+            "course": "CJ-270-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Corrections",
+            "course": "CJ-280-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Ethics in Criminal Justice",
+            "course": "CJ-295-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Forensics&Crim. Investigation",
+            "course": "CJ-360-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Criminal Procedure",
+            "course": "CJ-365-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intelligence and Security",
+            "course": "CJ-380-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Senior Seminar",
+            "course": "CJ-453-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intro to Mass Communications",
+            "course": "CM-130-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Professional Speaking",
+            "course": "CM-206-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Persuasive Communication",
+            "course": "CM-305-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Fundamentals:Public Relations",
+            "course": "CM-310-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Publishing",
+            "course": "CM-316-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Gender Communication",
+            "course": "CM-365-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intro to Computer Applications",
+            "course": "CS-105-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Intro to Computer Applications",
+            "course": "CS-105-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Digital Art Story Development",
+            "course": "CS-119-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intro to Computer Programming",
+            "course": "CS-121-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Intro to Computer Programming",
+            "course": "CS-121-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Introduction to Python",
+            "course": "CS-215-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Computer Architecture/Hardware",
+            "course": "CS-230-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Web Page Design",
+            "course": "CS-265-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Multimedia",
+            "course": "CS-270-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Digital Art II",
+            "course": "CS-342-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Database Analysis & Design",
+            "course": "CS-360-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "3D Modeling for Production",
+            "course": "CS-390-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Game Development/Interface",
+            "course": "CS-394-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Computer Science Internship",
+            "course": "CS-399-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": ""
+        },
+        {
+            "title": "Topics: Machine Learning",
+            "course": "CS-400-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Security",
+            "course": "CS-416-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:15PM",
+            "days": "MF"
+        },
+        {
+            "title": "Ethics and Technology",
+            "course": "CS-475-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Modern Dance I",
+            "course": "DA-105-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:29PM",
+            "days": "MW"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "F"
+        },
+        {
+            "title": "Ballet Dance I",
+            "course": "DA-106-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:59PM",
+            "days": "TR"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "F"
+        },
+        {
+            "title": "Ballet Dance I",
+            "course": "DA-106-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:29PM",
+            "days": "TR"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "F"
+        },
+        {
+            "title": "Tap I",
+            "course": "DA-112-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Jazz I",
+            "course": "DA-113-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:30PM",
+            "endTime": "04:49PM",
+            "days": "TR"
+        },
+        {
+            "title": "Intro to Ballet & Modern Dance",
+            "course": "DA-114-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:30PM",
+            "endTime": "04:59PM",
+            "days": "MF"
+        },
+        {
+            "title": "Theatre Crafts Laboratory",
+            "course": "DA-143-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Freshman Dance Seminar",
+            "course": "DA-154-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Modern Dance II",
+            "course": "DA-205-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:59PM",
+            "days": "MW"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "F"
+        },
+        {
+            "title": "Ballet Dance II",
+            "course": "DA-206-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:29PM",
+            "days": "MW"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "F"
+        },
+        {
+            "title": "Pointe & Partnering Techniques",
+            "course": "DA-2091-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:49PM",
+            "days": "MW"
+        },
+        {
+            "title": "Dance Composition I",
+            "course": "DA-231-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:29PM",
+            "days": "MF"
+        },
+        {
+            "title": "Dance Composition I",
+            "course": "DA-231-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:59AM",
+            "days": "TR"
+        },
+        {
+            "title": "Topics: Music for Dance",
+            "course": "DA-280-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:30PM",
+            "endTime": "04:50PM",
+            "days": "TR"
+        },
+        {
+            "title": "Modern Dance III",
+            "course": "DA-305-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:29PM",
+            "days": "TR"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "F"
+        },
+        {
+            "title": "Ballet Dance III",
+            "course": "DA-306-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:59PM",
+            "days": "MW"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "F"
+        },
+        {
+            "title": "Contact Improvisation",
+            "course": "DA-309-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:30PM",
+            "days": "TR"
+        },
+        {
+            "title": "Evolution of Ballet and Modern",
+            "course": "DA-348-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:59AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Senior Dance Seminar",
+            "course": "DA-454-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:59PM",
+            "days": "TR"
+        },
+        {
+            "title": "Kinesiology for Dancers",
+            "course": "DA-461-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:59AM",
+            "days": "TR"
+        },
+        {
+            "title": "Dance Conserv. Teaching Prac.",
+            "course": "DA-4781-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "12:59PM",
+            "days": ""
+        },
+        {
+            "title": "COD Student Assistant Dir",
+            "course": "DA-4791-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "12:59PM",
+            "days": ""
+        },
+        {
+            "title": "Economics of Public Issues",
+            "course": "EC-112-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Principles of Macroeconomics",
+            "course": "EC-209-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Principles of Macroeconomics",
+            "course": "EC-209-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Principles of Macroeconomics",
+            "course": "EC-209-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": ""
+        },
+        {
+            "title": "Econ. Sem: Int'l and History",
+            "course": "EC-455-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:30PM",
+            "days": ""
+        },
+        {
+            "title": "The Educative Process",
+            "course": "ED-109-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Cognition and Learning",
+            "course": "ED-209-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Clinical Experience 1 - STEP",
+            "course": "ED-2801-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:15PM",
+            "days": ""
+        },
+        {
+            "title": "Lit for Children & Youth",
+            "course": "ED-313-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "The Inclusive Classroom",
+            "course": "ED-364-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Literacy Interventions 4-12",
+            "course": "ED-366-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Teaching English Learners",
+            "course": "ED-373-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Clinical Experience 2 STEP",
+            "course": "ED-3801-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:15PM",
+            "days": ""
+        },
+        {
+            "title": "Adv Teaching & Assess Mid/Step",
+            "course": "ED-405-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Teaching Communication Arts",
+            "course": "ED-410-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:15PM",
+            "days": ""
+        },
+        {
+            "title": "Teaching Mathematics",
+            "course": "ED-412-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:15PM",
+            "days": ""
+        },
+        {
+            "title": "Teaching Social Studies",
+            "course": "ED-414-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:15PM",
+            "days": ""
+        },
+        {
+            "title": "Sec Ed St Tch: Planning & Prep",
+            "course": "ED-450-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "04:00PM",
+            "endTime": "05:30PM",
+            "days": ""
+        },
+        {
+            "title": "Sec Ed St Tch: Mgt Class Env",
+            "course": "ED-452-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "W"
+        },
+        {
+            "title": "Sec Ed St Tch: Instr Delivery",
+            "course": "ED-454-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "W"
+        },
+        {
+            "title": "Sec Ed St Tch: Professionalism",
+            "course": "ED-456-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "W"
+        },
+        {
+            "title": "Education for the Human Good",
+            "course": "ED-475-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Education for the Human Good",
+            "course": "ED-475-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Internship in Education",
+            "course": "ED-495-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": ""
+        },
+        {
+            "title": "Infant and Youth Development",
+            "course": "EE-111-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Clinical Experience 1 - E.C.E.",
+            "course": "EE-2901-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:15PM",
+            "days": ""
+        },
+        {
+            "title": "Emerg Lang & Literacy - E.C.E.",
+            "course": "EE-310-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "STEM in the Elementary Class",
+            "course": "EE-326-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "Integ Arts & P.E. - E.C.E.",
+            "course": "EE-343-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "Mathematics Methods E.C.E.",
+            "course": "EE-346-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "Clinical Experience 3 - E.C.E.",
+            "course": "EE-3901-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:15PM",
+            "days": ""
+        },
+        {
+            "title": "Advanced Designing Instruction",
+            "course": "EE-409-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:30PM",
+            "endTime": "04:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Erly Child St Tch: Plan & Prep",
+            "course": "EE-430-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "04:00PM",
+            "endTime": "05:30PM",
+            "days": ""
+        },
+        {
+            "title": "Erly Child St Tch: Class Env",
+            "course": "EE-432-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "W"
+        },
+        {
+            "title": "Erly Child St Tch: Instl Del",
+            "course": "EE-434-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "W"
+        },
+        {
+            "title": "Erly Child St Tch: Profess",
+            "course": "EE-436-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": "W"
+        },
+        {
+            "title": "Clinical Experience 5 - E.C.E.",
+            "course": "EE-4901-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:15PM",
+            "days": ""
+        },
+        {
+            "title": "Intro to Academic Writing",
+            "course": "EN-100-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intro to Academic Writing",
+            "course": "EN-100-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Intro to Academic Writing",
+            "course": "EN-100-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Intro to Academic Writing",
+            "course": "EN-100-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-05",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-06",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-07",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-08",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-09",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-10",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-11",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-12",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-13",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-14",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-15",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-16",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-17",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-18",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric I",
+            "course": "EN-103-19",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric II",
+            "course": "EN-104-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Composition and Rhetoric II",
+            "course": "EN-104-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric II",
+            "course": "EN-104-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Composition and Rhetoric II",
+            "course": "EN-104-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "An Introduction to Poetry",
+            "course": "EN-110-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "An Introduction to Poetry",
+            "course": "EN-110-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "An Introduction to Drama",
+            "course": "EN-112-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "An Introduction to Drama",
+            "course": "EN-112-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "An Introduction to Fiction",
+            "course": "EN-115-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "An Introduction to Fiction",
+            "course": "EN-115-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "An Introduction to Fiction",
+            "course": "EN-115-OL01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "American Realism & Naturalism",
+            "course": "EN-265-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Publishing",
+            "course": "EN-316-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Milton and Paradise Lost",
+            "course": "EN-365-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Literature of Medicine",
+            "course": "EN-373-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Celtic Mythology",
+            "course": "EN-377-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Research Seminar",
+            "course": "EN-485-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Academic Literacy & Strategies",
+            "course": "EXP-101-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Academic Literacy & Strategies",
+            "course": "EXP-101-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Academic Literacy & Strategies",
+            "course": "EXP-101-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Academic Development/Planning",
+            "course": "EXP-130-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Academic Development/Planning",
+            "course": "EXP-130-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Academic Development/Planning",
+            "course": "EXP-130-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Academic Development/Planning",
+            "course": "EXP-130-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Career Development & Planning",
+            "course": "EXP-140-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "DeSales University Chorale",
+            "course": "FA-1001-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "06:00PM",
+            "endTime": "06:55PM",
+            "days": "TR"
+        },
+        {
+            "title": "Introduction to Drawing",
+            "course": "FA-101-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Schola Cantorum",
+            "course": "FA-1101-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "05:00PM",
+            "endTime": "05:55PM",
+            "days": "TR"
+        },
+        {
+            "title": "Applied Piano",
+            "course": "FA-1111-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Applied Voice",
+            "course": "FA-1121-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Applied Voice",
+            "course": "FA-1121-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Applied Voice",
+            "course": "FA-1121-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Applied Voice",
+            "course": "FA-1121-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Applied Voice",
+            "course": "FA-1121-05",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Applied Voice",
+            "course": "FA-1121-06",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Applied Voice",
+            "course": "FA-1121-07",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Applied Guitar",
+            "course": "FA-1131-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Introduction to Photography",
+            "course": "FA-251-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Introduction to Photography",
+            "course": "FA-251-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:30PM",
+            "endTime": "04:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Art of the United States",
+            "course": "FA-335-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Painting Styles 20th Century",
+            "course": "FA-350-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Music of Ireland",
+            "course": "FA-362-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Music of the Romantic Era",
+            "course": "FA-368-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "Music of the Romantic Era",
+            "course": "FA-368-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "Financial Literacy",
+            "course": "FN-100-OL01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Personal Finance",
+            "course": "FN-290-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Corporate Finance",
+            "course": "FN-330-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Financial Management",
+            "course": "FN-331-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Financial Mkts & Institutions",
+            "course": "FN-336-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Finance Internship",
+            "course": "FN-454-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": ""
+        },
+        {
+            "title": "Elementary French I",
+            "course": "FR-101-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intermediate French I",
+            "course": "FR-201-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intro to Health Communication",
+            "course": "HCM-130-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Patient-Provider Communication",
+            "course": "HCM-280-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Western Civilization to 1600",
+            "course": "HI-201-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Western Civilization to 1600",
+            "course": "HI-201-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Western Civilization to 1600",
+            "course": "HI-201-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Western Civilization to 1600",
+            "course": "HI-201-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Western Civilization to 1600",
+            "course": "HI-201-05",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Western Civ since 1600 A.D.",
+            "course": "HI-202-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "American Civilization I",
+            "course": "HI-213-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "American Civilization I",
+            "course": "HI-213-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "World At War, the 20th Century",
+            "course": "HI-270-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Revolutionary America",
+            "course": "HI-313-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Seminar in Historical Research",
+            "course": "HI-401-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Intro to Homeland Security",
+            "course": "HS-150-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intelligence and Security",
+            "course": "HS-380-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Disaster Preparedness",
+            "course": "HS-410-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Elementary Italian I",
+            "course": "IL-101-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Elementary Italian I",
+            "course": "IL-101-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intermediate Italian I",
+            "course": "IL-201-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Criminal Law",
+            "course": "LG-160-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Constitutional Law",
+            "course": "LG-330-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Sr. Sem: Public Policy & Law",
+            "course": "LG-362-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Criminal Procedure",
+            "course": "LG-365-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Mathematics for Teachers II",
+            "course": "MA-108-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Survey of Mathematics",
+            "course": "MA-109-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Finite Mathematics",
+            "course": "MA-110-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Finite Mathematics",
+            "course": "MA-110-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Probability and Statistics",
+            "course": "MA-111-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Probability and Statistics",
+            "course": "MA-111-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Probability and Statistics",
+            "course": "MA-111-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Probability and Statistics",
+            "course": "MA-111-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Precalculus Mathematics",
+            "course": "MA-112-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Calculus I",
+            "course": "MA-121-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Calculus I",
+            "course": "MA-121-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Calculus I",
+            "course": "MA-121-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Calculus II",
+            "course": "MA-122-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Calculus III",
+            "course": "MA-223-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Statistical Theory",
+            "course": "MA-302-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Linear Algebra",
+            "course": "MA-331-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Mathematics Internship",
+            "course": "MA-399-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": ""
+        },
+        {
+            "title": "Advanced Calculus",
+            "course": "MA-445-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Senior Coordinating Seminar",
+            "course": "MA-453-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Introduction to Business",
+            "course": "MG-100-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Introduction to Business",
+            "course": "MG-100-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Introduction to Business",
+            "course": "MG-100-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Principles of Management",
+            "course": "MG-201-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Principles of Management",
+            "course": "MG-201-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Quantitative Business Analysis",
+            "course": "MG-211-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Quantitative Business Analysis",
+            "course": "MG-211-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Business Communication Skills",
+            "course": "MG-233-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "International Business",
+            "course": "MG-340-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Organizational Behavior",
+            "course": "MG-400-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Business Capstone",
+            "course": "MG-4000-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:00PM",
+            "days": ""
+        },
+        {
+            "title": "Management Internship",
+            "course": "MG-454-01",
+            "startDate": "",
+            "endDate": "",
+            "startTime": "",
+            "endTime": "",
+            "days": ""
+        },
+        {
+            "title": "Principles of Marketing",
+            "course": "MK-201-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Principles of Marketing",
+            "course": "MK-201-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Sales and Sales Management",
+            "course": "MK-215-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Marketing Research",
+            "course": "MK-410-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Marketing Internship",
+            "course": "MK-454-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBA",
+            "days": ""
+        },
+        {
+            "title": "Fundamentals of Nursing",
+            "course": "NU-205-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "08:00AM",
+            "endTime": "10:00AM",
+            "days": ""
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "08:00AM",
+            "endTime": "10:00AM",
+            "days": ""
+        },
+        {
+            "title": "NU-205 Lab",
+            "course": "NU-205L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "07:00AM",
+            "endTime": "09:00AM",
+            "days": ""
+        },
+        {
+            "title": "NU-205 Lab",
+            "course": "NU-205L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "09:00AM",
+            "endTime": "11:00AM",
+            "days": ""
+        },
+        {
+            "title": "NU-205 Lab",
+            "course": "NU-205L-3L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "11:00AM",
+            "endTime": "01:00PM",
+            "days": ""
+        },
+        {
+            "title": "NU-205 Lab",
+            "course": "NU-205L-4L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "01:00PM",
+            "endTime": "03:00PM",
+            "days": ""
+        },
+        {
+            "title": "NU-205 Lab",
+            "course": "NU-205L-5L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "03:00PM",
+            "endTime": "05:00PM",
+            "days": ""
+        },
+        {
+            "title": "NU-205 Lab",
+            "course": "NU-205L-6L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "05:00PM",
+            "endTime": "07:00PM",
+            "days": ""
+        },
+        {
+            "title": "Health & Physical Assessment",
+            "course": "NU-215-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "08:00AM",
+            "endTime": "10:00AM",
+            "days": ""
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/24/19",
+            "endDate": "12/14/19",
+            "startTime": "08:00AM",
+            "endTime": "10:00AM",
+            "days": ""
+        },
+        {
+            "title": "NU-215 Lab",
+            "course": "NU-215L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "07:00AM",
+            "endTime": "09:00AM",
+            "days": ""
+        },
+        {
+            "title": "NU-215 Lab",
+            "course": "NU-215L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "09:00AM",
+            "endTime": "11:00AM",
+            "days": ""
+        },
+        {
+            "title": "NU-215 Lab",
+            "course": "NU-215L-3L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "11:00AM",
+            "endTime": "01:00PM",
+            "days": ""
+        },
+        {
+            "title": "NU-215 Lab",
+            "course": "NU-215L-4L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "01:00PM",
+            "endTime": "03:00PM",
+            "days": ""
+        },
+        {
+            "title": "NU-215 Lab",
+            "course": "NU-215L-5L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "03:00PM",
+            "endTime": "05:00PM",
+            "days": ""
+        },
+        {
+            "title": "NU-215 Lab",
+            "course": "NU-215L-6L",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "05:00PM",
+            "endTime": "07:00PM",
+            "days": ""
+        },
+        {
+            "title": "Therapeutic Nutrition",
+            "course": "NU-305-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "02:00PM",
+            "endTime": "05:00PM",
+            "days": ""
+        },
+        {
+            "title": "Therapeutic Nutrition",
+            "course": "NU-305-02",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "10:00AM",
+            "endTime": "01:00PM",
+            "days": ""
+        },
+        {
+            "title": "Health Risk Models & Research",
+            "course": "NU-320-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "01:00PM",
+            "endTime": "04:00PM",
+            "days": ""
+        },
+        {
+            "title": "Health Risk Models & Research",
+            "course": "NU-320-02",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "10:00AM",
+            "endTime": "01:00PM",
+            "days": ""
+        },
+        {
+            "title": "The Chronically Ill Adult",
+            "course": "NU-335-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "01:00PM",
+            "endTime": "04:00PM",
+            "days": ""
+        },
+        {
+            "title": "The Chronically Ill Adult",
+            "course": "NU-335-02",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "10:00AM",
+            "endTime": "01:00PM",
+            "days": ""
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-10C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-11C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-12C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-13C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-14C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-15C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-16C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-17C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-1C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-2C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-3C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-4C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-5C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-6C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-7C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-8C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-335 Clinical",
+            "course": "NU-335C-9C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "Mental Health Nursing",
+            "course": "NU-340-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "11:50AM",
+            "days": ""
+        },
+        {
+            "title": "NU-340 Clinical",
+            "course": "NU-340C-1C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-340 Clinical",
+            "course": "NU-340C-2C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-340 Clinical",
+            "course": "NU-340C-3C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-340 Clinical",
+            "course": "NU-340C-4C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-340 Clinical",
+            "course": "NU-340C-5C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-340 Clinical",
+            "course": "NU-340C-6C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-340 Clinical",
+            "course": "NU-340C-7C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-340 Clinical",
+            "course": "NU-340C-8C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-340 Clinical",
+            "course": "NU-340C-9C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "Nursing of Childbearing Family",
+            "course": "NU-350-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "09:00AM",
+            "endTime": "11:00AM",
+            "days": ""
+        },
+        {
+            "title": "NU-350 Clinical",
+            "course": "NU-350C-1C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-350 Clinical",
+            "course": "NU-350C-2C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-350 Clinical",
+            "course": "NU-350C-3C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-350 Clinical",
+            "course": "NU-350C-4C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-350 Clinical",
+            "course": "NU-350C-5C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-350 Clinical",
+            "course": "NU-350C-6C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-350 Clinical",
+            "course": "NU-350C-7C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-350 Clinical",
+            "course": "NU-350C-8C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-350 Clinical",
+            "course": "NU-350C-9C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "Nursing of Acutely Ill Adult",
+            "course": "NU-430-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "10:00AM",
+            "endTime": "01:00PM",
+            "days": ""
+        },
+        {
+            "title": "NU-430 Clinical",
+            "course": "NU-430C-1C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-430 Clinical",
+            "course": "NU-430C-2C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-430 Clinical",
+            "course": "NU-430C-3C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-430 Clinical",
+            "course": "NU-430C-4C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-430 Clinical",
+            "course": "NU-430C-5C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "Community/Public Hlth. Nursing",
+            "course": "NU-440-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "11:00AM",
+            "endTime": "01:00PM",
+            "days": ""
+        },
+        {
+            "title": "NU-440 Clinical",
+            "course": "NU-440C-1C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-440 Clinical",
+            "course": "NU-440C-2C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-440 Clinical",
+            "course": "NU-440C-3C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-440 Clinical",
+            "course": "NU-440C-4C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "NU-440 Clinical",
+            "course": "NU-440C-5C",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "CLI"
+        },
+        {
+            "title": "Lifetime Fitness and Wellness",
+            "course": "PE-100-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "Lifetime Fitness and Wellness",
+            "course": "PE-100-02",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": ""
+        },
+        {
+            "title": "Lifetime Fitness and Wellness",
+            "course": "PE-100-03",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": ""
+        },
+        {
+            "title": "Lifetime Fitness and Wellness",
+            "course": "PE-100-04",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": ""
+        },
+        {
+            "title": "Lifetime Fitness and Wellness",
+            "course": "PE-100-05",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": ""
+        },
+        {
+            "title": "Lifetime Fitness and Wellness",
+            "course": "PE-100-06",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": ""
+        },
+        {
+            "title": "Lifetime Fitness and Wellness",
+            "course": "PE-100-07",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": ""
+        },
+        {
+            "title": "Weight Training",
+            "course": "PE-205-01",
+            "startDate": "08/21/19",
+            "endDate": "10/11/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Tennis",
+            "course": "PE-231-01",
+            "startDate": "08/21/19",
+            "endDate": "10/11/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Tennis",
+            "course": "PE-231-02",
+            "startDate": "08/21/19",
+            "endDate": "10/11/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Volleyball",
+            "course": "PE-232-01",
+            "startDate": "10/12/19",
+            "endDate": "12/14/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": ""
+        },
+        {
+            "title": "Exercise Walking",
+            "course": "PE-240-01",
+            "startDate": "08/21/19",
+            "endDate": "10/11/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": ""
+        },
+        {
+            "title": "Exercise Walking",
+            "course": "PE-240-02",
+            "startDate": "08/21/19",
+            "endDate": "10/11/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": ""
+        },
+        {
+            "title": "Disc Golf",
+            "course": "PE-245-01",
+            "startDate": "08/21/19",
+            "endDate": "10/11/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "Badminton",
+            "course": "PE-251-01",
+            "startDate": "10/12/19",
+            "endDate": "12/14/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "Pilates",
+            "course": "PE-255-01",
+            "startDate": "08/21/19",
+            "endDate": "10/11/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "Pilates",
+            "course": "PE-255-02",
+            "startDate": "10/12/19",
+            "endDate": "12/14/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "Hatha Yoga",
+            "course": "PE-260-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": ""
+        },
+        {
+            "title": "Hatha Yoga",
+            "course": "PE-260-02",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": ""
+        },
+        {
+            "title": "Men's Varsity Basketball",
+            "course": "PE-302-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Women's Varsity Basketball",
+            "course": "PE-303-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Men's Varsity Cross Country",
+            "course": "PE-304-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Women's Varsity Cross Country",
+            "course": "PE-305-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Men's Varsity Soccer",
+            "course": "PE-306-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Women's Varsity Soccer",
+            "course": "PE-307-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Women's Varsity Volleyball",
+            "course": "PE-313-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Women's Varsity Field Hockey",
+            "course": "PE-318-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "General Physics I",
+            "course": "PH-201-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "PH-201 Lab",
+            "course": "PH-201L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "12:30PM",
+            "days": ""
+        },
+        {
+            "title": "PH-201 Lab",
+            "course": "PH-201L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "05:00PM",
+            "days": ""
+        },
+        {
+            "title": "Introductory Physics I",
+            "course": "PH-203-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "PH-203 Lab",
+            "course": "PH-203L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "General Physics I (no Lab)",
+            "course": "PH-211-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": ""
+        },
+        {
+            "title": "Research",
+            "course": "PH-461-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Research",
+            "course": "PH-4611-01",
+            "startDate": "08/21/19",
+            "endDate": "12/14/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Philosophical Thinking",
+            "course": "PL-109-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Philosophical Thinking",
+            "course": "PL-109-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Philosophical Thinking",
+            "course": "PL-109-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Philosophical Thinking",
+            "course": "PL-109-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Philosophical Thinking",
+            "course": "PL-109-05",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Philosophical Thinking",
+            "course": "PL-109-06",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Philosophical Thinking",
+            "course": "PL-109-07",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Logic",
+            "course": "PL-225-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "American Federal Government",
+            "course": "PO-103-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Central European Nations",
+            "course": "PO-107-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Classical Political Thought",
+            "course": "PO-201-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Classical Political Thought",
+            "course": "PO-201-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Classical Political Thought",
+            "course": "PO-201-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Democracy in America",
+            "course": "PO-302-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Constitutional Law",
+            "course": "PO-330-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Sr. Sem: Public Policy & Law",
+            "course": "PO-362-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Introduction to Psychology",
+            "course": "PS-109-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Introduction to Psychology",
+            "course": "PS-109-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Introduction to Psychology",
+            "course": "PS-109-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Introduction to Psychology",
+            "course": "PS-109-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Introduction to Psychology",
+            "course": "PS-109-OL01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Research Design and Analysis",
+            "course": "PS-205-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Positive Psychology - DSU Exp",
+            "course": "PS-220-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Cognitive Psychology",
+            "course": "PS-230-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Human Development",
+            "course": "PS-240-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Human Development",
+            "course": "PS-240-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Social Psychology",
+            "course": "PS-250-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Forensic Psychology",
+            "course": "PS-295-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": ""
+        },
+        {
+            "title": "Psychopharmacology",
+            "course": "PS-381-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Psychological Logic",
+            "course": "PS-455-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Introduction to Sociology",
+            "course": "SO-109-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Social Problems",
+            "course": "SO-203-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Elementary Spanish I",
+            "course": "SP-101-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Elementary Spanish I",
+            "course": "SP-101-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Elementary Spanish I",
+            "course": "SP-101-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Elementary Spanish I",
+            "course": "SP-101-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Elementary Spanish I",
+            "course": "SP-101-05",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Elementary Spanish II",
+            "course": "SP-102-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Elementary Spanish II",
+            "course": "SP-102-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Elementary Spanish II",
+            "course": "SP-102-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intermediate Spanish I",
+            "course": "SP-201-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Intermediate Spanish I",
+            "course": "SP-201-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Spanish for Heritage Spkrs I",
+            "course": "SP-211-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Spanish for Careers",
+            "course": "SP-331-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "History & Philosophy of Sport",
+            "course": "SS-100-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intro to Sport Management",
+            "course": "SS-150-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Data-Driven Decision-Making",
+            "course": "SS-290-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Global Sport",
+            "course": "SS-300-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Sport Sales",
+            "course": "SS-350-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Sport Management Internship",
+            "course": "SS-450-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Ethics in Sport",
+            "course": "SS-475-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Exploring Exercise Physiology",
+            "course": "SX-1011-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "Kinesiology",
+            "course": "SX-1012-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MW"
+        },
+        {
+            "title": "Kinesiology",
+            "course": "SX-1012-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MW"
+        },
+        {
+            "title": "Fitness Leadership",
+            "course": "SX-170-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Research & Stats in Ex Phys",
+            "course": "SX-285-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "SX-285 Lab",
+            "course": "SX-285L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Assessment and Prescription",
+            "course": "SX-362-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "SX-362 Lab",
+            "course": "SX-362L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "01:50PM",
+            "days": ""
+        },
+        {
+            "title": "Biomechanics",
+            "course": "SX-370-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "SX-370 Lab",
+            "course": "SX-370L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "03:15PM",
+            "days": ""
+        },
+        {
+            "title": "Injury Prevention and Care",
+            "course": "SX-375-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "SX-375 Lab",
+            "course": "SX-375L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "SX-375 Lab",
+            "course": "SX-375L-2L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "Exercise Physiology",
+            "course": "SX-465-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "SX-465 Lab",
+            "course": "SX-465L-1L",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "Catholic Theology",
+            "course": "TH-109-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Catholic Theology",
+            "course": "TH-109-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Catholic Theology",
+            "course": "TH-109-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Catholic Theology",
+            "course": "TH-109-04",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Catholic Theology",
+            "course": "TH-109-05",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Catholic Theology",
+            "course": "TH-109-06",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Catholic Theology",
+            "course": "TH-109-07",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Catholic Theology",
+            "course": "TH-109-08",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "08:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Catholic Theology",
+            "course": "TH-109-09",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "The Old Testament",
+            "course": "TH-234-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Marriage and the Family",
+            "course": "TH-260-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Medicine and Morality",
+            "course": "TH-262-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Medicine and Morality",
+            "course": "TH-262-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "A Cry for Justice",
+            "course": "TH-273-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Salesian Spirituality",
+            "course": "TH-281-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Evangelization and the Family",
+            "course": "TH-364-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "The Body",
+            "course": "TH-478-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Introduction to the Theatre",
+            "course": "TR-101-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intro to Theatre Technology",
+            "course": "TR-143-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "Intro to Theatre Technology",
+            "course": "TR-143-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": ""
+        },
+        {
+            "title": "Fund of Acting for Non-Majors",
+            "course": "TR-210-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Fundamentals of Acting",
+            "course": "TR-211-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Fundamentals of Acting",
+            "course": "TR-211-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Fundamentals of Acting",
+            "course": "TR-211-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intermediate Acting",
+            "course": "TR-212-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Intermediate Acting",
+            "course": "TR-212-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Intermediate Acting",
+            "course": "TR-212-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "History of the Theatre I",
+            "course": "TR-221-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Elements of Design",
+            "course": "TR-240-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": ""
+        },
+        {
+            "title": "Stagecraft",
+            "course": "TR-242-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Stage Make-Up",
+            "course": "TR-272-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Contemporary Theatre",
+            "course": "TR-310-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Advanced Acting",
+            "course": "TR-311-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:00PM",
+            "endTime": "12:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "01:59PM",
+            "days": ""
+        },
+        {
+            "title": "Advanced Acting",
+            "course": "TR-311-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "03:59PM",
+            "days": ""
+        },
+        {
+            "title": "Advanced Musical Theatre",
+            "course": "TR-314-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Fundamentals of Directing",
+            "course": "TR-322-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:00AM",
+            "endTime": "09:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "05:00PM",
+            "endTime": "05:59PM",
+            "days": ""
+        },
+        {
+            "title": "Fundamentals of Directing",
+            "course": "TR-322-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "11:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "05:00PM",
+            "endTime": "05:59PM",
+            "days": ""
+        },
+        {
+            "title": "Theatre Practicum",
+            "course": "TR-3611-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Theatre Practicum",
+            "course": "TR-3612-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Theatre Practicum",
+            "course": "TR-3613-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Theatre Practicum",
+            "course": "TR-3621-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Theatre Practicum",
+            "course": "TR-3622-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Theatre Practicum",
+            "course": "TR-3623-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Theatre Practicum Stage Mgmt",
+            "course": "TR-363-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "06:00PM",
+            "endTime": "10:00PM",
+            "days": ""
+        },
+        {
+            "title": "Theatre Practicum Stage Mgmt",
+            "course": "TR-363-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "06:00PM",
+            "endTime": "10:00PM",
+            "days": ""
+        },
+        {
+            "title": "Theatre Practicum Stage Mgmt",
+            "course": "TR-363-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "06:00PM",
+            "endTime": "10:00PM",
+            "days": ""
+        },
+        {
+            "title": "Theatre Practicum Non-Majors",
+            "course": "TR-3661-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "05:00PM",
+            "days": ""
+        },
+        {
+            "title": "Theatre Practicum Non-Majors",
+            "course": "TR-3662-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "05:00PM",
+            "days": ""
+        },
+        {
+            "title": "Theatre Practicum Non-Majors",
+            "course": "TR-3663-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "01:00PM",
+            "endTime": "05:00PM",
+            "days": ""
+        },
+        {
+            "title": "Advanced Lighting Design",
+            "course": "TR-367-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "ACTors Touring Company",
+            "course": "TR-402-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "10:59AM",
+            "days": "TR"
+        },
+        {
+            "title": "Design/Technology Seminar",
+            "course": "TR-4501-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "04:00PM",
+            "endTime": "04:59PM",
+            "days": ""
+        },
+        {
+            "title": "Design/Technology Seminar",
+            "course": "TR-4502-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "04:00PM",
+            "endTime": "04:59PM",
+            "days": ""
+        },
+        {
+            "title": "Design/Technology Seminar",
+            "course": "TR-4503-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "04:00PM",
+            "endTime": "04:59PM",
+            "days": ""
+        },
+        {
+            "title": "Coordinating Seminar",
+            "course": "TR-451-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "03:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Independent Study",
+            "course": "TR-499-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "TV/Film Hist & Appreciation",
+            "course": "TV-160-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "06:30PM",
+            "endTime": "09:00PM",
+            "days": ""
+        },
+        {
+            "title": "Introduction to Radio",
+            "course": "TV-230-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:30PM",
+            "endTime": "04:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Screenwriting",
+            "course": "TV-252-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Screenwriting",
+            "course": "TV-252-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Special Topics in TV/Film",
+            "course": "TV-280-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:30PM",
+            "endTime": "04:45PM",
+            "days": "TR"
+        },
+        {
+            "title": "Documentary",
+            "course": "TV-310-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:00PM",
+            "endTime": "04:15PM",
+            "days": "MF"
+        },
+        {
+            "title": "Multimedia",
+            "course": "TV-340-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Lighting, Sound and Editing",
+            "course": "TV-370-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "06:00PM",
+            "endTime": "08:30PM",
+            "days": ""
+        },
+        {
+            "title": "Lighting, Sound and Editing",
+            "course": "TV-370-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "06:00PM",
+            "endTime": "08:30PM",
+            "days": ""
+        },
+        {
+            "title": "Directing I",
+            "course": "TV-380-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "09:30AM",
+            "endTime": "10:45AM",
+            "days": "TR"
+        },
+        {
+            "title": "Freshman TV/Film Practicum",
+            "course": "TV-3831-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "03:30PM",
+            "endTime": "05:30PM",
+            "days": ""
+        },
+        {
+            "title": "TV/Film Practicum",
+            "course": "TV-3841-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "TV/Film Practicum",
+            "course": "TV-3841-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "TV/Film Practicum",
+            "course": "TV-3841-03",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Senior TV/Film Practicum",
+            "course": "TV-3851-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "06:00PM",
+            "endTime": "08:00PM",
+            "days": ""
+        },
+        {
+            "title": "Production Management",
+            "course": "TV-395-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "12:30PM",
+            "endTime": "01:45PM",
+            "days": "TR"
+        },
+        {
+            "title": NaN,
+            "course": NaN,
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "06:30PM",
+            "endTime": "09:30PM",
+            "days": ""
+        },
+        {
+            "title": "Professional Internship",
+            "course": "TV-399-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "",
+            "endTime": "TBATBA",
+            "days": "LEC"
+        },
+        {
+            "title": "Central European Nations",
+            "course": "WC-107-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "10:00AM",
+            "endTime": "10:50AM",
+            "days": "MWF"
+        },
+        {
+            "title": "Ireland and Irish Diaspora I",
+            "course": "WC-140-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "02:00PM",
+            "endTime": "02:50PM",
+            "days": "MWF"
+        },
+        {
+            "title": "Hispanic Cultures I",
+            "course": "WC-150-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Hispanic Cultures I",
+            "course": "WC-150-02",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        },
+        {
+            "title": "Mexicans in America",
+            "course": "WC-154-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "08:00AM",
+            "endTime": "09:15AM",
+            "days": "TR"
+        },
+        {
+            "title": "Philippine Culture",
+            "course": "WC-160-01",
+            "startDate": "08/21/19",
+            "endDate": "12/06/19",
+            "startTime": "11:00AM",
+            "endTime": "12:15PM",
+            "days": "TR"
+        }
+    ]
+}

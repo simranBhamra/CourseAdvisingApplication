@@ -37,6 +37,7 @@ const years = [
   'Freshman',
   'Sophomore',
   'Junior',
+  'Senior',
 ];
 
 function getStyles(name, personName, theme) {
@@ -65,7 +66,7 @@ export default function ChooseClass() {
 
       <Grid container spacing={0} direction="column"  alignItems="center" alignContent="center" justify='center'>
         <Grid item xs={12}>
-            <h1 style={{ color: 'purple', textAlign: 'center'}}> What is your class level?</h1>
+            <h1 style={{ color: 'white', textAlign: 'center'}}> What is your class level?</h1>
           </Grid>
           <Grid item xs={10}>
             <FormControl className={classes.formControl}>
@@ -87,7 +88,7 @@ export default function ChooseClass() {
             </FormControl>
           </Grid>
           <Grid item xs={10}>
-            <IconButton size="large" variant="contained" color="primary" alignItems="right">
+            <IconButton size="large" variant="contained" color="primary" alignItems="right"  style={{  color: 'white'}}>
               <ForwardIcon/>
             </IconButton>
           </Grid>
