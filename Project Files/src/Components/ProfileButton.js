@@ -8,6 +8,7 @@ import PersonIcon from '@material-ui/icons/Person';
 import EditIcon from '@material-ui/icons/Edit';
 import Avatar from '@material-ui/core/Avatar';
 //import 'typeface-ubuntu';
+import {Link} from'react-router-dom';
 
 
 const useStyles = makeStyles(theme => ({
@@ -15,6 +16,7 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
     justifyContent: "center",
     alignItems: "center",
+    backgroundColor: "#ffffff" 
   },
   paper: {
     padding: theme.spacing(6),
@@ -63,11 +65,13 @@ export default function ComplexGrid() {
                 </Typography>
               </Grid>
               <Grid item>
-              <Button variant="contained"
-                  color="primary"
-                  startIcon={<EditIcon/>}>
-                  Edit Profile
-                </Button>
+              <Link to = '/onboard' >  
+                <Button variant="contained"
+                    color="primary"
+                    startIcon={<EditIcon/>}>
+                    Edit Profile
+                  </Button>
+                </Link>
               </Grid>
             </Grid>
             <Grid item>
