@@ -25,7 +25,6 @@ function App(){
         <div className = "App">
         <DenseAppBar></DenseAppBar>
         
-
              <Switch>  
           
                 <Route path = "/" exact component = {HomePage}/> 
