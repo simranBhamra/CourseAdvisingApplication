@@ -69,7 +69,9 @@ class SimpleCard extends Component {
 
     this.editMode  = () => {
       this.setState({
-        disabled:false
+        disabled:false,
+        tempName:userData[this.state.userId].name,
+        tempClass:userData[this.state.userId].class
       })
     };
 
