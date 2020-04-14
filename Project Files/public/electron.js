@@ -8,8 +8,31 @@ const isDev = require('electron-is-dev');
 
 let mainWindow;
 
+
+
+
+
+// storage.set('userData',[
+//   {
+//       "name": "User Name",
+//       "classStatus": "Freshman",
+//       "primaryMajor": "N/A",
+//       "secondaryMajor":"N/A",
+//       "minor": "N/A",
+//       "slug": "basicUserData"
+
+//   }
+
+// ], function(error) {
+//   if (error) throw error;
+// })
+
+
 function createWindow() {
-  mainWindow = new BrowserWindow({width: 900, height: 680});
+  mainWindow = new BrowserWindow({width: 900, height: 680,
+    webPreferences: {
+      nodeIntegration: true
+}});
   mainWindow.loadURL(isDev ? 'http://localhost:3000' : `file://${path.join(__dirname, '../build/index.html')}`);
   mainWindow.on('closed', () => mainWindow = null);
 }

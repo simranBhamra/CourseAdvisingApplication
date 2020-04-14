@@ -6,11 +6,13 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
-
+import TextField from '@material-ui/core/TextField';
+import basicInfo from '../data/basicUserInfo.json'; 
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    minWidth: 550,
+    minWidth:550,
     minHeight:700,
   },
   bullet: {
@@ -39,23 +41,49 @@ export default function MajorInfoCard() {
 
   return (
     <Card className={classes.root}>
-      <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Major Information 
-        </Typography>
-       
-        <Typography className={classes.pos} color="textSecondary">
-        Major information 
-        </Typography>
-        <Typography variant="body2" component="p">
-          well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-    </Card>
+    <CardContent>
+
+<Grid>
+      <h1  align= "left" style={{ color: '#FF0266' }}>Major Information</h1>
+      <h3  align= "left" style={{ color: 'black' }}>Primary Major</h3>
+        <TextField
+          disabled
+          id="outlined-disabled"
+          label="Major"
+          defaultValue= {basicInfo[0].primaryMajor}
+          variant="outlined"
+        />
+</Grid>
+<Grid>
+    <h3  align= "left" style={{ color: 'black' }}>Secondary Major</h3>
+    <TextField
+          disabled
+          id="outlined-disabled"
+          label="Second Major"
+          defaultValue= {basicInfo[0].secondaryMajor}
+          variant="outlined"
+        />
+</Grid>
+
+<Grid>
+<h3  align= "left" style={{ color: 'black' }}>Minor</h3>
+    <TextField
+          disabled
+          id="outlined-disabled"
+          label="Minor"
+          defaultValue= {basicInfo[0].minor}
+          variant="outlined"
+        />
+</Grid>
+
+<Grid container alignItems="flex-start" justify="flex-end" direction="row">
+<Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
+    Edit
+</Button>
+</Grid>
+
+    </CardContent>
+    
+  </Card>
   );
 }

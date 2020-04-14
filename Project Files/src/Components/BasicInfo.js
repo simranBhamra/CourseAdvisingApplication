@@ -1,11 +1,28 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import React, { Component } from 'react';
+import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
+import TextField from '@material-ui/core/TextField';
+//import basicInfo from '../data/basicUserInfo.json'; 
+import Grid from '@material-ui/core/Grid';
+import InlineEdit from '../index';
+import basicUserInfo from '../data/basicUserInfo.json'; 
+//import storage from './storage'
+
+//const file = require(fileName);
+
+
+var app = window.require('electron').remote;
+const fs = app.require('fs');
+
+const userDataPath = './src/data/basicUserInfo.json';
+let userData = require('../data/basicUserInfo.json')
+
+console.log(userData)
 
 
 const useStyles = makeStyles(theme => ({
@@ -33,31 +50,113 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function SimpleCard() {
-  const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
+// var json = JSON.parse(basicInfo);
 
-  return (
-    <Card className={classes.root}>
+
+class SimpleCard extends Component {
+
+  
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      disabled: true,
+      userId: 0,
+      tempName:'',
+      tempClass:''
+    };
+
+    this.editMode  = () => {
+      this.setState({
+        disabled:false
+      })
+    };
+
+    this.handleSave = () => {
+      this.setState({
+        disabled: true
+      })
+
+      userData[this.state.userId].name = this.state.tempName
+      userData[this.state.userId].class = this.state.tempClass
+
+      fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {
+        if (err) return console.log(err);
+        console.log(JSON.stringify(userData));
+        console.log('writing to ' + userDataPath);
+      });
+
+      console.log('saved user info')
+
+    }
+
+
+   
+  };
+  render() {
+
+    const { classes } = this.props
+
+    return(
+      <Card className={classes.root}>
+
+
       <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Word of the Day
-        </Typography>
-        <Typography variant="h5" component="h2">
-          be{bull}nev{bull}o{bull}lent
-        </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          adjective
-        </Typography>
-        <Typography variant="body2" component="p">
-          well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
-        </Typography>
+    <Grid>
+        <h1 align= "left" style={{ color: '#FF0266' }}>Basic Information</h1>
+        <h3  align= "left" style={{ color: 'black' }}>Name</h3>
+        <TextField
+          disabled={this.state.disabled}
+          id="outlined-disabled"
+          label="Name"
+          defaultValue = {userData[this.state.userId].name}
+          variant="outlined"
+          onChange={(e) => this.setState({tempName:e.target.value})}
+        />
+    </Grid>
+    <Grid>
+
+    <h3  align= "left" style={{ color: 'black' }}>Class</h3>
+    <TextField
+          disabled={this.state.disabled}
+          id="outlined-disabled"
+          label="Class"
+          defaultValue=  {userData[this.state.userId].class}
+          variant="outlined"
+          onChange={(e) => this.setState({tempClass:e.target.value})}
+        />
+ </Grid>
+      {/* {basicInfo.map((userData) => {
+        return  <div>
+          <h1>{userData.name}</h1>
+           <h2>{userData.classStatus}</h2>
+        </div>
+        
+      })} */}
+     
+
+<Grid container alignItems="flex-start" justify="flex-end" direction="row">
+
+<Button  variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} onClick = {this.editMode} >
+    Edit
+  </Button>
+
+  <Button  variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} onClick = {this.handleSave} >
+    Save
+  </Button>
+  
+  
+
+
+</Grid>
+
+      
+
+
       </CardContent>
-      <CardActions>
-        <Button size="small">Learn More</Button>
-      </CardActions>
+      
     </Card>
-  );
-}
+    );
+  }
+}export default withStyles(useStyles)(SimpleCard); 

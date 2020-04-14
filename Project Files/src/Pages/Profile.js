@@ -9,6 +9,9 @@ import Button from '@material-ui/core/Button';
 import ClassesTakenCard from '../Components/ClassesTakenInfo';
 import MajorInfoCard from '../Components/MajorInfo'; 
 
+import reduxForm from './Export';
+
+
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -47,23 +50,24 @@ export default function Profile(){
         <Grid item></Grid>
 
 
-        <Grid item >
-          <SimpleCard></SimpleCard>
+        <Grid item  >
+        <SimpleCard></SimpleCard>
         </Grid>
 
         <Grid item >
           <MajorInfoCard> </MajorInfoCard>
+          
         </Grid>
 
         <Grid item >
           <ClassesTakenCard> </ClassesTakenCard>
+          
         </Grid>
-
-
+      
 
       </Grid>
 
-            
+           
            
         </div>
     );
