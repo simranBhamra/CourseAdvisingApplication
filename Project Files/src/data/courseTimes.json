@@ -45,15 +45,7 @@
             "endTime": "09:50AM",
             "days": "MF"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "08:00AM",
-            "endTime": "08:50AM",
-            "days": ""
-        },
+        
         {
             "title": "Advanced Accounting",
             "course": "AB-303-01",
@@ -234,15 +226,7 @@
             "endTime": "08:50AM",
             "days": ""
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "08:00AM",
-            "endTime": "09:50AM",
-            "days": ""
-        },
+    
         {
             "title": "BI-252 Lab",
             "course": "BI-252L-2L",
@@ -252,15 +236,7 @@
             "endTime": "10:50AM",
             "days": ""
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "10:00AM",
-            "endTime": "11:50AM",
-            "days": ""
-        },
+        
         {
             "title": "BI-252 Lab",
             "course": "BI-252L-3L",
@@ -270,15 +246,7 @@
             "endTime": "01:50PM",
             "days": ""
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "01:00PM",
-            "endTime": "02:50PM",
-            "days": ""
-        },
+       
         {
             "title": "Molecular Biology",
             "course": "BI-255-01",
@@ -883,15 +851,6 @@
             "days": "MWF"
         },
         {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "02:00PM",
-            "endTime": "02:50PM",
-            "days": ""
-        },
-        {
             "title": "CH-351 Lab",
             "course": "CH-351L-1L",
             "startDate": "08/21/19",
@@ -909,15 +868,7 @@
             "endTime": "10:50AM",
             "days": "MWF"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "02:00PM",
-            "endTime": "02:50PM",
-            "days": ""
-        },
+        
         {
             "title": "Analytical Chemistry",
             "course": "CH-361-01",
@@ -927,15 +878,7 @@
             "endTime": "12:50PM",
             "days": "MWF"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "02:00PM",
-            "endTime": "02:50PM",
-            "days": ""
-        },
+        
         {
             "title": "CH-361 Lab",
             "course": "CH-361L-1L",
@@ -1368,15 +1311,7 @@
             "endTime": "12:29PM",
             "days": "MW"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "",
-            "endTime": "TBA",
-            "days": "F"
-        },
+        
         {
             "title": "Ballet Dance I",
             "course": "DA-106-01",
@@ -1386,15 +1321,7 @@
             "endTime": "01:59PM",
             "days": "TR"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "",
-            "endTime": "TBA",
-            "days": "F"
-        },
+       
         {
             "title": "Ballet Dance I",
             "course": "DA-106-02",
@@ -1404,15 +1331,7 @@
             "endTime": "03:29PM",
             "days": "TR"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "",
-            "endTime": "TBA",
-            "days": "F"
-        },
+       
         {
             "title": "Tap I",
             "course": "DA-112-01",
@@ -1467,15 +1386,7 @@
             "endTime": "01:59PM",
             "days": "MW"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "",
-            "endTime": "TBA",
-            "days": "F"
-        },
+        
         {
             "title": "Ballet Dance II",
             "course": "DA-206-01",
@@ -1485,15 +1396,7 @@
             "endTime": "12:29PM",
             "days": "MW"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "",
-            "endTime": "TBA",
-            "days": "F"
-        },
+        
         {
             "title": "Pointe & Partnering Techniques",
             "course": "DA-2091-01",
@@ -1539,15 +1442,7 @@
             "endTime": "03:29PM",
             "days": "TR"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "",
-            "endTime": "TBA",
-            "days": "F"
-        },
+        
         {
             "title": "Ballet Dance III",
             "course": "DA-306-01",
@@ -1557,15 +1452,7 @@
             "endTime": "01:59PM",
             "days": "MW"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "",
-            "endTime": "TBA",
-            "days": "F"
-        },
+        
         {
             "title": "Contact Improvisation",
             "course": "DA-309-01",
@@ -3168,15 +3055,7 @@
             "endTime": "10:00AM",
             "days": ""
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/14/19",
-            "startTime": "08:00AM",
-            "endTime": "10:00AM",
-            "days": ""
-        },
+        
         {
             "title": "NU-205 Lab",
             "course": "NU-205L-1L",
@@ -3240,15 +3119,7 @@
             "endTime": "10:00AM",
             "days": ""
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/24/19",
-            "endDate": "12/14/19",
-            "startTime": "08:00AM",
-            "endTime": "10:00AM",
-            "days": ""
-        },
+        
         {
             "title": "NU-215 Lab",
             "course": "NU-215L-1L",
@@ -4050,15 +3921,7 @@
             "endTime": "10:50AM",
             "days": "MWF"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "02:00PM",
-            "endTime": "02:50PM",
-            "days": ""
-        },
+        
         {
             "title": "PH-201 Lab",
             "course": "PH-201L-1L",
@@ -4086,15 +3949,7 @@
             "endTime": "11:50AM",
             "days": "MWF"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "02:00PM",
-            "endTime": "02:50PM",
-            "days": ""
-        },
+        
         {
             "title": "PH-203 Lab",
             "course": "PH-203L-1L",
@@ -4113,15 +3968,7 @@
             "endTime": "10:50AM",
             "days": "MWF"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "02:00PM",
-            "endTime": "02:50PM",
-            "days": ""
-        },
+       
         {
             "title": "Research",
             "course": "PH-461-01",
@@ -5031,15 +4878,7 @@
             "endTime": "12:50PM",
             "days": "MWF"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "01:00PM",
-            "endTime": "01:59PM",
-            "days": ""
-        },
+        
         {
             "title": "Advanced Acting",
             "course": "TR-311-02",
@@ -5049,15 +4888,7 @@
             "endTime": "02:50PM",
             "days": "MWF"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "03:00PM",
-            "endTime": "03:59PM",
-            "days": ""
-        },
+        
         {
             "title": "Advanced Musical Theatre",
             "course": "TR-314-01",
@@ -5076,15 +4907,7 @@
             "endTime": "09:50AM",
             "days": "MWF"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "05:00PM",
-            "endTime": "05:59PM",
-            "days": ""
-        },
+        
         {
             "title": "Fundamentals of Directing",
             "course": "TR-322-02",
@@ -5094,15 +4917,7 @@
             "endTime": "11:50AM",
             "days": "MWF"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "05:00PM",
-            "endTime": "05:59PM",
-            "days": ""
-        },
+       
         {
             "title": "Theatre Practicum",
             "course": "TR-3611-01",
@@ -5283,15 +5098,7 @@
             "endTime": "12:15PM",
             "days": "TR"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "06:30PM",
-            "endTime": "09:00PM",
-            "days": ""
-        },
+        
         {
             "title": "Introduction to Radio",
             "course": "TV-230-01",
@@ -5355,15 +5162,7 @@
             "endTime": "10:45AM",
             "days": "TR"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "06:00PM",
-            "endTime": "08:30PM",
-            "days": ""
-        },
+        
         {
             "title": "Lighting, Sound and Editing",
             "course": "TV-370-02",
@@ -5373,15 +5172,7 @@
             "endTime": "12:15PM",
             "days": "TR"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "06:00PM",
-            "endTime": "08:30PM",
-            "days": ""
-        },
+       
         {
             "title": "Directing I",
             "course": "TV-380-01",
@@ -5445,15 +5236,7 @@
             "endTime": "01:45PM",
             "days": "TR"
         },
-        {
-            "title": NaN,
-            "course": NaN,
-            "startDate": "08/21/19",
-            "endDate": "12/06/19",
-            "startTime": "06:30PM",
-            "endTime": "09:30PM",
-            "days": ""
-        },
+        
         {
             "title": "Professional Internship",
             "course": "TV-399-01",
