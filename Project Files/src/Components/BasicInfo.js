@@ -27,7 +27,7 @@ console.log(userData)
 
 const useStyles = makeStyles(theme => ({
   root: {
-    minWidth: 550,
+    minWidth: 700,
     minHeight:700,
   },
   bullet: {

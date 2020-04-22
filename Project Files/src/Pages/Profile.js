@@ -35,13 +35,7 @@ export default function Profile(){
         <Grid item xs={12}>
           <h1 style={{ color: 'white', paddingLeft: '80px', paddingRight: '80px' }}> Student 1234</h1>
       
-      <Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
-    Cancel 
-    </Button>
-
-      <Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
-    Save
-    </Button>
+     
 
         </Grid>
 </Grid>
