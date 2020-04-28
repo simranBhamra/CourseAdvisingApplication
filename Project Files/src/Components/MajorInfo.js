@@ -1,5 +1,5 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import React, { Component } from 'react';
+import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -11,6 +11,12 @@ import basicInfo from '../data/basicUserInfo.json';
 import Grid from '@material-ui/core/Grid';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
+
 
 
 var app = window.require('electron').remote;
@@ -18,6 +24,9 @@ const fs = app.require('fs');
 
 const MajorDataPath = './src/data/majors.json';
 var MajorData = require('../data/majors.json')
+
+const userDataPath = './src/data/basicUserInfo.json';
+let userData = require('../data/basicUserInfo.json')
 
 
 const useStyles = makeStyles(theme => ({
@@ -45,9 +54,134 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function MajorInfoCard() {
-  const classes = useStyles();
+// export default function MajorInfoCard() {
+//   const classes = useStyles();
  
+//   const options = MajorData.majorInfo.map((option) => {
+//     const firstLetter = option.name[0].toUpperCase();
+//     return {
+//       firstLetter: /[0-9]/.test(firstLetter) ? '0-9' : firstLetter,
+//       ...option,
+//     };
+//   });
+
+
+//   return (
+//     <Card className={classes.root}>
+//     <CardContent>
+
+    
+
+// <Grid>
+//       <h1  align= "left" style={{ color: '#FF0266' }}>Major Information</h1>
+//       <h3  align= "left" style={{ color: 'black' }}>Primary Major</h3>
+//       <Autocomplete
+//       id="grouped-majors"
+//       options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
+//       groupBy={(option) => option.firstLetter}
+//       getOptionLabel={(option) => option.name}
+//       style={{ width: 300 }}
+//       renderInput={(params) => <TextField {...params} label="Major" variant="outlined" />}
+//     />
+// </Grid>
+// <Grid>
+//     <h3  align= "left" style={{ color: 'black' }}>Secondary Major</h3>
+//     <Autocomplete
+//       id="grouped-majors"
+//       options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
+//       groupBy={(option) => option.firstLetter}
+//       getOptionLabel={(option) => option.name}
+//       style={{ width: 300 }}
+//       renderInput={(params) => <TextField {...params} label="Secondary Major" variant="outlined" />}
+//     />
+// </Grid>
+
+// <Grid>
+// <h3  align= "left" style={{ color: 'black' }}>Minor</h3>
+// <Autocomplete
+//       id="grouped-majors"
+//       options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
+//       groupBy={(option) => option.firstLetter}
+//       getOptionLabel={(option) => option.name}
+//       style={{ width: 300 }}
+//       renderInput={(params) => <TextField {...params} label="Minor" variant="outlined" />}
+//     />
+// </Grid>
+
+
+
+
+// <Grid container alignItems="flex-start" justify="flex-end" direction="row">
+// <Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
+//     Edit
+// </Button>
+// </Grid>
+
+//     </CardContent>
+    
+//   </Card>
+//   );
+// }
+
+
+class MajorInfoCard extends Component {
+ 
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      disabled: true,
+      userId: 0,
+      tempMajor:'',
+      tempSMajor:'',
+      tempMinor:''
+    };
+
+    this.editMode  = () => {
+      this.setState({
+        disabled:false,
+        tempMajor:userData[this.state.userId].primaryMajor,
+        tempSMajor:userData[this.state.userId].secondaryMajor,
+        tempMinor: userData [this.state.userId].minor
+      })
+    };
+
+    this.handleSave = () => {
+      this.setState({
+        disabled: true
+      })
+      console.log(this.state)
+      userData[this.state.userId].primaryMajor = this.state.tempMajor
+      userData[this.state.userId].secondaryMajor = this.state.tempSMajor
+      userData[this.state.userId].minor = this.state.tempMinor
+      console.log(userData)
+      fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {
+        if (err) return console.log(err);
+        console.log(JSON.stringify(userData));
+        console.log('writing to ' + userDataPath);
+      });
+
+      console.log('saved user info')
+
+    }
+
+
+   
+  };
+ 
+
+render(){
+
+
+  const { classes } = this.props
+
+  const [age, setAge] = React.useState('');
+  const handleChange = (event) => {
+    setAge(event.target.value);
+  };
+  
+
   const options = MajorData.majorInfo.map((option) => {
     const firstLetter = option.name[0].toUpperCase();
     return {
@@ -55,7 +189,6 @@ export default function MajorInfoCard() {
       ...option,
     };
   });
-
 
   return (
     <Card className={classes.root}>
@@ -71,10 +204,19 @@ export default function MajorInfoCard() {
       options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
       groupBy={(option) => option.firstLetter}
       getOptionLabel={(option) => option.name}
+      disabled={this.state.disabled} 
+      defaultValue = {userData[this.state.userId].primaryMajor}   
+     onChange={(e, v) => this.setState({tempMajor:v.name})}
+
       style={{ width: 300 }}
-      renderInput={(params) => <TextField {...params} label="Major" variant="outlined" />}
+      renderInput={(params) =>
+         <TextField {...params} label="Major" variant="outlined" 
+          disabled={this.state.disabled} 
+          defaultValue = {userData[this.state.userId].primaryMajor}   
+         onChange={(e) => this.setState({tempMajor:e.target.value})} />}
     />
 </Grid>
+
 <Grid>
     <h3  align= "left" style={{ color: 'black' }}>Secondary Major</h3>
     <Autocomplete
@@ -82,8 +224,17 @@ export default function MajorInfoCard() {
       options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
       groupBy={(option) => option.firstLetter}
       getOptionLabel={(option) => option.name}
+      disabled={this.state.disabled} 
+      defaultValue = {userData[this.state.userId].secondaryMajor}   
+     onChange={(e, v) => this.setState({tempSMajor:v.name})}
       style={{ width: 300 }}
-      renderInput={(params) => <TextField {...params} label="Secondary Major" variant="outlined" />}
+
+
+
+      renderInput={(params) => <TextField {...params} label="Secondary Major" variant="outlined"
+      disabled={this.state.disabled} 
+      defaultValue = {userData[this.state.userId].secondaryMajor}   
+     onChange={(e) => this.setState({tempSMajor:e.target.value})}  />}
     />
 </Grid>
 
@@ -94,18 +245,35 @@ export default function MajorInfoCard() {
       options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
       groupBy={(option) => option.firstLetter}
       getOptionLabel={(option) => option.name}
+
+      disabled={this.state.disabled} 
+      defaultValue = {userData[this.state.userId].minor}   
+     onChange={(e, v) => this.setState({tempMinor:v.name})}
+
       style={{ width: 300 }}
-      renderInput={(params) => <TextField {...params} label="Minor" variant="outlined" />}
+      renderInput={(params) => <TextField {...params} label="Minor" variant="outlined" 
+      disabled={this.state.disabled} 
+      defaultValue = {userData[this.state.userId].minor}   
+     onChange={(e) => this.setState({tempMinor:e.target.value})} 
+      
+      />}
     />
 </Grid>
 
+<Grid>
 
+</Grid>
 
 
 <Grid container alignItems="flex-start" justify="flex-end" direction="row">
-<Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
+<Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"} }  onClick = {this.editMode}>
     Edit
 </Button>
+
+
+<Button  variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} onClick = {this.handleSave} >
+    Save
+  </Button>
 </Grid>
 
     </CardContent>
@@ -113,3 +281,4 @@ export default function MajorInfoCard() {
   </Card>
   );
 }
+}export default withStyles(useStyles)(MajorInfoCard);
