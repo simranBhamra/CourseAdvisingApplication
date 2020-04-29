@@ -27,7 +27,7 @@ console.log(userData)
 
 const useStyles = makeStyles(theme => ({
   root: {
-    minWidth: 700,
+    minWidth: 550,
     minHeight:700,
   },
   bullet: {
@@ -49,6 +49,15 @@ const useStyles = makeStyles(theme => ({
     marginBottom: 12,
   },
 }));
+
+
+var cardStyle = {
+  display: 'block',
+  width: '25vw',
+  transitionDuration: '0.3s',
+  height: '30vw'
+}
+
 
 // var json = JSON.parse(basicInfo);
 
@@ -101,7 +110,7 @@ class SimpleCard extends Component {
     const { classes } = this.props
 
     return(
-      <Card className={classes.root}>
+      <Card className={classes.root} style={cardStyle}>
 
 
       <CardContent>

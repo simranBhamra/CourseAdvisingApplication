@@ -8,11 +8,13 @@ import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
+import data from '../data/courses.json';
+import Autocomplete from '@material-ui/lab/Autocomplete';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    minWidth: 550,
-    minHeight:700,
+    //minWidth: 550,
+    //minHeight:700,
   },
   bullet: {
     display: 'inline-block',
@@ -25,8 +27,17 @@ const useStyles = makeStyles(theme => ({
     width: 200,
     maxHeight: 10000
   },
+  choose: {
+    width: 400,
+    height: 400,
+    '& > * + *': {
+      marginTop: theme.spacing(3),
+    },
+  },
+
   title: {
     fontSize: 14,
+    marginLeft: '23%',
   },
 
   pos: {
@@ -34,15 +45,60 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+var cardStyle = {
+  display: 'block',
+  width: '25vw',
+  transitionDuration: '0.3s',
+  height: '30vw'
+}
+
+
+let courses = data.courses.map(
+  function (course) {
+      return (course.course) + ": " + (course.title)
+  }
+)
+
+let selectedCourses = []
+
+function handleThisChange(e, value){
+  console.log(value)
+  selectedCourses = value
+  console.log(selectedCourses)
+}
+
 export default function ClassesTakenCard() {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} style={cardStyle}>
     <CardContent>
 
+
 <Grid>
+<h1  align= "left" style={{ color: '#FF0266' }}>Classes Taken</h1>
+<Autocomplete
+        className = {classes.choose}
+        multiple
+        id="tags-standard"
+        options={courses}
+        max
+        onChange={handleThisChange}
+        getOptionLabel={(option) => option}
+        renderInput={(params) => (
+          <TextField
+            {...params}
+            
+            label="Add Classes"
+            placeholder="Class"
+          />
+        )}
+      />
+
+
+</Grid>
+{/* <Grid>
       <h1  align= "left" style={{ color: '#FF0266' }}>Classes Taken</h1>
       <h3  align= "left" style={{ color: 'black' }}>General education</h3>
         <TextField
@@ -73,12 +129,15 @@ export default function ClassesTakenCard() {
           variant="outlined"
         />
 
-</Grid>
+</Grid> */}
 
 <Grid container alignItems="flex-start" justify="flex-end" direction="row">
 <Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
     Edit
-    </Button>
+</Button>
+<Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
+    Save
+</Button>
     </Grid>
     </CardContent>
     

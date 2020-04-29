@@ -54,6 +54,13 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+var cardStyle = {
+  display: 'block',
+  width: '25vw',
+  transitionDuration: '0.3s',
+  height: '30vw'
+}
+
 // export default function MajorInfoCard() {
 //   const classes = useStyles();
  
@@ -187,7 +194,7 @@ render(){
   });
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} style={cardStyle}>
     <CardContent>
 
     
@@ -245,7 +252,7 @@ render(){
       getOptionLabel={(option) => option.name}
 
       disabled={this.state.disabled} 
-      defaultValue = {userData[this.state.userId].minor}   
+      defaultValue = {userData[0].minor}   
      onChange={(e, v) => this.setState({tempMinor:v.name})}
 
       style={{ width: 300 }}

@@ -40,7 +40,7 @@ export default function Profile(){
         </Grid>
 </Grid>
 
-<Grid container spacing={7}>
+<Grid container spacing={10}>
         <Grid item></Grid>
 
 
