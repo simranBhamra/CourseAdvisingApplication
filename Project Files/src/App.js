@@ -10,12 +10,27 @@ import Export from './Pages/Export';
 import View from './Pages/View';
 import NewSched from './Pages/NewSched';
 import DenseAppBar from './Components/NavBar';
+import OnBoard from './Pages/Onboarding';
+import Login from './Pages/Login'
 import './App.css';
 
 //renaming the browser router as router 
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
+import {BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'; 
 
+try{
+    let userData = require('./data/basicUserInfo.json')
+    console.log(userData[0].name)
+    if(userData[0].name != ''){
+        var priorUser = true;
+    } 
+    else{
+        var priorUser = false;
+    }
+}
+catch{
+}
 
+console.log(priorUser)
 
 
 function App(){
@@ -25,14 +40,20 @@ function App(){
         <div className = "App">
         <DenseAppBar></DenseAppBar>
         
+
              <Switch>  
           
-                <Route path = "/" exact component = {HomePage}/> 
+                
+                <Route path = "/home" exact component = {HomePage}/> 
                 <Route path = "/profile" component = {Profile}/> 
                 <Route path = "/edit" component = {Edit}/> 
                 <Route path = "/view" component = {View}/> 
                 <Route path = "/export" component = {Export}/> 
                 <Route path = "/new" component = {NewSched}/>
+                <Route path = "/onboard" component = {OnBoard}/>
+                <Route path = "/">
+                    {priorUser?<Redirect to="/home"/>: <OnBoard/>}
+                </Route>
             </Switch>
            
         </div>
