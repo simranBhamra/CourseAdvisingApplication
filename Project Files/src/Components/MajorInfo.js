@@ -176,10 +176,6 @@ render(){
 
   const { classes } = this.props
 
-  const [age, setAge] = React.useState('');
-  const handleChange = (event) => {
-    setAge(event.target.value);
-  };
   
 
   const options = MajorData.majorInfo.map((option) => {
@@ -211,9 +207,10 @@ render(){
       style={{ width: 300 }}
       renderInput={(params) =>
          <TextField {...params} label="Major" variant="outlined" 
-          disabled={this.state.disabled} 
-          defaultValue = {userData[this.state.userId].primaryMajor}   
-         onChange={(e) => this.setState({tempMajor:e.target.value})} />}
+         // disabled={this.state.disabled} 
+        //  defaultValue = {userData[this.state.userId].primaryMajor}   
+        // onChange={(e) => this.setState({tempMajor:e.target.value})} 
+        />}
     />
 </Grid>
 
@@ -232,9 +229,10 @@ render(){
 
 
       renderInput={(params) => <TextField {...params} label="Secondary Major" variant="outlined"
-      disabled={this.state.disabled} 
-      defaultValue = {userData[this.state.userId].secondaryMajor}   
-     onChange={(e) => this.setState({tempSMajor:e.target.value})}  />}
+     // disabled={this.state.disabled} 
+      //defaultValue = {userData[this.state.userId].secondaryMajor}   
+    // onChange={(e) => this.setState({tempSMajor:e.target.value})}  
+      />}
     />
 </Grid>
 
@@ -252,9 +250,9 @@ render(){
 
       style={{ width: 300 }}
       renderInput={(params) => <TextField {...params} label="Minor" variant="outlined" 
-      disabled={this.state.disabled} 
-      defaultValue = {userData[this.state.userId].minor}   
-     onChange={(e) => this.setState({tempMinor:e.target.value})} 
+    //   disabled={this.state.disabled} 
+    //   defaultValue = {userData[this.state.userId].minor}   
+    //  onChange={(e) => this.setState({tempMinor:e.target.value})} 
       
       />}
     />
