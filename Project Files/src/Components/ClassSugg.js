@@ -67,9 +67,10 @@ var app = window.require('electron').remote;
 const fs = app.require('fs');
 
 const courseDataPath = './src/data/courseTimes.json';
-var courseData = require('../data/courseTimes.json')
+var courseData = require('../data/courseTimes.json');
 
-
+const currentSchedulePath = './src/data/currentSchedule.json';
+var currentScheduleArray = require('../data/currentSchedule.json');
 
 
 class ClassSugg extends React.Component {
@@ -77,6 +78,25 @@ class ClassSugg extends React.Component {
     super(props);
     this.state = {
       search: null,
+      temptitle: "",
+      tempcourse: "",
+      tempstartDate: "",
+      tempendDate: "",
+      tempstartTime: "",
+      tempendTime: "",
+      tempdays: "",
+    }
+
+    this.handleCourseAdd = (e) =>{
+      
+      
+      currentScheduleArray.currentSchedule[currentScheduleArray.currentSchedule.length] = {title:this.state.temptitle,course:this.state.tempcourse,startDate:this.state.tempstartDate,endDate:this.state.tempendDate,startTime:this.state.tempstartTime,endTime:this.state.tempendTime,days:this.state.tempdays}
+          fs.writeFile(currentSchedulePath, JSON.stringify(currentScheduleArray), function writeJSON(err) {
+            if (err) return console.log(err);
+            console.log(JSON.stringify(currentScheduleArray));
+            console.log('writing to ' + currentSchedulePath);
+           
+          });
     }
 
   }
@@ -107,7 +127,14 @@ class ClassSugg extends React.Component {
 
     }).map(element=>{
     return(
-       <Button variant="contained" size="large" style ={{ color: "white", marginTop: '20px',marginBottom: '20px' ,backgroundColor:"#36BF26", minWidth: "100%"}}>
+       <Button variant="contained" size="large" onClick={this.handleCourseAdd} onMouseOver={(e)=>this.setState({temptitle:e.title,
+                                                                                                tempcourse:element.course,
+                                                                                                tempstartDate:element.startDate,
+                                                                                                tempendDate:element.endDate,
+                                                                                                tempstartTime:element.startTime,
+                                                                                                tempendTime:element.endTime,
+                                                                                                tempdays:element.days,})} 
+        style ={{ color: "white", marginTop: '20px',marginBottom: '20px' ,backgroundColor:"#36BF26", minWidth: "100%"}}>
        {element.title}      
        <br></br>
        {element.course}  
