@@ -123,9 +123,9 @@ function Profile(){
         console.log(userData[0])
         console.log("fsdsdf")
 
-        fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {
+        fs.writeFile(userDataPath, JSON.stringify(userData[0]), function writeJSON(err) {
             if (err) return console.log(err);
-            console.log(JSON.stringify(userData));
+            console.log(JSON.stringify(userData[0]));
             console.log('writing to ' + userDataPath);
           });
     
@@ -215,17 +215,6 @@ function Profile(){
                     onClick={onSave}
                 >
                     Save
-                </Button>
-
-                <Button style={{width: 54, height: 54, backgroundColor: 'red'}}onClick={()=>{
-                    console.log(classYear)
-                    console.log(major)
-                    console.log(minor)
-                    console.log(data.courses[0].course)
-                    console.log(courses)
-                    console.log(data)
-                    console.log(classArray)
-                }}>
                 </Button>
                 </div>
             </form>
