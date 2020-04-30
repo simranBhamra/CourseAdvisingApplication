@@ -61,74 +61,6 @@ var cardStyle = {
   height: '30vw'
 }
 
-// export default function MajorInfoCard() {
-//   const classes = useStyles();
- 
-//   const options = MajorData.majorInfo.map((option) => {
-//     const firstLetter = option.name[0].toUpperCase();
-//     return {
-//       firstLetter: /[0-9]/.test(firstLetter) ? '0-9' : firstLetter,
-//       ...option,
-//     };
-//   });
-
-
-//   return (
-//     <Card className={classes.root}>
-//     <CardContent>
-
-    
-
-// <Grid>
-//       <h1  align= "left" style={{ color: '#FF0266' }}>Major Information</h1>
-//       <h3  align= "left" style={{ color: 'black' }}>Primary Major</h3>
-//       <Autocomplete
-//       id="grouped-majors"
-//       options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
-//       groupBy={(option) => option.firstLetter}
-//       getOptionLabel={(option) => option.name}
-//       style={{ width: 300 }}
-//       renderInput={(params) => <TextField {...params} label="Major" variant="outlined" />}
-//     />
-// </Grid>
-// <Grid>
-//     <h3  align= "left" style={{ color: 'black' }}>Secondary Major</h3>
-//     <Autocomplete
-//       id="grouped-majors"
-//       options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
-//       groupBy={(option) => option.firstLetter}
-//       getOptionLabel={(option) => option.name}
-//       style={{ width: 300 }}
-//       renderInput={(params) => <TextField {...params} label="Secondary Major" variant="outlined" />}
-//     />
-// </Grid>
-
-// <Grid>
-// <h3  align= "left" style={{ color: 'black' }}>Minor</h3>
-// <Autocomplete
-//       id="grouped-majors"
-//       options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
-//       groupBy={(option) => option.firstLetter}
-//       getOptionLabel={(option) => option.name}
-//       style={{ width: 300 }}
-//       renderInput={(params) => <TextField {...params} label="Minor" variant="outlined" />}
-//     />
-// </Grid>
-
-
-
-
-// <Grid container alignItems="flex-start" justify="flex-end" direction="row">
-// <Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
-//     Edit
-// </Button>
-// </Grid>
-
-//     </CardContent>
-    
-//   </Card>
-//   );
-// }
 
 
 class MajorInfoCard extends Component {
@@ -213,7 +145,7 @@ render(){
 
       style={{ width: 300 }}
       renderInput={(params) =>
-         <TextField {...params} label="Major" variant="outlined" 
+         <TextField {...params} label= {userData[this.state.userId].primaryMajor}  variant="outlined" 
          // disabled={this.state.disabled} 
         //  defaultValue = {userData[this.state.userId].primaryMajor}   
         // onChange={(e) => this.setState({tempMajor:e.target.value})} 
@@ -235,7 +167,7 @@ render(){
 
 
 
-      renderInput={(params) => <TextField {...params} label="Secondary Major" variant="outlined"
+      renderInput={(params) => <TextField {...params} label= {userData[this.state.userId].secondaryMajor}  variant="outlined"
      // disabled={this.state.disabled} 
       //defaultValue = {userData[this.state.userId].secondaryMajor}   
     // onChange={(e) => this.setState({tempSMajor:e.target.value})}  
@@ -256,7 +188,7 @@ render(){
      onChange={(e, v) => this.setState({tempMinor:v.name})}
 
       style={{ width: 300 }}
-      renderInput={(params) => <TextField {...params} label="Minor" variant="outlined" 
+      renderInput={(params) => <TextField {...params} label= {userData[this.state.userId].minor}   variant="outlined" 
     //   disabled={this.state.disabled} 
     //   defaultValue = {userData[this.state.userId].minor}   
     //  onChange={(e) => this.setState({tempMinor:e.target.value})} 

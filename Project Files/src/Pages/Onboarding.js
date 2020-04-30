@@ -123,9 +123,9 @@ function Profile(){
         console.log(userData[0])
         console.log("fsdsdf")
 
-        fs.writeFile(userDataPath, JSON.stringify(userData[0]), function writeJSON(err) {
+        fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {
             if (err) return console.log(err);
-            console.log(JSON.stringify(userData[0]));
+            console.log(JSON.stringify(userData));
             console.log('writing to ' + userDataPath);
           });
     

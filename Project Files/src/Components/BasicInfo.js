@@ -79,8 +79,8 @@ class SimpleCard extends Component {
     this.editMode  = () => {
       this.setState({
         disabled:false,
-        tempName:userData[this.state.userId].name,
-        tempClass:userData[this.state.userId].class
+        tempName:userData[0].name,
+        tempClass:userData[0].class
       })
     };
 
@@ -121,7 +121,7 @@ class SimpleCard extends Component {
           disabled={this.state.disabled}
           id="outlined-disabled"
           label="Name"
-          defaultValue = {userData[this.state.userId].name}
+          defaultValue = {userData[0].name}
           variant="outlined"
           onChange={(e) => this.setState({tempName:e.target.value})}
         />

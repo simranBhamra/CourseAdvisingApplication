@@ -11,6 +11,13 @@ import Grid from '@material-ui/core/Grid';
 import data from '../data/courses.json';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 
+
+var app = window.require('electron').remote;
+const fs = app.require('fs');
+
+const userDataPath = './src/data/basicUserInfo.json';
+let userData = require('../data/basicUserInfo.json')
+
 const useStyles = makeStyles(theme => ({
   root: {
     //minWidth: 550,
@@ -68,8 +75,32 @@ function handleThisChange(e, value){
 }
 
 export default function ClassesTakenCard() {
+  //const [classArray, setClassArray] = React.useState([])
+
+  selectedCourses = userData[0].selectedCourses
+  console.log(selectedCourses)
+
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
+
+
+  function onSave(){
+   
+    userData[0].selectedCourses = selectedCourses
+
+    
+    console.log(userData[0])
+  
+
+    fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {
+        if (err) return console.log(err);
+        console.log(JSON.stringify(userData));
+        console.log('writing to ' + userDataPath);
+      });
+
+      console.log('saved user info')
+}
+
+
 
   return (
     <Card className={classes.root} style={cardStyle}>
@@ -77,19 +108,21 @@ export default function ClassesTakenCard() {
 
 
 <Grid>
-<h1  align= "left" style={{ color: '#FF0266' }}>Classes Taken</h1>
+<h1  align= "left" style={{ color: '#FF0266' }}>Classes</h1>
+
 <Autocomplete
         className = {classes.choose}
         multiple
         id="tags-standard"
         options={courses}
         max
+        defaultValue={selectedCourses}
         onChange={handleThisChange}
         getOptionLabel={(option) => option}
         renderInput={(params) => (
           <TextField
             {...params}
-            
+          
             label="Add Classes"
             placeholder="Class"
           />
@@ -135,7 +168,7 @@ export default function ClassesTakenCard() {
 <Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
     Edit
 </Button>
-<Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
+<Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}}  onClick={onSave} >
     Save
 </Button>
     </Grid>
