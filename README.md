@@ -1,23 +1,31 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Course Advising Application
+created by Simran Bhamra, David Herrington, Michael Fishler 
+
+Course Advising Application or CAA is a desktop application created with React and Electron. The purpose of this application is to aid students in creating their class schedules for the upcoming school year. 
+
+## Requirements 
+* VS Code 
+
+## Installation 
+1. Clone this repo
+2. In your terminal cd to the directory with the code
+3. Run `npm install` to install all the dependencies 
+4. In VS code open your terminal and cd into "Project Files"
+5. Run `npm run electron-dev` to run the application
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
-
+### `npm run electron-dev`
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
 The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Note: this application will not run on local host, it will only run through Electron
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,7 +35,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -59,10 +67,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ma
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
