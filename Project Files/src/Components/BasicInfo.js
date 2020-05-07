@@ -53,9 +53,9 @@ const useStyles = makeStyles(theme => ({
 
 var cardStyle = {
   display: 'block',
-  width: '25vw',
+  width: '26vw',
   transitionDuration: '0.3s',
-  height: '30vw'
+  height: '31vw'
 }
 
 

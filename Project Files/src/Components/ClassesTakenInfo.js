@@ -54,9 +54,9 @@ const useStyles = makeStyles(theme => ({
 
 var cardStyle = {
   display: 'block',
-  width: '25vw',
+  width: '26vw',
   transitionDuration: '0.3s',
-  height: '30vw'
+  height: '31vw'
 }
 
 
@@ -131,38 +131,7 @@ export default function ClassesTakenCard() {
 
 
 </Grid>
-{/* <Grid>
-      <h1  align= "left" style={{ color: '#FF0266' }}>Classes Taken</h1>
-      <h3  align= "left" style={{ color: 'black' }}>General education</h3>
-        <TextField
-          disabled
-          id="outlined-disabled"
-          label="Gen Eds"
-          defaultValue="0/15"
-          variant="outlined"
-        />
-</Grid>
-<Grid>
-    <h3  align= "left" style={{ color: 'black' }}>Modes of thinking</h3>
-    <TextField
-          disabled
-          id="outlined-disabled"
-          label="MOTs"
-          defaultValue="0/15"
-          variant="outlined"
-        />
-</Grid>
-<Grid>
-<h3  align= "left" style={{ color: 'black' }}>Major requirement</h3>
-    <TextField
-          disabled
-          id="outlined-disabled"
-          label="Major Reqs"
-          defaultValue="0/15"
-          variant="outlined"
-        />
 
-</Grid> */}
 
 <Grid container alignItems="flex-start" justify="flex-end" direction="row">
 <Button variant="contained" style={{color:"white" ,margin: 15, backgroundColor:"#FF0266"}} >
