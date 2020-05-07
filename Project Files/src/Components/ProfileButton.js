@@ -65,7 +65,7 @@ export default function ComplexGrid() {
                 </Typography>
               </Grid>
               <Grid item>
-              <Link to = '/onboard' >  
+              <Link to = '/profile' >  
                 <Button variant="contained"
                     color="primary"
                     startIcon={<EditIcon/>}>

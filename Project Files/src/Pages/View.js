@@ -36,9 +36,7 @@ function View(){
 <Grid item xs={12}>
 
   <h1 style={{  color: 'white', paddingLeft: '80px', paddingRight: '80px' }}> Schedule Viewer</h1>
-  <Button variant="contained" style={{color:"white" , backgroundColor:"#FF0266"}} >
-    Export
-    </Button>
+  
 
 </Grid>
 </Grid>
