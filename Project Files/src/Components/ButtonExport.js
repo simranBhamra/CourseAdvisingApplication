@@ -31,9 +31,7 @@ class ButtonExport extends Component {
     console.log(this.state);
     return (
       <React.Fragment>
-        {/* <section className="header-bar">
-          <span className="header">Export Timetable</span>
-        </section> */}
+       
         <PdfContainer createPdf={this.createPdf}>
           <React.Fragment>
 

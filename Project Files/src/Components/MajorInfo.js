@@ -146,9 +146,7 @@ render(){
       style={{ width: 300 }}
       renderInput={(params) =>
          <TextField {...params} label= {userData[this.state.userId].primaryMajor}  variant="outlined" 
-         // disabled={this.state.disabled} 
-        //  defaultValue = {userData[this.state.userId].primaryMajor}   
-        // onChange={(e) => this.setState({tempMajor:e.target.value})} 
+        
         />}
     />
 </Grid>
@@ -168,9 +166,7 @@ render(){
 
 
       renderInput={(params) => <TextField {...params} label= {userData[this.state.userId].secondaryMajor}  variant="outlined"
-     // disabled={this.state.disabled} 
-      //defaultValue = {userData[this.state.userId].secondaryMajor}   
-    // onChange={(e) => this.setState({tempSMajor:e.target.value})}  
+ 
       />}
     />
 </Grid>
@@ -189,9 +185,7 @@ render(){
 
       style={{ width: 300 }}
       renderInput={(params) => <TextField {...params} label= {userData[this.state.userId].minor}   variant="outlined" 
-    //   disabled={this.state.disabled} 
-    //   defaultValue = {userData[this.state.userId].minor}   
-    //  onChange={(e) => this.setState({tempMinor:e.target.value})} 
+ 
       
       />}
     />

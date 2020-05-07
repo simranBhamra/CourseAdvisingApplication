@@ -7,13 +7,12 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import TextField from '@material-ui/core/TextField';
-//import basicInfo from '../data/basicUserInfo.json'; 
 import Grid from '@material-ui/core/Grid';
 import InlineEdit from '../index';
 import basicUserInfo from '../data/basicUserInfo.json'; 
-//import storage from './storage'
 
-//const file = require(fileName);
+
+
 
 
 var app = window.require('electron').remote;
@@ -59,7 +58,7 @@ var cardStyle = {
 }
 
 
-// var json = JSON.parse(basicInfo);
+
 
 
 class SimpleCard extends Component {
@@ -138,13 +137,7 @@ class SimpleCard extends Component {
           onChange={(e) => this.setState({tempClass:e.target.value})}
         />
  </Grid>
-      {/* {basicInfo.map((userData) => {
-        return  <div>
-          <h1>{userData.name}</h1>
-           <h2>{userData.classStatus}</h2>
-        </div>
-        
-      })} */}
+      
      
 
 <Grid container alignItems="flex-start" justify="flex-end" direction="row">

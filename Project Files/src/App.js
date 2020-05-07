@@ -11,7 +11,7 @@ import View from './Pages/View';
 import NewSched from './Pages/NewSched';
 import DenseAppBar from './Components/NavBar';
 import OnBoard from './Pages/Onboarding';
-//import Login from './Pages/Login'
+
 import './App.css';
 
 //renaming the browser router as router 
@@ -61,12 +61,6 @@ function App(){
     );
 }
 
-// //help to render just a homepage
-// const Home = () => (
-// <div>
-//     <h1> Home Page</h1>
-// </div> 
-// ); 
 
 
 

@@ -20,8 +20,7 @@ let userData = require('../data/basicUserInfo.json')
 
 const useStyles = makeStyles(theme => ({
   root: {
-    //minWidth: 550,
-    //minHeight:700,
+   
   },
   bullet: {
     display: 'inline-block',
@@ -75,7 +74,7 @@ function handleThisChange(e, value){
 }
 
 export default function ClassesTakenCard() {
-  //const [classArray, setClassArray] = React.useState([])
+ 
 
   selectedCourses = userData[0].selectedCourses
   console.log(selectedCourses)
