@@ -1,5 +1,5 @@
 //importing libraries and components 
-//Simran Bhamra
+//Author: Simran Bhamra
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -13,6 +13,10 @@ import Grid from '@material-ui/core/Grid';
 import caaLogo from './caaLogo.svg';
 import {Link} from'react-router-dom';
 import PersonIcon from '@material-ui/icons/Person';
+
+/**
+ * This is the navigation bar for the entire application
+ */
 
 //styling for nav bar
 const MyAppBar = styled(AppBar)({

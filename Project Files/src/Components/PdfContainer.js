@@ -1,10 +1,12 @@
 //importing libraries and components 
-//Simran Bhamra
+//Author: Simran Bhamra
 import React from 'react';
 import Button from '@material-ui/core/Button';
 
 
-//button to actually trigger the pdf to be created and downloaed 
+/*
+This component contains the button to actually trigger the pdf to be created and downloaed 
+*/
 export default (props) => {
   
   //creating the pdf

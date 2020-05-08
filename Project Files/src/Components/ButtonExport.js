@@ -1,11 +1,15 @@
 //importing libraries and components 
-//Simran Bhamra
+//Author: Simran Bhamra
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Doc from './DocService';
 import PdfContainer from './PdfContainer';
 import CustomizedTables from './Table';
 import Grid from '@material-ui/core/Grid';
+
+/**
+ * This component contains the layout for the export page and all the state variables used for testing the export of the time table(html) component 
+ */
 
 //class to export PDF of the timetable 
 class ButtonExport extends Component {

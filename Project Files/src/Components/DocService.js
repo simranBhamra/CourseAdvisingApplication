@@ -1,5 +1,5 @@
 //importing libraries
-//Simran Bhamra
+//Author: Simran Bhamra
 import { savePDF } from '@progress/kendo-react-pdf';
 
 

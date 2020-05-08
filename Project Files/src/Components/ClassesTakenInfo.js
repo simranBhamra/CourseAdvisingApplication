@@ -1,5 +1,5 @@
 //importing libraries and components 
-//Simran Bhamra
+//Author: Simran Bhamra
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -12,6 +12,10 @@ import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
 import data from '../data/courses.json';
 import Autocomplete from '@material-ui/lab/Autocomplete';
+
+/**
+ * This component is the card on the profile page which allows the student to edit their classes taken
+ */
 
 //requiring the app to open in electron so the files can be accesssed 
 var app = window.require('electron').remote;

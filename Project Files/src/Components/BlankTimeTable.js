@@ -1,5 +1,5 @@
 //importing libraries and components 
-//Simran Bhamra and David Herrington
+//Authors: Simran Bhamra and David Herrington
 import React from 'react';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
@@ -10,6 +10,10 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import { styled } from '@material-ui/core/styles';
+
+/**
+ * This is the blank table that the student would use to begin a new schedule 
+ */
 
 //styling for the table 
 const StyledTableCell = withStyles(theme => ({

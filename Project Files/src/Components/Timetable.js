@@ -1,8 +1,13 @@
+//import libraries 
+//Author: Simran Bhamra and David Herrington 
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
+/**
+ * This component holds the styling and layout of the timetable 
+ */
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,

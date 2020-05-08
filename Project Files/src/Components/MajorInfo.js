@@ -1,5 +1,5 @@
 //importing libraries and components 
-//Simran Bhamra
+//Author: Simran Bhamra
 import React, { Component } from 'react';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -18,6 +18,9 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 
+/**
+ * This component is the card shown on the profile page which allows students to edit their major, minor, or secondary major
+ */
 
 //requiring the application to open in electron so the files can be accessed
 var app = window.require('electron').remote;

@@ -1,5 +1,5 @@
 //importing libraries and components 
-//Simran Bhamra
+//Author: Simran Bhamra
 import React, { Component } from 'react';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -12,6 +12,12 @@ import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
 import InlineEdit from '../index';
 import basicUserInfo from '../data/basicUserInfo.json'; 
+
+
+/**
+ * This component is the card which allows the user to edit their basic information
+ * data from this is stored into the basicUserInfo.json
+ */
 
 //making the application window open only using electron so the app can access the files
 var app = window.require('electron').remote;
