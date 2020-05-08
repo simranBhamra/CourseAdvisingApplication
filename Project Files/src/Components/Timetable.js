@@ -1,12 +1,8 @@
-//importing libraries and components 
-//Simran Bhamra and David Herrington
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
-
-//styling for the time table 
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -18,8 +14,6 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-
-//creating nested grid for the time table 
 export default function NestedGrid() {
   const classes = useStyles();
 
@@ -39,7 +33,7 @@ export default function NestedGrid() {
       </React.Fragment>
     );
   }
-//creating rows and formatting the time table correctly 
+
   return (
     <div className={classes.root}>
       <Grid container spacing={1}>

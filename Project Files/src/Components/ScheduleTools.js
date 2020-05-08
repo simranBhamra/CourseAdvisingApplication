@@ -1,3 +1,10 @@
+/*
+This component displays the buttons for the
+schedule tools on the main page. This includes
+edit, view, export, and start a new schedule.
+@author David Herrington
+*/
+
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -5,7 +12,10 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { blue } from '@material-ui/core/colors';
 import {Link} from'react-router-dom';
 
-
+/*
+useStyles handles the styling and formatting
+for the buttons on this component.
+*/
 const useStyles = makeStyles(theme => ({
   button: {
     margin: theme.spacing(1),
@@ -41,8 +51,13 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function ScheduleTools() {
+  //Import useStyles to the component.
   const classes = useStyles();
 
+
+
+  //Returns html and JSX for displaying the buttons
+  //to the homepage.
   return (
     <div className={classes.root}>
       <div>

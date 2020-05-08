@@ -1,5 +1,10 @@
-//importing libraries and components 
-//Simran Bhamra and David Herrington 
+/*
+This component handles the data being displayed to the timetable
+component by creating an array of rows sorted by the createData
+function to show cells for each day of the week.
+@author David Herrington, Simran Bhamra
+*/
+
 import React from 'react';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
@@ -11,7 +16,17 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import { styled } from '@material-ui/core/styles';
 
-//styling for table 
+
+
+var app = window.require('electron').remote;
+const fs = app.require('fs');
+
+//Imports currentSchedule.json
+const currentSchedulePath = './src/data/currentSchedule.json';
+var currentScheduleArray = require('../data/currentSchedule.json');
+
+
+//Handles styling for the table cells.
 const StyledTableCell = withStyles(theme => ({
   head: {
     backgroundColor:'#FF0266',
@@ -27,27 +42,22 @@ const StyledTableCell = withStyles(theme => ({
 
 
 
-
+//Handles styling for the table rows.
 const StyledTableRow = styled(TableRow)({
   background: '#FFFFFF'
   
 });
 
-//heading data for table 
+/*
+This function formats the rows array by weekdays.
+*/
 function createData(Monday, Tuesday, Wednesday, Thursday, Friday) {
   return { Monday, Tuesday, Wednesday, Thursday, Friday };
 }
 
 
-//static data in table 
-const rows = [
-  createData('no class selected', 'no class selected', 'no class selected', 'no class selected', 'no class selected'),
-  createData('no class selected', 'no class selected', 'no class selected', 'no class selected', 'no class selected'),
-  createData('no class selected', 'no class selected', 'no class selected', 'no class selected', 'no class selected'),
-  createData('no class selected', 'no class selected', 'no class selected', 'no class selected', 'no class selected'),
-  createData('no class selected', 'no class selected', 'no class selected', 'no class selected', 'no class selected'),
-  
-];
+
+
 
 const useStyles = makeStyles({
   table: {
@@ -56,21 +66,62 @@ const useStyles = makeStyles({
   },
 });
 
+//The rows array handles populating the individual cells on the timetable.
+var rows = [
+  createData('no class selected', 'no class selected', 'no class selected', 'no class selected', 'no class selected'),
+  createData('no class selected', 'no class selected', 'no class selected', 'no class selected', 'no class selected'),
+  createData('no class selected', 'no class selected', 'no class selected', 'no class selected', 'no class selected'),
+  createData('no class selected', 'no class selected', 'no class selected', 'no class selected', 'no class selected'),
+  createData('no class selected', 'no class selected', 'no class selected', 'no class selected', 'no class selected'),
+  
+];
 
-//rendering the table
-export default function CustomizedTables() {
-  const classes = useStyles();
+class CustomizedTables extends React.Component {
+  
+  /*
+  This constructor handles the temp variables for
+  course name and course time to be displayed 
+  on the table. Along with managing the state
+  of the component.
+  */
+  constructor(props){
+    super(props);
+    this.state = {
+      tempCourseName:"",
+      tempCourseTime:"",
+    }
+    /*
+    This function was an attempt at making 
+    changes to the rows array for displaying
+    selected classes.
+    */
+    this.changeData = () =>{
+      var tempArray = [rows];
+      rows[0][0] = "New class";
+      this.setState({rows});
+    }
+  }
+  
 
+  
+
+/*
+This render function displays the table to the timetable component
+with weekdays along the top row and five possible cells under each day
+that can contain classes. This is achieved by using the map function
+to map the rows array to the cells.
+*/
+render(){
   return (
     <TableContainer component={Paper}>
-      <Table className={classes.table} aria-label="customized table">
+      <Table style={{minWidth:700, height: 725}} aria-label="customized table">
         <TableHead>
           <TableRow>
             <StyledTableCell >Monday</StyledTableCell>
             <StyledTableCell >Tuesday</StyledTableCell>
             <StyledTableCell >Wednesday</StyledTableCell>
             <StyledTableCell >Thursday</StyledTableCell>
-            <StyledTableCell>Friday</StyledTableCell>
+            <StyledTableCell >Friday</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -89,4 +140,5 @@ export default function CustomizedTables() {
       </Table>
     </TableContainer>
   );
-}
+ }
+}export default CustomizedTables

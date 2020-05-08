@@ -1,51 +1,8 @@
 /*
-const useStyles = makeStyles(theme => ({
-   
-      root: {
-        flexGrow: 1,
-      },
-      paper: {
-        padding: theme.spacing(2),
-     
-        width: 450,
-        maxHeight: 700,
-        
-      },
-      image: {
-        width: 128,
-        height: 128,
-      },
-      img: {
-       
-        display: 'block',
-        maxWidth: '100%',
-        maxHeight: '100%',
-      },
-      gridheader: {
-          backgroundColor: theme.palette.background.paper,
-          backgroundColor: '#0336FF',
-          color: "white",
-          margin: "auto",
-          textAlign: "center",
-          width: 430.5,
-          height: 50,
-          padding: theme.spacing(0.09),
-        
-         
-      },
-      textField: {
-        //   padding: theme.spacing(1),
-        //   maxHeight: 60,
-        //   color: '#374785'
-    
-          marginLeft: theme.spacing(1),
-          marginRight: theme.spacing(1),
-          width: '25ch',
-      },
-      leftText: {
-          padding: theme.spacing(2.3),
-      }
-    }));
+This component provides an option pane with a list of classes
+that can be filtered by course title or course code using the search
+bar. 
+@author David Herrington
 */
 
 
@@ -66,14 +23,21 @@ import CustomizedTables from './Table.js';
 var app = window.require('electron').remote;
 const fs = app.require('fs');
 
+//Importing courseTimes.json
 const courseDataPath = './src/data/courseTimes.json';
 var courseData = require('../data/courseTimes.json');
 
+//Importing currentSchedule.json
 const currentSchedulePath = './src/data/currentSchedule.json';
 var currentScheduleArray = require('../data/currentSchedule.json');
 
 
 class ClassSugg extends React.Component {
+  /*
+  This constructor handles the state of
+  the component and the tempvalues for the 
+  props of the courses array in courses.json.
+  */
   constructor(props){
     super(props);
     this.state = {
@@ -86,7 +50,10 @@ class ClassSugg extends React.Component {
       tempendTime: "",
       tempdays: "",
     }
-
+    /*
+    This function handles adding courses to the
+    currentSchedule.json file.
+    */
     this.handleCourseAdd = (e) =>{
       
       
@@ -102,7 +69,12 @@ class ClassSugg extends React.Component {
   }
    
 
-
+  /*
+  This function handles the search box on the
+  classSugg component by using the value of the
+  search box to filter the course list in real time
+  by updating the state.
+  */
   searchSpace=(event)=>{
     let keyword = event.target.value;
     this.setState({search:keyword})
@@ -110,14 +82,18 @@ class ClassSugg extends React.Component {
 
   
 
-  
+  //Re-renders the component
    render(){
     
 
 
-    //const classes = useStyles();
+    
 
-
+    /*
+    This handles the classes being displayed in the
+    componet by filtering the courses by the search box
+    and maping the courses to a list of buttons.
+    */
     const courses = courseData.data.filter((element)=>{
       if(this.state.search == null){
         return element;
@@ -141,7 +117,11 @@ class ClassSugg extends React.Component {
        </Button>
       )
     });
-
+  /*
+  This return function displays the component to the page
+  along with the mapped course and search bar. The component is
+  displayed with html with JSX styling.
+  */
   return (
     <div style={{flexGrow: 1}}>
       <Paper style={{width: 450,
