@@ -1,3 +1,5 @@
+//Authors: Michael Fishler
+
 //Import libraries
 //Michael Fischler 
 import React from 'react';
