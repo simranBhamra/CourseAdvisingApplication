@@ -1,3 +1,5 @@
+//importing libraries and components 
+//Simran Bhamra
 import React from 'react';
 import {Link} from'react-router-dom';
 import HomeIcon from '@material-ui/icons/Home';
@@ -8,12 +10,12 @@ import PersonIcon from '@material-ui/icons/Person';
 function Nav(){
 
 
-
+//styling of the navigation bar items 
     const navStyle ={
         color: 'white'
     };
 
-
+//styled icons and links to the pafes using the React Router 
     return (
        <nav>
            <IconButton edge="start"  color="inherit" aria-label="menu">

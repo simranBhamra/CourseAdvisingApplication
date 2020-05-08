@@ -1,3 +1,5 @@
+//importing libraries and components 
+//Simran Bhamra 
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
@@ -10,7 +12,7 @@ import ScheduleTools from '../Components/ScheduleTools';
 import Button from '@material-ui/core/Button';
 import './View.css';
 
-
+//stlying 
 const useStyles = makeStyles(theme => ({
     root: {
       flexGrow: 1,
@@ -23,7 +25,7 @@ const useStyles = makeStyles(theme => ({
   
   }));
 
-  
+//using grids to organise the screen and importing components 
 function View(){
     return (
         <div className = "View">

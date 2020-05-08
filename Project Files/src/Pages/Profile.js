@@ -1,3 +1,5 @@
+//importing libraries and components 
+//Simran Bhamra
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
@@ -8,10 +10,9 @@ import SimpleCard from '../Components/BasicInfo';
 import Button from '@material-ui/core/Button';
 import ClassesTakenCard from '../Components/ClassesTakenInfo';
 import MajorInfoCard from '../Components/MajorInfo'; 
-
 import reduxForm from './Export';
 
-
+//styling for the page
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -23,6 +24,10 @@ const useStyles = makeStyles(theme => ({
   },
 
 }));
+
+
+//Using grids to organise the screen
+
 
 export default function Profile(){
 
@@ -66,5 +71,4 @@ export default function Profile(){
         </div>
     );
 }
-
-//export default Profile; 
+//basic info, major, and classes taken cards are shown on this page

@@ -1,3 +1,5 @@
+//importing libraries and components 
+//Simran Bhamra, David Herrington, and Michael Fishler
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
@@ -9,7 +11,7 @@ import ComplexGrid from '../Components/ProfileButton';
 import ScheduleTools from '../Components/ScheduleTools';
 import './HomePage.css';
 
-
+//styling 
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -23,7 +25,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
-
+//use of grids to organise the page, on the homepage all the  needed componets are imported in and placed on the screen 
 export default function FullWidthGrid() {
   const classes = useStyles();
 

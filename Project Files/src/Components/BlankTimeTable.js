@@ -1,4 +1,5 @@
-
+//importing libraries and components 
+//Simran Bhamra and David Herrington
 import React from 'react';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
@@ -10,6 +11,7 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import { styled } from '@material-ui/core/styles';
 
+//styling for the table 
 const StyledTableCell = withStyles(theme => ({
   head: {
     backgroundColor:'#FF0266',
@@ -31,10 +33,13 @@ const StyledTableRow = styled(TableRow)({
   
 });
 
+//creating headings for the table 
 function createData(Monday, Tuesday, Wednesday, Thursday, Friday) {
   return { Monday, Tuesday, Wednesday, Thursday, Friday };
 }
 
+
+//empty data 
 const rows = [
   createData('  '),
   createData('  '),
@@ -51,6 +56,7 @@ const useStyles = makeStyles({
   },
 });
 
+//rendering the table 
 export default function CustomizedTables() {
   const classes = useStyles();
 

@@ -1,3 +1,5 @@
+//importing libraries and components 
+//Simran Bhamra
 import React, { Component } from 'react';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -11,19 +13,20 @@ import Grid from '@material-ui/core/Grid';
 import InlineEdit from '../index';
 import basicUserInfo from '../data/basicUserInfo.json'; 
 
-
-
-
-
+//making the application window open only using electron so the app can access the files
 var app = window.require('electron').remote;
 const fs = app.require('fs');
 
+//path for the basic information data
 const userDataPath = './src/data/basicUserInfo.json';
 let userData = require('../data/basicUserInfo.json')
 
+
+//console log to check correct input 
 console.log(userData)
 
 
+//styling for basic info 
 const useStyles = makeStyles(theme => ({
   root: {
     minWidth: 550,
@@ -50,6 +53,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
+//styling for the actual card
 var cardStyle = {
   display: 'block',
   width: '26vw',
@@ -60,11 +64,11 @@ var cardStyle = {
 
 
 
-
+//simple card class 
 class SimpleCard extends Component {
 
   
-
+//constructor to take store temp values from the user
   constructor(props) {
     super(props);
 
@@ -75,6 +79,7 @@ class SimpleCard extends Component {
       tempClass:''
     };
 
+    //edit mode
     this.editMode  = () => {
       this.setState({
         disabled:false,
@@ -83,6 +88,9 @@ class SimpleCard extends Component {
       })
     };
 
+
+
+//saving the edited values 
     this.handleSave = () => {
       this.setState({
         disabled: true
@@ -90,7 +98,7 @@ class SimpleCard extends Component {
 
       userData[this.state.userId].name = this.state.tempName
       userData[this.state.userId].class = this.state.tempClass
-
+//writing to file
       fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {
         if (err) return console.log(err);
         console.log(JSON.stringify(userData));
@@ -104,6 +112,9 @@ class SimpleCard extends Component {
 
    
   };
+
+  //rending the styled components on to the page
+  //calling the set state and save on change for the textfield values 
   render() {
 
     const { classes } = this.props
@@ -113,6 +124,7 @@ class SimpleCard extends Component {
 
 
       <CardContent>
+  
     <Grid>
         <h1 align= "left" style={{ color: '#FF0266' }}>Basic Information</h1>
         <h3  align= "left" style={{ color: 'black' }}>Name</h3>
@@ -164,3 +176,4 @@ class SimpleCard extends Component {
     );
   }
 }export default withStyles(useStyles)(SimpleCard); 
+//exporting default function 

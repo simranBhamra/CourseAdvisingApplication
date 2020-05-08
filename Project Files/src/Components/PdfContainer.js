@@ -1,7 +1,13 @@
+//importing libraries and components 
+//Simran Bhamra
 import React from 'react';
 import Button from '@material-ui/core/Button';
 
+
+//button to actually trigger the pdf to be created and downloaed 
 export default (props) => {
+  
+  //creating the pdf
   const bodyRef = React.createRef();
   const createPdf = () => props.createPdf(bodyRef.current);
   return (

@@ -1,5 +1,6 @@
 
-
+//importing libraries and components 
+//Simran Bhamra, David Herrington, and Michael Fishler
 import React from 'react';
 import Nav from './Nav';
 import Profile from './Pages/Profile';
@@ -35,7 +36,8 @@ console.log(priorUser)
 
 function App(){
     return (
-
+//the application bar in imported here to it shows up consitanty on each page
+//routing for each page in is in the switch tags, they are linked to the correct pages, the "/..." is what would be in the url if it was online
         <Router>
         <div className = "App">
         <DenseAppBar></DenseAppBar>

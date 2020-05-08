@@ -1,9 +1,11 @@
+//importing libraries and components 
+//Simran Bhamra 
 import React from 'react';
 import ButtonExport from '../Components/ButtonExport'
 
   
 
-
+//styling and layout of page is containted in this function and the Button Export component is shown 
 function Export(){
     return (
         <div className = "Export">

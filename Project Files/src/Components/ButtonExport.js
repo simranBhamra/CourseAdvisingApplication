@@ -1,18 +1,20 @@
+//importing libraries and components 
+//Simran Bhamra
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-
 import Doc from './DocService';
 import PdfContainer from './PdfContainer';
 import CustomizedTables from './Table';
 import Grid from '@material-ui/core/Grid';
 
+//class to export PDF of the timetable 
 class ButtonExport extends Component {
   constructor(props) {
     super(props);
     this.state = {
       name: 'Simran',
       rank: 'SGT',
-      description: 'Demonstrate how to export an HTML section to PDF'
+      description: 'Demonstrate export PDF'
     };
   }  
 
@@ -24,9 +26,9 @@ class ButtonExport extends Component {
       return state;
     })
   }
-
+//creating the pdf
   createPdf = (html) => Doc.createPdf(html);
-
+//rending the page to show the table that will be exported 
   render() {
     console.log(this.state);
     return (
@@ -51,5 +53,5 @@ class ButtonExport extends Component {
     );
   }
 } export default ButtonExport
-
+//rendering the button export as needed
 render(<ButtonExport />, document.getElementById('root'));

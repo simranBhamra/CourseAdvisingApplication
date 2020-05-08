@@ -1,3 +1,5 @@
+//importing libraries and components 
+//Simran Bhamra
 import React, { Component } from 'react';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -10,7 +12,6 @@ import TextField from '@material-ui/core/TextField';
 import basicInfo from '../data/basicUserInfo.json'; 
 import Grid from '@material-ui/core/Grid';
 import Autocomplete from '@material-ui/lab/Autocomplete';
-
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
@@ -18,10 +19,12 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 
 
-
+//requiring the application to open in electron so the files can be accessed
 var app = window.require('electron').remote;
 const fs = app.require('fs');
 
+
+//data paths of the JSON files 
 const MajorDataPath = './src/data/majors.json';
 var MajorData = require('../data/majors.json')
 
@@ -29,6 +32,7 @@ const userDataPath = './src/data/basicUserInfo.json';
 let userData = require('../data/basicUserInfo.json')
 
 
+//styling used on the components 
 const useStyles = makeStyles(theme => ({
   root: {
     minWidth:550,
@@ -65,7 +69,7 @@ var cardStyle = {
 
 class MajorInfoCard extends Component {
  
-
+//constructor 
   constructor(props) {
     super(props);
 
@@ -77,6 +81,7 @@ class MajorInfoCard extends Component {
       tempMinor:''
     };
 
+    //edit mode to save data temporarily 
     this.editMode  = () => {
       this.setState({
         disabled:false,
@@ -86,6 +91,7 @@ class MajorInfoCard extends Component {
       })
     };
 
+    //saving data to JSON file
     this.handleSave = () => {
       this.setState({
         disabled: true
@@ -116,7 +122,7 @@ render(){
   const { classes } = this.props
 
   
-
+//search box for the majors, searching alphabetically 
   const options = MajorData.majorInfo.map((option) => {
     const firstLetter = option.name[0].toUpperCase();
     return {

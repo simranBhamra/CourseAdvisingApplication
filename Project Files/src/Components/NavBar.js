@@ -1,3 +1,5 @@
+//importing libraries and components 
+//Simran Bhamra
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -12,6 +14,7 @@ import caaLogo from './caaLogo.svg';
 import {Link} from'react-router-dom';
 import PersonIcon from '@material-ui/icons/Person';
 
+//styling for nav bar
 const MyAppBar = styled(AppBar)({
   background: '#DEB405',
   color: 'white',
@@ -22,12 +25,14 @@ const MyAppBar = styled(AppBar)({
 });
 
 
+//adding icons and linking to the nav bar using the react dom 
 
 export default function StyledComponents() {
 
 
 
   return (
+    //using grid here to organise the layout of the nav bar
     <div >
       <MyAppBar position="static">
         <Toolbar variant="dense">

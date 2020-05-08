@@ -1,3 +1,5 @@
+//importing libraries and components 
+//Simran Bhamra
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -11,13 +13,17 @@ import Grid from '@material-ui/core/Grid';
 import data from '../data/courses.json';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 
-
+//requiring the app to open in electron so the files can be accesssed 
 var app = window.require('electron').remote;
 const fs = app.require('fs');
 
+
+//path for files 
 const userDataPath = './src/data/basicUserInfo.json';
 let userData = require('../data/basicUserInfo.json')
 
+
+//styling 
 const useStyles = makeStyles(theme => ({
   root: {
    
@@ -51,6 +57,9 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+
+
+//card style styling 
 var cardStyle = {
   display: 'block',
   width: '26vw',
@@ -59,6 +68,7 @@ var cardStyle = {
 }
 
 
+//map of data for each course 
 let courses = data.courses.map(
   function (course) {
       return (course.course) + ": " + (course.title)
@@ -67,6 +77,7 @@ let courses = data.courses.map(
 
 let selectedCourses = []
 
+//function to record change of a value/class taken  
 function handleThisChange(e, value){
   console.log(value)
   selectedCourses = value
@@ -89,7 +100,7 @@ export default function ClassesTakenCard() {
     
     console.log(userData[0])
   
-
+//write new added classes or deleted classes to json file 
     fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {
         if (err) return console.log(err);
         console.log(JSON.stringify(userData));
