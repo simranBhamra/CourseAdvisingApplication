@@ -1,17 +1,17 @@
+//Import libraries
 import React from 'react';
 import TextField from '@material-ui/core/TextField'
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Select from '@material-ui/core/Select'
 import Input from '@material-ui/core/Input';
-import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
-import DialogTitle from '@material-ui/core/DialogTitle';
 import data from '../data/courses.json'
 import SelectClasses from '../Components/SelectClasses'
 
+//Define styles
 const useStyles = makeStyles(theme => ({
 
     spinner: {
@@ -51,48 +51,35 @@ const useStyles = makeStyles(theme => ({
   
   
   }));
-  const ITEM_HEIGHT = 48;
-  const ITEM_PADDING_TOP = 8;
-  const MenuProps = {
-    PaperProps: {
-      style: {
-        maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-        width: 250,
-      },
-    },
-  };
 
+//Allows this app to be used as an electron app
 var app = window.require('electron').remote;
+//Will be used to read/write files
 const fs = app.require('fs');
 
+//Get the information from the user
 const userDataPath = './src/data/basicUserInfo.json';
 let userData = require('../data/basicUserInfo.json')
 
+//Classes user can choose
 const years = [
     'Freshman',
     'Sophomore',
     'Junior',
 ];
 
+//Majors user can choose
 const majors = [
     'Computer Science',
     'Mathematics',
 ];
 
-let courses = data.courses.map(
-    function (course) {
-        return (course.course) + ": " + (course.title)
-    }
-)
-
-
-
-
-
 function Profile(){
 
+    //State for opening and closing of the dialog box
     const [dialogOpen, setDialogOpen] = React.useState(false);
 
+    //Function that controls dialog box state
     const handleDialogOpen = () => {
         setDialogOpen(true);
       };
@@ -101,17 +88,14 @@ function Profile(){
         setDialogOpen(false);
       };
 
-    const classes = useStyles();
-    const [name, setName] = React.useState("")
-    const [classYear, setClassYear] = React.useState();
-    const [major, setMajor] = React.useState();
-    const [minor, setMinor] = React.useState();
-    const [classArray, setClassArray] = React.useState([])
-    
-    const classChange = event => {
-        setClassYear(event.target.value);
-    };
+    const classes = useStyles(); //Use classes from above
+    const [name, setName] = React.useState("")  //Set state for name
+    const [classYear, setClassYear] = React.useState(); //Set state for class year
+    const [major, setMajor] = React.useState(); //Set state for major
+    const [minor, setMinor] = React.useState(); //Set state for minor
+    const [classArray, setClassArray] = React.useState([]) //Set array for chosen classes
 
+    //Collect all of the data from the screen
     function onSave(){
         userData[0].name = name
         userData[0].class = classYear
@@ -123,6 +107,7 @@ function Profile(){
         console.log(userData[0])
         console.log("fsdsdf")
 
+        //Write data to a file
         fs.writeFile(userDataPath, JSON.stringify(userData[0]), function writeJSON(err) {
             if (err) return console.log(err);
             console.log(JSON.stringify(userData[0]));
@@ -132,9 +117,10 @@ function Profile(){
           console.log('saved user info')
     }
 
+    //Each section is reserved for the user's name, class year, major, minor and assigned classes
+    //Save button for writing all information
     return (
         <div>
-
             <form className={classes.root} noValidate autoComplete="off">
                 <h1>Onboarding Page</h1>
                 <div>
