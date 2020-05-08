@@ -1,11 +1,13 @@
+//Import libraries
+
 import React from 'react';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import data from '../data/courses.json'
 import Button from '@material-ui/core/Button'
-import {useState} from 'react'
 
+//Placement & size of components on screen
 const useStyles = makeStyles((theme) => ({
     root:{
         width: 500,
@@ -20,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   title: {
-      marginLeft: '23%',
+      marginLeft: '23%',  //Attempt to center the title
   },
 
   button:{
@@ -32,24 +34,33 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
+//Take the courses.json array and put it to an array by mapping
 let courses = data.courses.map(
     function (course) {
         return (course.course) + ": " + (course.title)
     }
 )
 
+//Empty array for courses the user chose
 let selectedCourses = []
 
+//Is triggered when a new course is added
+//Saves the chosen courses to the selectedCourses array
 function handleThisChange(e, value){
-    console.log(value)
     selectedCourses = value
-    console.log(selectedCourses)
 }
 
+//props:
+  // setClassArray: method that returns the chosen classes back to the parent component
+  // handleDialogClose: handles opening and closing of the dialog box from within the box
 export default function SelectClasses(props) {
+
+  //Use the styles defined above
   const classes = useStyles();
 
   return (
+
+    //Buttons for saving the information
     <div className={classes.root}>
         <h1 className={classes.title}>SELECT CLASSES</h1>
         <div padding="500px">
@@ -66,6 +77,7 @@ export default function SelectClasses(props) {
         </Button>
         </div>
         
+      {/* Dropdown TextField with all courses being offered at DeSales*/}
       <Autocomplete
         className = {classes.choose}
         multiple
@@ -78,8 +90,8 @@ export default function SelectClasses(props) {
           <TextField
             {...params}
             variant="standard"
-            label="Multiple values"
-            placeholder="Favorites"
+            label="Classes"
+            placeholder="Classes"
           />
         )}
       />
