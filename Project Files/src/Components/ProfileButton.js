@@ -1,3 +1,4 @@
+//Import libraries
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
@@ -7,10 +8,10 @@ import Button from '@material-ui/core/Button';
 import PersonIcon from '@material-ui/icons/Person';
 import EditIcon from '@material-ui/icons/Edit';
 import Avatar from '@material-ui/core/Avatar';
-//import 'typeface-ubuntu';
 import {Link} from'react-router-dom';
 
 
+//Define style of component
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -45,14 +46,16 @@ const useStyles = makeStyles(theme => ({
   ProfileNameText:{
     fontSize: 30,
     variant: "h1",
-    //fontFamily: "ubuntu",
   },
 
 }));
 
 export default function ComplexGrid() {
+
+  //Use style classes from above
   const classes = useStyles();
 
+  //Layout of component is resembled by layout of code
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
@@ -65,6 +68,8 @@ export default function ComplexGrid() {
                 </Typography>
               </Grid>
               <Grid item>
+
+          {/* When the button is pressed, link to  profile page*/}
               <Link to = '/profile' >  
                 <Button variant="contained"
                     color="primary"
