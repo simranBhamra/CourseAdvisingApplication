@@ -20,8 +20,8 @@ import {BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-do
 
 try{
     let userData = require('./data/basicUserInfo.json')
-    console.log(userData[0].name)
-    if(userData[0].name != ''){
+    console.log(userData.name)
+    if(userData.name != ''){
         var priorUser = true;
     } 
     else{
