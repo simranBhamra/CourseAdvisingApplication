@@ -100,20 +100,21 @@ function Profile(){
 
     //Collect all of the data from the screen
     function onSave(){
-        userData[0].name = name
-        userData[0].class = classYear
-        userData[0].primaryMajor = major
-        userData[0].minor = minor
-        userData[0].selectedCourses = classArray
+        userData.name = name
+        userData.class = classYear
+        console.log(classYear)
+        userData.primaryMajor = major
+        userData.minor = minor
+        userData.selectedCourses = classArray
 
         console.log("sfddfs")
-        console.log(userData[0])
+        console.log(userData)
         console.log("fsdsdf")
 
         //Write data to a file
-        fs.writeFile(userDataPath, JSON.stringify(userData[0]), function writeJSON(err) {
+        fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {
             if (err) return console.log(err);
-            console.log(JSON.stringify(userData[0]));
+            console.log(JSON.stringify(userData));
             console.log('writing to ' + userDataPath);
           });
     
