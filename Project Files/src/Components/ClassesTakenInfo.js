@@ -91,7 +91,7 @@ function handleThisChange(e, value){
 export default function ClassesTakenCard() {
  
 
-  selectedCourses = userData[0].selectedCourses
+  selectedCourses = userData.selectedCourses
   console.log(selectedCourses)
 
   const classes = useStyles();
@@ -99,10 +99,10 @@ export default function ClassesTakenCard() {
 
   function onSave(){
    
-    userData[0].selectedCourses = selectedCourses
+    userData.selectedCourses = selectedCourses
 
     
-    console.log(userData[0])
+    console.log(userData)
   
 //write new added classes or deleted classes to json file 
     fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {

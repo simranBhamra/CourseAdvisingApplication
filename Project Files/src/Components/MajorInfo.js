@@ -88,9 +88,9 @@ class MajorInfoCard extends Component {
     this.editMode  = () => {
       this.setState({
         disabled:false,
-        tempMajor:userData[this.state.userId].primaryMajor,
-        tempSMajor:userData[this.state.userId].secondaryMajor,
-        tempMinor: userData [this.state.userId].minor
+        tempMajor:userData.primaryMajor,
+        tempSMajor:userData.secondaryMajor,
+        tempMinor: userData.minor
       })
     };
 
@@ -100,9 +100,9 @@ class MajorInfoCard extends Component {
         disabled: true
       })
       console.log(this.state)
-      userData[this.state.userId].primaryMajor = this.state.tempMajor
-      userData[this.state.userId].secondaryMajor = this.state.tempSMajor
-      userData[this.state.userId].minor = this.state.tempMinor
+      userData.primaryMajor = this.state.tempMajor
+      userData.secondaryMajor = this.state.tempSMajor
+      userData.minor = this.state.tempMinor
       console.log(userData)
       fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {
         if (err) return console.log(err);
@@ -149,12 +149,12 @@ render(){
       groupBy={(option) => option.firstLetter}
       getOptionLabel={(option) => option.name}
       disabled={this.state.disabled} 
-      defaultValue = {userData[this.state.userId].primaryMajor}   
+      defaultValue = {userData.primaryMajor}   
      onChange={(e, v) => this.setState({tempMajor:v.name})}
 
       style={{ width: 300 }}
       renderInput={(params) =>
-         <TextField {...params} label= {userData[this.state.userId].primaryMajor}  variant="outlined" 
+         <TextField {...params} label= {userData.primaryMajor}  variant="outlined" 
         
         />}
     />
@@ -168,13 +168,13 @@ render(){
       groupBy={(option) => option.firstLetter}
       getOptionLabel={(option) => option.name}
       disabled={this.state.disabled} 
-      defaultValue = {userData[this.state.userId].secondaryMajor}   
+      defaultValue = {userData.secondaryMajor}   
      onChange={(e, v) => this.setState({tempSMajor:v.name})}
       style={{ width: 300 }}
 
 
 
-      renderInput={(params) => <TextField {...params} label= {userData[this.state.userId].secondaryMajor}  variant="outlined"
+      renderInput={(params) => <TextField {...params} label= {userData.secondaryMajor}  variant="outlined"
  
       />}
     />
@@ -189,11 +189,11 @@ render(){
       getOptionLabel={(option) => option.name}
 
       disabled={this.state.disabled} 
-      defaultValue = {userData[0].minor}   
+      defaultValue = {userData.minor}   
      onChange={(e, v) => this.setState({tempMinor:v.name})}
 
       style={{ width: 300 }}
-      renderInput={(params) => <TextField {...params} label= {userData[this.state.userId].minor}   variant="outlined" 
+      renderInput={(params) => <TextField {...params} label= {userData.minor}   variant="outlined" 
  
       
       />}

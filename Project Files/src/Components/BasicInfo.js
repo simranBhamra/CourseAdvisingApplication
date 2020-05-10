@@ -89,8 +89,8 @@ class SimpleCard extends Component {
     this.editMode  = () => {
       this.setState({
         disabled:false,
-        tempName:userData[0].name,
-        tempClass:userData[0].class
+        tempName:userData.name,
+        tempClass:userData.class
       })
     };
 
@@ -102,8 +102,8 @@ class SimpleCard extends Component {
         disabled: true
       })
 
-      userData[this.state.userId].name = this.state.tempName
-      userData[this.state.userId].class = this.state.tempClass
+      userData.name = this.state.tempName
+      userData.class = this.state.tempClass
 //writing to file
       fs.writeFile(userDataPath, JSON.stringify(userData), function writeJSON(err) {
         if (err) return console.log(err);
@@ -138,7 +138,7 @@ class SimpleCard extends Component {
           disabled={this.state.disabled}
           id="outlined-disabled"
           label="Name"
-          defaultValue = {userData[0].name}
+          defaultValue = {userData.name}
           variant="outlined"
           onChange={(e) => this.setState({tempName:e.target.value})}
         />
@@ -150,7 +150,7 @@ class SimpleCard extends Component {
           disabled={this.state.disabled}
           id="outlined-disabled"
           label="Class"
-          defaultValue=  {userData[this.state.userId].class}
+          defaultValue=  {userData.class}
           variant="outlined"
           onChange={(e) => this.setState({tempClass:e.target.value})}
         />
