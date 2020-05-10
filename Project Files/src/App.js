@@ -18,10 +18,12 @@ import './App.css';
 //renaming the browser router as router 
 import {BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'; 
 
+
 try{
     let userData = require('./data/basicUserInfo.json')
     console.log(userData.name)
     if(userData.name != ''){
+        console.log(userData.name)
         var priorUser = true;
     } 
     else{
